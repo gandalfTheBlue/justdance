@@ -74,15 +74,23 @@
   padding: 16px;
 }
 
+.song-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+}
+
 .song-title {
   font-size: 18px;
   font-weight: 600;
   color: #333;
-  margin: 0 0 8px 0;
+  margin: 0;
   line-height: 1.3;
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
+  flex: 1;
 }
 
 .song-artist {

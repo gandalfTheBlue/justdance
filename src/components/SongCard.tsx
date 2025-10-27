@@ -27,8 +27,8 @@ export const SongCard = ({ song }: SongCardProps) => {
         </div>
       </div>
       <div className="song-card-content">
-        <h3 className="song-title">{song.title}</h3>
-        <div className="song-meta">
+        <div className="song-header">
+          <h3 className="song-title">{song.title}</h3>
           <span className="song-duration">{song.duration}</span>
         </div>
       </div>
