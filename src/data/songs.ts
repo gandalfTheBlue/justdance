@@ -1,6 +1,7 @@
 import badGuyImage from "../images/bad-guy.png";
 import fireImage from "../images/fire.png";
 import killThisLoveImage from "../images/kill-this-love.png";
+import spaceAstronautImage from "../images/space-astronaut.png";
 import stopMovingImage from "../images/stop-moving.png";
 import sushiImage from "../images/sushi.png";
 import type { Song } from "../types/Song";
@@ -45,5 +46,12 @@ export const songs: Song[] = [
     bilibiliUrl:
       "https://www.bilibili.com/video/BV1tE411q7Nf/?spm_id_from=333.337.search-card.all.click",
     duration: "3:47",
+  },
+  {
+    id: "6",
+    title: "Space Astronaut",
+    coverImage: spaceAstronautImage,
+    bilibiliUrl: "https://www.bilibili.com/video/BV1MEV668EYo/",
+    duration: "2:05",
   },
 ];
