@@ -37,6 +37,59 @@
   width: 100%;
 }
 
+.tabs {
+  display: flex;
+  gap: 0;
+  margin-bottom: 2rem;
+  border-bottom: 2px solid #e0e0e0;
+}
+
+.tab {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 24px;
+  font-size: 15px;
+  font-weight: 500;
+  color: #888;
+  background: none;
+  border: none;
+  border-bottom: 2px solid transparent;
+  margin-bottom: -2px;
+  cursor: pointer;
+  outline: none;
+  transition: color 0.2s, border-color 0.2s;
+}
+
+.tab:hover {
+  color: #ff6b9d;
+}
+
+.tab-active {
+  color: #ff6b9d;
+  border-bottom-color: #ff6b9d;
+}
+
+.tab-count {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 20px;
+  height: 18px;
+  padding: 0 6px;
+  font-size: 11px;
+  font-weight: 600;
+  border-radius: 9px;
+  background: #f0f0f0;
+  color: #888;
+  transition: background 0.2s, color 0.2s;
+}
+
+.tab-active .tab-count {
+  background: #fff0f4;
+  color: #ff6b9d;
+}
+
 .year-section {
   margin-bottom: 3rem;
 }
@@ -64,7 +117,7 @@
 
 .songs-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
   gap: 2rem;
   padding: 1rem 0;
 }
@@ -132,5 +185,32 @@
 
   .year-subtitle {
     color: #888;
+  }
+
+  .tabs {
+    border-bottom-color: #3a3a3e;
+  }
+
+  .tab {
+    color: #888;
+  }
+
+  .tab:hover {
+    color: #ff8db3;
+  }
+
+  .tab-active {
+    color: #ff6b9d;
+    border-bottom-color: #ff6b9d;
+  }
+
+  .tab-count {
+    background: #3a3a3e;
+    color: #888;
+  }
+
+  .tab-active .tab-count {
+    background: #3d1a28;
+    color: #ff6b9d;
   }
 }

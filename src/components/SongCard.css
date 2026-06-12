@@ -71,22 +71,22 @@
 }
 
 .song-card-content {
-  padding: 16px;
+  padding: 10px 14px;
 }
 
 .song-header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  gap: 12px;
+  gap: 8px;
 }
 
 .song-title {
-  font-size: 18px;
+  font-size: 15px;
   font-weight: 600;
   color: #333;
   margin: 0;
-  line-height: 1.3;
+  line-height: 1.2;
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;

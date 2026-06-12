@@ -1,30 +1,31 @@
+import { useState } from "react";
 import { SongCard } from "./components/SongCard";
 import { songs } from "./data/songs";
 import { jd2020Songs } from "./data/songs-jd2020";
 import type { Song } from "./types/Song";
 import "./App.css";
 
-function groupByYear(songs: Song[]) {
-  const groups: Record<string, Song[]> = {};
+type Tab = "2020" | "other";
 
-  for (const song of songs) {
-    const key = song.year ?? "Other";
-    if (!groups[key]) {
-      groups[key] = [];
-    }
-    groups[key].push(song);
-  }
-
-  return groups;
+interface TabConfig {
+  key: Tab;
+  label: string;
+  count: number;
 }
 
+const tabConfig: TabConfig[] = [
+  { key: "2020", label: "Just Dance 2020", count: jd2020Songs.length },
+  { key: "other", label: "Other", count: songs.length },
+];
+
+const songMap: Record<Tab, Song[]> = {
+  "2020": jd2020Songs,
+  other: songs,
+};
+
 function App() {
-  const grouped = groupByYear([...jd2020Songs, ...songs]);
-  const sortedKeys = Object.keys(grouped).sort((a, b) => {
-    if (a === "Other") return 1;
-    if (b === "Other") return -1;
-    return a.localeCompare(b);
-  });
+  const [activeTab, setActiveTab] = useState<Tab>("2020");
+  const filteredSongs = songMap[activeTab];
 
   return (
     <div className="app">
@@ -34,27 +35,24 @@ function App() {
       </header>
 
       <main className="app-main">
-        {sortedKeys.map((year) => (
-          <section key={year} className="year-section">
-            <h2 className="year-heading">
-              {year === "Other"
-                ? "🎶 Other"
-                : `🎮 Just Dance ${year}`}
-            </h2>
+        <div className="tabs">
+          {tabConfig.map((tab) => (
+            <button
+              key={tab.key}
+              className={`tab ${activeTab === tab.key ? "tab-active" : ""}`}
+              onClick={() => setActiveTab(tab.key)}
+            >
+              {tab.label}
+              <span className="tab-count">{tab.count}</span>
+            </button>
+          ))}
+        </div>
 
-            {year === "Other" && (
-              <p className="year-subtitle">
-                Songs from various years - help us categorize them!
-              </p>
-            )}
-
-            <div className="songs-grid">
-              {grouped[year].map((song) => (
-                <SongCard key={song.id} song={song} />
-              ))}
-            </div>
-          </section>
-        ))}
+        <div className="songs-grid">
+          {filteredSongs.map((song) => (
+            <SongCard key={song.id} song={song} />
+          ))}
+        </div>
       </main>
 
       <footer className="app-footer">
