@@ -4,4 +4,5 @@ export interface Song {
   coverImage: string;
   bilibiliUrl: string;
   duration: string;
+  year?: string;
 }

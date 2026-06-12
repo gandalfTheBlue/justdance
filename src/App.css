@@ -37,6 +37,31 @@
   width: 100%;
 }
 
+.year-section {
+  margin-bottom: 3rem;
+}
+
+.year-section:last-child {
+  margin-bottom: 0;
+}
+
+.year-heading {
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: #333;
+  margin: 0 0 0.5rem 0;
+  padding-bottom: 0.5rem;
+  border-bottom: 3px solid #ff6b9d;
+  display: inline-block;
+}
+
+.year-subtitle {
+  font-size: 0.95rem;
+  color: #999;
+  margin: 0 0 1.5rem 0;
+  font-style: italic;
+}
+
 .songs-grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
@@ -98,5 +123,14 @@
   .app-footer {
     background: #1a1a1a;
     color: #cccccc;
+  }
+
+  .year-heading {
+    color: #e0e0e0;
+    border-bottom-color: #ff6b9d;
+  }
+
+  .year-subtitle {
+    color: #888;
   }
 }
