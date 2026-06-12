@@ -1,5 +1,6 @@
 import { SongCard } from "./components/SongCard";
 import { songs } from "./data/songs";
+import { jd2020Songs } from "./data/songs-jd2020";
 import type { Song } from "./types/Song";
 import "./App.css";
 
@@ -18,7 +19,7 @@ function groupByYear(songs: Song[]) {
 }
 
 function App() {
-  const grouped = groupByYear(songs);
+  const grouped = groupByYear([...jd2020Songs, ...songs]);
   const sortedKeys = Object.keys(grouped).sort((a, b) => {
     if (a === "Other") return 1;
     if (b === "Other") return -1;
