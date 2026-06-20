@@ -2,10 +2,11 @@ import { useState } from "react";
 import { SongCard } from "./components/SongCard";
 import { songs } from "./data/songs";
 import { jd2020Songs } from "./data/songs-jd2020";
+import { jd2021Songs } from "./data/songs-jd2021";
 import type { Song } from "./types/Song";
 import "./App.css";
 
-type Tab = "2020" | "other";
+type Tab = "2021" | "2020" | "other";
 
 interface TabConfig {
   key: Tab;
@@ -14,17 +15,19 @@ interface TabConfig {
 }
 
 const tabConfig: TabConfig[] = [
+  { key: "2021", label: "Just Dance 2021", count: jd2021Songs.length },
   { key: "2020", label: "Just Dance 2020", count: jd2020Songs.length },
   { key: "other", label: "Other", count: songs.length },
 ];
 
 const songMap: Record<Tab, Song[]> = {
+  "2021": jd2021Songs,
   "2020": jd2020Songs,
   other: songs,
 };
 
 function App() {
-  const [activeTab, setActiveTab] = useState<Tab>("2020");
+  const [activeTab, setActiveTab] = useState<Tab>("2021");
   const filteredSongs = songMap[activeTab];
 
   return (
