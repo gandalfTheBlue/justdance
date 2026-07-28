@@ -4,10 +4,11 @@ import { songs } from "./data/songs";
 import { jd2020Songs } from "./data/songs-jd2020";
 import { jd2021Songs } from "./data/songs-jd2021";
 import { jd2022Songs } from "./data/songs-jd2022";
+import { jd2019Songs } from "./data/songs-jd2019";
 import type { Song } from "./types/Song";
 import "./App.css";
 
-type Tab = "2022" | "2021" | "2020" | "other";
+type Tab = "2022" | "2021" | "2020" | "2019" | "other";
 
 interface TabConfig {
   key: Tab;
@@ -19,6 +20,7 @@ const tabConfig: TabConfig[] = [
   { key: "2022", label: "Just Dance 2022", count: jd2022Songs.length },
   { key: "2021", label: "Just Dance 2021", count: jd2021Songs.length },
   { key: "2020", label: "Just Dance 2020", count: jd2020Songs.length },
+  { key: "2019", label: "Just Dance 2019", count: jd2019Songs.length },
   { key: "other", label: "Other", count: songs.length },
 ];
 
@@ -26,6 +28,7 @@ const songMap: Record<Tab, Song[]> = {
   "2022": jd2022Songs,
   "2021": jd2021Songs,
   "2020": jd2020Songs,
+  "2019": jd2019Songs,
   other: songs,
 };
 
