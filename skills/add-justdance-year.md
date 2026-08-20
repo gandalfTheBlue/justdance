@@ -60,11 +60,36 @@ Find **individual uploads** from known Just Dance creators instead.
 ### Find Individual Videos:
 
 **Method A - Pxgggy playlist** (preferred if available):
-Pxgggy creates playlists named `舞力全开{year} 全歌曲`. Access via:
+Pxgggy creates playlists named `舞力全开{year} 全歌曲`. First find any one Pxgggy video for the
+year (web search `Pxgggy 舞力全开{year} 全歌曲 bilibili` or `{year} JUST DANCE {year} bilibili`
+works well), then look up its `season_id`:
+
+```bash
+curl -s 'https://api.bilibili.com/x/web-interface/view?bvid={any_pxgggy_video_bvid}' \
+  -H "Referer: https://www.bilibili.com" | python3 -c "
+import json, sys
+d = json.load(sys.stdin)['data']
+print(d['owner']['mid'], d['season_id'])
+"
 ```
-https://api.bilibili.com/x/web-interface/view?bvid={any_pxgggy_video_bvid}
+
+Then pull the whole season in one call (season pages are typically <100 entries, so
+`page_size=100` covers a full year in one request):
+
+```bash
+curl -s 'https://api.bilibili.com/x/polymer/web-space/seasons_archives_list?mid={mid}&season_id={season_id}&sort_reverse=false&page_num=1&page_size=100' \
+  -H "Referer: https://space.bilibili.com/{mid}" -H "User-Agent: Mozilla/5.0"
 ```
-Then find the playlist/season data.
+
+This returns `data.archives`, each with `bvid`, `title`, `duration` (raw video length —
+see the pitfall on individual-video durations below), and `pic` (cover URL) — no need for a
+separate compilation video or per-song search at all. This is faster and more reliable than
+Methods B–D below; only fall back to them if the creator has no season/playlist for the year.
+
+**Filter alternate versions**: titles containing a full-width `（...）` suffix (e.g.
+`24K Magic（极限版本）`) are alternate routines (Extreme/Mirror/Kids/etc.), not distinct songs.
+Exclude them — keep only the base title. This matches the existing convention (see the
+"Remove alternate-version (版本) songs" cleanup done for JD2019).
 
 **Method B - Search API** (rate limited, may need auth):
 ```
@@ -150,22 +175,39 @@ export const jd{year}Songs: Song[] = [
 
 ## Step 6: Wire Up in App.tsx
 
-The landing page auto-groups by year. Just add the import and combine:
+`App.tsx` renders one tab per year, backed by a `Tab` union type, a `tabConfig` array (label +
+count), and a `songMap` record (tab key → song list). Add the new year to all three, plus its
+import:
 
 ```typescript
-import { jd2020Songs } from "./data/songs-jd2020";
-import { jd2021Songs } from "./data/songs-jd2021";
-import { songs } from "./data/songs";
+import { jd2018Songs } from "./data/songs-jd2018";
 
-// In the App component:
-const allSongs = [...jd2020Songs, ...jd2021Songs, ...songs];
-const grouped = groupByYear(allSongs);
+type Tab = "2022" | "2021" | "2020" | "2019" | "2018" | "other";
+
+const tabConfig: TabConfig[] = [
+  // ...existing entries...
+  { key: "2018", label: "Just Dance 2018", count: jd2018Songs.length },
+  { key: "other", label: "Other", count: songs.length },
+];
+
+const songMap: Record<Tab, Song[]> = {
+  // ...existing entries...
+  "2018": jd2018Songs,
+  other: songs,
+};
 ```
 
 ## Step 7: Verify
 
 ```bash
 pnpm build
+```
+
+If this fails with `ERROR  packages field missing or empty` (a pre-existing
+`pnpm-workspace.yaml` issue unrelated to this skill), run the build directly instead:
+
+```bash
+./node_modules/.bin/tsc -b && ./node_modules/.bin/vite build
 ```
 
 All covers should appear in `dist/covers/jd{year}/`.
@@ -227,5 +269,11 @@ export interface Song {
 2. **API rate limiting**: The search API may return empty responses if called too fast. Add `time.sleep(0.5)` between calls.
 3. **First frame vs cover**: The `first_frame` from pagelist API is often a black/loading screen. Always use `pic` from individual video view API instead.
 4. **http vs https**: Bilibili API returns `http://` URLs. Convert to `https://` for download, or curl follows redirects automatically.
-5. **Duration source**: Use the compilation's `pagelist` durations (game-accurate), not individual video durations (may include intros/outros).
+5. **Duration source**: Use a compilation's `pagelist` durations (game-accurate, no intro/outro), not individual video durations. This matters even when you sourced the song list itself from a Pxgggy season/playlist (Method A) — Pxgggy's individual uploads have a ~2–4 minute channel intro/outro baked in, so their raw `duration` field is NOT the in-game song length (e.g. one JD2018 song reported 477s from the individual video vs 269s in the compilation — the individual duration was 78% too long). Find a compilation video for the year (search `舞力全开{year} 全曲合集` or `Just Dance {year} full song list`) and pull its pagelist for real durations:
+   ```bash
+   curl -s 'https://api.bilibili.com/x/player/pagelist?bvid={compilation_BV}' -H "Referer: https://www.bilibili.com"
+   ```
+   Match songs by normalized title (lowercase, strip punctuation except apostrophes). The compilation's `part` field encodes variants as suffixes rather than full-width parens — strip `(Alternate)`/` Alternate`, and `   Kids` / `   Double Rumble` / `   4 players` / `   Mobile` (triple-space-separated category tags) to get the base name, then prefer the plain (no-suffix) entry when several share a base name. Watch for typos across sources (e.g. `ErroZ` for `Error`) and titles where one source appends a subtitle the other drops (e.g. `The Way I Are` vs `The Way I Are (Dance With Somebody)`) — these need a manual alias map of a handful of entries, not a fuzzy-match algorithm.
+   - The compilation may predate later Just Dance Unlimited additions and simply lack some songs from Pxgggy's season. For those leftover songs, estimate duration as `individual_duration - median_offset`, where `median_offset` is the median (individual − compilation) duration gap computed over the songs you *could* match — it's noticeably more stable than the mean since a few videos have unusually long or short intros. Treat these as approximate.
 6. **Deduplication**: If `src/images/` has PNGs for songs also in the new JD year, prefer the Pxgggy `individual-*.jpg` covers (smaller, game-accurate frames).
+7. **App.tsx is tab-based, not year-grouped**: despite Step 6 below describing a `groupByYear` auto-grouping landing page, the actual `App.tsx` uses an explicit `Tab` union type, a `tabConfig` array, and a `songMap` record keyed by year — each new year needs a line added to all three, plus the corresponding import. There is no generic grouping helper to hook into.
