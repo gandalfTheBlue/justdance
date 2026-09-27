@@ -4,7 +4,7 @@ export const jd2023Songs: Song[] = [
   {
     id: "1",
     title: "abc (nicer) - Gayle",
-    coverImage: "/covers/jd2023/individual-01.jpg",
+    coverImage: "/covers/jd2023/individual-01.webp",
     bilibiliUrl: "https://www.bilibili.com/video/BV1WY411o78R?p=1",
     duration: "3:06",
     year: "2023",
@@ -12,7 +12,7 @@ export const jd2023Songs: Song[] = [
   {
     id: "2",
     title: "About Damn Time - Lizzo",
-    coverImage: "/covers/jd2023/individual-02.jpg",
+    coverImage: "/covers/jd2023/individual-02.webp",
     bilibiliUrl: "https://www.bilibili.com/video/BV1WY411o78R?p=2",
     duration: "3:23",
     year: "2023",
@@ -20,7 +20,7 @@ export const jd2023Songs: Song[] = [
   {
     id: "3",
     title: "Anything I Do - CLiQ ft. Ms Banks, Alika",
-    coverImage: "/covers/jd2023/individual-03.jpg",
+    coverImage: "/covers/jd2023/individual-03.webp",
     bilibiliUrl: "https://www.bilibili.com/video/BV1D841177aw?p=5",
     duration: "2:49",
     year: "2023",
@@ -28,7 +28,7 @@ export const jd2023Songs: Song[] = [
   {
     id: "4",
     title: "As It Was - Harry Styles",
-    coverImage: "/covers/jd2023/individual-04.jpg",
+    coverImage: "/covers/jd2023/individual-04.webp",
     bilibiliUrl: "https://www.bilibili.com/video/BV1D841177aw?p=6",
     duration: "2:52",
     year: "2023",
@@ -36,7 +36,7 @@ export const jd2023Songs: Song[] = [
   {
     id: "5",
     title: "Beggin' - Måneskin",
-    coverImage: "/covers/jd2023/individual-05.jpg",
+    coverImage: "/covers/jd2023/individual-05.webp",
     bilibiliUrl: "https://www.bilibili.com/video/BV1WY411o78R?p=5",
     duration: "3:55",
     year: "2023",
@@ -44,7 +44,7 @@ export const jd2023Songs: Song[] = [
   {
     id: "6",
     title: "Bloody Mary - Lady Gaga",
-    coverImage: "/covers/jd2023/individual-06.jpg",
+    coverImage: "/covers/jd2023/individual-06.webp",
     bilibiliUrl: "https://www.bilibili.com/video/BV1WY411o78R?p=6",
     duration: "4:24",
     year: "2023",
@@ -52,7 +52,7 @@ export const jd2023Songs: Song[] = [
   {
     id: "7",
     title: "Boy With Luv - BTS ft. Halsey",
-    coverImage: "/covers/jd2023/individual-07.jpg",
+    coverImage: "/covers/jd2023/individual-07.webp",
     bilibiliUrl: "https://www.bilibili.com/video/BV1D841177aw?p=8",
     duration: "4:04",
     year: "2023",
@@ -60,7 +60,7 @@ export const jd2023Songs: Song[] = [
   {
     id: "8",
     title: "Bring Me To Life - Evanescence",
-    coverImage: "/covers/jd2023/individual-08.jpg",
+    coverImage: "/covers/jd2023/individual-08.webp",
     bilibiliUrl: "https://www.bilibili.com/video/BV1D841177aw?p=9",
     duration: "4:04",
     year: "2023",
@@ -68,7 +68,7 @@ export const jd2023Songs: Song[] = [
   {
     id: "9",
     title: "CAN'T STOP THE FEELING! - Justin Timberlake",
-    coverImage: "/covers/jd2023/individual-09.jpg",
+    coverImage: "/covers/jd2023/individual-09.webp",
     bilibiliUrl: "https://www.bilibili.com/video/BV1D841177aw?p=10",
     duration: "4:57",
     year: "2023",
@@ -76,7 +76,7 @@ export const jd2023Songs: Song[] = [
   {
     id: "10",
     title: "Danger! High Voltage - Electric Six",
-    coverImage: "/covers/jd2023/individual-10.jpg",
+    coverImage: "/covers/jd2023/individual-10.webp",
     bilibiliUrl: "https://www.bilibili.com/video/BV1D841177aw?p=12",
     duration: "3:50",
     year: "2023",
@@ -84,7 +84,7 @@ export const jd2023Songs: Song[] = [
   {
     id: "11",
     title: "Disco Inferno - The Trammps",
-    coverImage: "/covers/jd2023/individual-11.jpg",
+    coverImage: "/covers/jd2023/individual-11.webp",
     bilibiliUrl: "https://www.bilibili.com/video/BV1D841177aw?p=14",
     duration: "3:35",
     year: "2023",
@@ -92,7 +92,7 @@ export const jd2023Songs: Song[] = [
   {
     id: "12",
     title: "DJ Got Us Fallin' In Love - Usher",
-    coverImage: "/covers/jd2023/individual-12.jpg",
+    coverImage: "/covers/jd2023/individual-12.webp",
     bilibiliUrl: "https://www.bilibili.com/video/BV1WY411o78R?p=16",
     duration: "4:02",
     year: "2023",
@@ -100,7 +100,7 @@ export const jd2023Songs: Song[] = [
   {
     id: "13",
     title: "drivers license - Olivia Rodrigo",
-    coverImage: "/covers/jd2023/individual-13.jpg",
+    coverImage: "/covers/jd2023/individual-13.webp",
     bilibiliUrl: "https://www.bilibili.com/video/BV1D841177aw?p=15",
     duration: "4:06",
     year: "2023",
@@ -108,7 +108,7 @@ export const jd2023Songs: Song[] = [
   {
     id: "14",
     title: "Dynamite - BTS",
-    coverImage: "/covers/jd2023/individual-14.jpg",
+    coverImage: "/covers/jd2023/individual-14.webp",
     bilibiliUrl: "https://www.bilibili.com/video/BV1D841177aw?p=17",
     duration: "3:31",
     year: "2023",
@@ -116,7 +116,7 @@ export const jd2023Songs: Song[] = [
   {
     id: "15",
     title: "Euphoria - Loreen",
-    coverImage: "/covers/jd2023/individual-15.jpg",
+    coverImage: "/covers/jd2023/individual-15.webp",
     bilibiliUrl: "https://www.bilibili.com/video/BV1WY411o78R?p=20",
     duration: "3:22",
     year: "2023",
@@ -124,7 +124,7 @@ export const jd2023Songs: Song[] = [
   {
     id: "16",
     title: "farfalle - Sangiovanni",
-    coverImage: "/covers/jd2023/individual-16.jpg",
+    coverImage: "/covers/jd2023/individual-16.webp",
     bilibiliUrl: "https://www.bilibili.com/video/BV1WY411o78R?p=21",
     duration: "3:16",
     year: "2023",
@@ -132,7 +132,7 @@ export const jd2023Songs: Song[] = [
   {
     id: "17",
     title: "Give That Wolf A Banana - Subwoofler",
-    coverImage: "/covers/jd2023/individual-17.jpg",
+    coverImage: "/covers/jd2023/individual-17.webp",
     bilibiliUrl: "https://www.bilibili.com/video/BV1WY411o78R?p=22",
     duration: "3:13",
     year: "2023",
@@ -140,7 +140,7 @@ export const jd2023Songs: Song[] = [
   {
     id: "18",
     title: "Good Ones - Charli XCX",
-    coverImage: "/covers/jd2023/individual-18.jpg",
+    coverImage: "/covers/jd2023/individual-18.webp",
     bilibiliUrl: "https://www.bilibili.com/video/BV1D841177aw?p=18",
     duration: "2:30",
     year: "2023",
@@ -148,7 +148,7 @@ export const jd2023Songs: Song[] = [
   {
     id: "19",
     title: "Heat Waves - Glass Animals",
-    coverImage: "/covers/jd2023/individual-19.jpg",
+    coverImage: "/covers/jd2023/individual-19.webp",
     bilibiliUrl: "https://www.bilibili.com/video/BV1D841177aw?p=19",
     duration: "4:21",
     year: "2023",
@@ -156,7 +156,7 @@ export const jd2023Songs: Song[] = [
   {
     id: "20",
     title: "I Knew You Were Trouble - Taylor Swift",
-    coverImage: "/covers/jd2023/individual-20.jpg",
+    coverImage: "/covers/jd2023/individual-20.webp",
     bilibiliUrl: "https://www.bilibili.com/video/BV1D841177aw?p=1",
     duration: "3:57",
     year: "2023",
@@ -164,7 +164,7 @@ export const jd2023Songs: Song[] = [
   {
     id: "21",
     title: "If You Wanna Party - The Just Dancers",
-    coverImage: "/covers/jd2023/individual-21.jpg",
+    coverImage: "/covers/jd2023/individual-21.webp",
     bilibiliUrl: "https://www.bilibili.com/video/BV1D841177aw?p=20",
     duration: "3:45",
     year: "2023",
@@ -172,7 +172,7 @@ export const jd2023Songs: Song[] = [
   {
     id: "22",
     title: "Jamais Lâcher - Michou",
-    coverImage: "/covers/jd2023/individual-22.jpg",
+    coverImage: "/covers/jd2023/individual-22.webp",
     bilibiliUrl: "https://www.bilibili.com/video/BV1WY411o78R?p=28",
     duration: "3:17",
     year: "2023",
@@ -180,7 +180,7 @@ export const jd2023Songs: Song[] = [
   {
     id: "23",
     title: "Locked Out of Heaven - Bruno Mars",
-    coverImage: "/covers/jd2023/individual-23.jpg",
+    coverImage: "/covers/jd2023/individual-23.webp",
     bilibiliUrl: "https://www.bilibili.com/video/BV1D841177aw?p=21",
     duration: "4:18",
     year: "2023",
@@ -188,7 +188,7 @@ export const jd2023Songs: Song[] = [
   {
     id: "24",
     title: "Love Me Land - Zara Larsson",
-    coverImage: "/covers/jd2023/individual-24.jpg",
+    coverImage: "/covers/jd2023/individual-24.webp",
     bilibiliUrl: "https://www.bilibili.com/video/BV1D841177aw?p=22",
     duration: "2:59",
     year: "2023",
@@ -196,7 +196,7 @@ export const jd2023Songs: Song[] = [
   {
     id: "25",
     title: "Magic - Kylie Minogue",
-    coverImage: "/covers/jd2023/individual-25.jpg",
+    coverImage: "/covers/jd2023/individual-25.webp",
     bilibiliUrl: "https://www.bilibili.com/video/BV1D841177aw?p=23",
     duration: "4:24",
     year: "2023",
@@ -204,7 +204,7 @@ export const jd2023Songs: Song[] = [
   {
     id: "26",
     title: "Majesty - Apashe ft. Wasiu",
-    coverImage: "/covers/jd2023/individual-26.jpg",
+    coverImage: "/covers/jd2023/individual-26.webp",
     bilibiliUrl: "https://www.bilibili.com/video/BV1D841177aw?p=24",
     duration: "4:07",
     year: "2023",
@@ -212,7 +212,7 @@ export const jd2023Songs: Song[] = [
   {
     id: "27",
     title: "Million Dollar Baby - Ava Max",
-    coverImage: "/covers/jd2023/individual-27.jpg",
+    coverImage: "/covers/jd2023/individual-27.webp",
     bilibiliUrl: "https://www.bilibili.com/video/BV1D841177aw?p=25",
     duration: "3:15",
     year: "2023",
@@ -220,7 +220,7 @@ export const jd2023Songs: Song[] = [
   {
     id: "28",
     title: "Miraculous Official Theme Song（瓢虫少女主题曲） - Lou & Lenni-Kim",
-    coverImage: "/covers/jd2023/individual-28.jpg",
+    coverImage: "/covers/jd2023/individual-28.webp",
     bilibiliUrl: "https://www.bilibili.com/video/BV1WY411o78R?p=34",
     duration: "2:45",
     year: "2023",
@@ -228,7 +228,7 @@ export const jd2023Songs: Song[] = [
   {
     id: "29",
     title: "MORE - K/DA ft. Madison Beer, (G)I-DLE, Lexie Liu, Jaria Burns & 萨勒芬妮",
-    coverImage: "/covers/jd2023/individual-29.jpg",
+    coverImage: "/covers/jd2023/individual-29.webp",
     bilibiliUrl: "https://www.bilibili.com/video/BV1D841177aw?p=3",
     duration: "3:42",
     year: "2023",
@@ -236,7 +236,7 @@ export const jd2023Songs: Song[] = [
   {
     id: "30",
     title: "Numb - Linkin Park",
-    coverImage: "/covers/jd2023/individual-30.jpg",
+    coverImage: "/covers/jd2023/individual-30.webp",
     bilibiliUrl: "https://www.bilibili.com/video/BV1D841177aw?p=27",
     duration: "3:13",
     year: "2023",
@@ -244,7 +244,7 @@ export const jd2023Songs: Song[] = [
   {
     id: "31",
     title: "Physical - Dua Lipa",
-    coverImage: "/covers/jd2023/individual-31.jpg",
+    coverImage: "/covers/jd2023/individual-31.webp",
     bilibiliUrl: "https://www.bilibili.com/video/BV1D841177aw?p=28",
     duration: "3:35",
     year: "2023",
@@ -252,7 +252,7 @@ export const jd2023Songs: Song[] = [
   {
     id: "32",
     title: "Playground - Bea Miller",
-    coverImage: "/covers/jd2023/individual-32.jpg",
+    coverImage: "/covers/jd2023/individual-32.webp",
     bilibiliUrl: "https://www.bilibili.com/video/BV1D841177aw?p=32",
     duration: "4:03",
     year: "2023",
@@ -260,7 +260,7 @@ export const jd2023Songs: Song[] = [
   {
     id: "33",
     title: "Provenza - KAROL G",
-    coverImage: "/covers/jd2023/individual-33.jpg",
+    coverImage: "/covers/jd2023/individual-33.webp",
     bilibiliUrl: "https://www.bilibili.com/video/BV1WY411o78R?p=41",
     duration: "3:38",
     year: "2023",
@@ -268,7 +268,7 @@ export const jd2023Songs: Song[] = [
   {
     id: "34",
     title: "Psycho - Red Velvet",
-    coverImage: "/covers/jd2023/individual-34.jpg",
+    coverImage: "/covers/jd2023/individual-34.webp",
     bilibiliUrl: "https://www.bilibili.com/video/BV1D841177aw?p=31",
     duration: "3:40",
     year: "2023",
@@ -276,7 +276,7 @@ export const jd2023Songs: Song[] = [
   {
     id: "35",
     title: "Radioactive - Imagine Dragons",
-    coverImage: "/covers/jd2023/individual-35.jpg",
+    coverImage: "/covers/jd2023/individual-35.webp",
     bilibiliUrl: "https://www.bilibili.com/video/BV1D841177aw?p=33",
     duration: "3:16",
     year: "2023",
@@ -284,7 +284,7 @@ export const jd2023Songs: Song[] = [
   {
     id: "36",
     title: "Rather Be - Clean Bandit ft. Jess Glynne",
-    coverImage: "/covers/jd2023/individual-36.jpg",
+    coverImage: "/covers/jd2023/individual-36.webp",
     bilibiliUrl: "https://www.bilibili.com/video/BV1D841177aw?p=34",
     duration: "4:13",
     year: "2023",
@@ -292,7 +292,7 @@ export const jd2023Songs: Song[] = [
   {
     id: "37",
     title: "Sacrifice - The Weeknd",
-    coverImage: "/covers/jd2023/individual-37.jpg",
+    coverImage: "/covers/jd2023/individual-37.webp",
     bilibiliUrl: "https://www.bilibili.com/video/BV1WY411o78R?p=46",
     duration: "3:30",
     year: "2023",
@@ -300,7 +300,7 @@ export const jd2023Songs: Song[] = [
   {
     id: "38",
     title: "Sissy That Walk - RuPaul",
-    coverImage: "/covers/jd2023/individual-38.jpg",
+    coverImage: "/covers/jd2023/individual-38.webp",
     bilibiliUrl: "https://www.bilibili.com/video/BV1D841177aw?p=35",
     duration: "3:42",
     year: "2023",
@@ -308,7 +308,7 @@ export const jd2023Songs: Song[] = [
   {
     id: "39",
     title: "SloMo - Chanel",
-    coverImage: "/covers/jd2023/individual-39.jpg",
+    coverImage: "/covers/jd2023/individual-39.webp",
     bilibiliUrl: "https://www.bilibili.com/video/BV1WY411o78R?p=49",
     duration: "3:29",
     year: "2023",
@@ -316,7 +316,7 @@ export const jd2023Songs: Song[] = [
   {
     id: "40",
     title: "STAY - The Kid LAROI & Justin Bieber",
-    coverImage: "/covers/jd2023/individual-40.jpg",
+    coverImage: "/covers/jd2023/individual-40.webp",
     bilibiliUrl: "https://www.bilibili.com/video/BV1D841177aw?p=4",
     duration: "2:28",
     year: "2023",
@@ -324,7 +324,7 @@ export const jd2023Songs: Song[] = [
   {
     id: "41",
     title: "Sunroof - Nicky Youre, dazy",
-    coverImage: "/covers/jd2023/individual-41.jpg",
+    coverImage: "/covers/jd2023/individual-41.webp",
     bilibiliUrl: "https://www.bilibili.com/video/BV1WY411o78R?p=53",
     duration: "2:55",
     year: "2023",
@@ -332,7 +332,7 @@ export const jd2023Songs: Song[] = [
   {
     id: "42",
     title: "Sweet but Psycho - Ava Max",
-    coverImage: "/covers/jd2023/individual-42.jpg",
+    coverImage: "/covers/jd2023/individual-42.webp",
     bilibiliUrl: "https://www.bilibili.com/video/BV1D841177aw?p=37",
     duration: "3:22",
     year: "2023",
@@ -340,7 +340,7 @@ export const jd2023Songs: Song[] = [
   {
     id: "43",
     title: "Telephone - Lady Gaga ft. Beyoncé",
-    coverImage: "/covers/jd2023/individual-43.jpg",
+    coverImage: "/covers/jd2023/individual-43.webp",
     bilibiliUrl: "https://www.bilibili.com/video/BV1D841177aw?p=38",
     duration: "3:52",
     year: "2023",
@@ -348,7 +348,7 @@ export const jd2023Songs: Song[] = [
   {
     id: "44",
     title: "thank u, next - Ariana Grande",
-    coverImage: "/covers/jd2023/individual-44.jpg",
+    coverImage: "/covers/jd2023/individual-44.webp",
     bilibiliUrl: "https://www.bilibili.com/video/BV1WY411o78R?p=57",
     duration: "3:44",
     year: "2023",
@@ -356,7 +356,7 @@ export const jd2023Songs: Song[] = [
   {
     id: "45",
     title: "Therefore I Am - Billie Eilish",
-    coverImage: "/covers/jd2023/individual-45.jpg",
+    coverImage: "/covers/jd2023/individual-45.webp",
     bilibiliUrl: "https://www.bilibili.com/video/BV1D841177aw?p=40",
     duration: "3:01",
     year: "2023",
@@ -364,7 +364,7 @@ export const jd2023Songs: Song[] = [
   {
     id: "46",
     title: "Top Of The World - Shawn Mendes",
-    coverImage: "/covers/jd2023/individual-46.jpg",
+    coverImage: "/covers/jd2023/individual-46.webp",
     bilibiliUrl: "https://www.bilibili.com/video/BV1D841177aw?p=41",
     duration: "2:56",
     year: "2023",
@@ -372,7 +372,7 @@ export const jd2023Songs: Song[] = [
   {
     id: "47",
     title: "Toxic - Britney Spears",
-    coverImage: "/covers/jd2023/individual-47.jpg",
+    coverImage: "/covers/jd2023/individual-47.webp",
     bilibiliUrl: "https://www.bilibili.com/video/BV1D841177aw?p=42",
     duration: "3:28",
     year: "2023",
@@ -380,7 +380,7 @@ export const jd2023Songs: Song[] = [
   {
     id: "48",
     title: "Trenuleţul - Zdob şi Zdub & Advahov Brothers",
-    coverImage: "/covers/jd2023/individual-48.jpg",
+    coverImage: "/covers/jd2023/individual-48.webp",
     bilibiliUrl: "https://www.bilibili.com/video/BV1WY411o78R?p=63",
     duration: "3:21",
     year: "2023",
@@ -388,7 +388,7 @@ export const jd2023Songs: Song[] = [
   {
     id: "49",
     title: "Ubu Love (初心LOVE) - 浪花男子",
-    coverImage: "/covers/jd2023/individual-49.jpg",
+    coverImage: "/covers/jd2023/individual-49.webp",
     bilibiliUrl: "https://www.bilibili.com/video/BV1WY411o78R?p=64",
     duration: "4:05",
     year: "2023",
@@ -396,7 +396,7 @@ export const jd2023Songs: Song[] = [
   {
     id: "50",
     title: "Vleugels - K3",
-    coverImage: "/covers/jd2023/individual-50.jpg",
+    coverImage: "/covers/jd2023/individual-50.webp",
     bilibiliUrl: "https://www.bilibili.com/video/BV1WY411o78R?p=65",
     duration: "4:04",
     year: "2023",
@@ -404,7 +404,7 @@ export const jd2023Songs: Song[] = [
   {
     id: "51",
     title: "Walking on Sunshine - Top Culture",
-    coverImage: "/covers/jd2023/individual-51.jpg",
+    coverImage: "/covers/jd2023/individual-51.webp",
     bilibiliUrl: "https://www.bilibili.com/video/BV1D841177aw?p=46",
     duration: "3:49",
     year: "2023",
@@ -412,7 +412,7 @@ export const jd2023Songs: Song[] = [
   {
     id: "52",
     title: "WANNABE - ITZY",
-    coverImage: "/covers/jd2023/individual-52.jpg",
+    coverImage: "/covers/jd2023/individual-52.webp",
     bilibiliUrl: "https://www.bilibili.com/video/BV1D841177aw?p=45",
     duration: "3:27",
     year: "2023",
@@ -420,7 +420,7 @@ export const jd2023Songs: Song[] = [
   {
     id: "53",
     title: "Watch Out For This (Bumaye) - Major Lazer ft. Busy Signal, Flexican & FS Green",
-    coverImage: "/covers/jd2023/individual-53.jpg",
+    coverImage: "/covers/jd2023/individual-53.webp",
     bilibiliUrl: "https://www.bilibili.com/video/BV1D841177aw?p=47",
     duration: "3:30",
     year: "2023",
@@ -428,7 +428,7 @@ export const jd2023Songs: Song[] = [
   {
     id: "54",
     title: "We Don't Talk About Bruno - Cast from Encanto",
-    coverImage: "/covers/jd2023/individual-54.jpg",
+    coverImage: "/covers/jd2023/individual-54.webp",
     bilibiliUrl: "https://www.bilibili.com/video/BV1D841177aw?p=48",
     duration: "3:40",
     year: "2023",
@@ -436,7 +436,7 @@ export const jd2023Songs: Song[] = [
   {
     id: "55",
     title: "Wet Tennis - Sofi Tukker",
-    coverImage: "/covers/jd2023/individual-55.jpg",
+    coverImage: "/covers/jd2023/individual-55.webp",
     bilibiliUrl: "https://www.bilibili.com/video/BV1WY411o78R?p=71",
     duration: "2:45",
     year: "2023",
@@ -444,7 +444,7 @@ export const jd2023Songs: Song[] = [
   {
     id: "56",
     title: "Witch - Apashe ft. Alina Pash",
-    coverImage: "/covers/jd2023/individual-56.jpg",
+    coverImage: "/covers/jd2023/individual-56.webp",
     bilibiliUrl: "https://www.bilibili.com/video/BV1D841177aw?p=49",
     duration: "3:47",
     year: "2023",
@@ -452,7 +452,7 @@ export const jd2023Songs: Song[] = [
   {
     id: "57",
     title: "Woman - Doja Cat",
-    coverImage: "/covers/jd2023/individual-57.jpg",
+    coverImage: "/covers/jd2023/individual-57.webp",
     bilibiliUrl: "https://www.bilibili.com/video/BV1D841177aw?p=50",
     duration: "3:06",
     year: "2023",
@@ -460,7 +460,7 @@ export const jd2023Songs: Song[] = [
   {
     id: "58",
     title: "Wouldn't It Be Nice - The Sunlight Shakers",
-    coverImage: "/covers/jd2023/individual-58.jpg",
+    coverImage: "/covers/jd2023/individual-58.webp",
     bilibiliUrl: "https://www.bilibili.com/video/BV1D841177aw?p=52",
     duration: "2:56",
     year: "2023",
@@ -468,7 +468,7 @@ export const jd2023Songs: Song[] = [
   {
     id: "59",
     title: "Zooby Doo - Tigermonkey",
-    coverImage: "/covers/jd2023/individual-59.jpg",
+    coverImage: "/covers/jd2023/individual-59.webp",
     bilibiliUrl: "https://www.bilibili.com/video/BV1D841177aw?p=53",
     duration: "2:39",
     year: "2023",
