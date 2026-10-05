@@ -4,7 +4,7 @@ export const jd2022Songs: Song[] = [
   {
     id: "1",
     title: "恋 - 星野源",
-    coverImage: "/covers/jd2022/individual-01.jpg",
+    coverImage: "https://static.wikia.nocookie.net/justdance/images/9/91/Koi_jd2022_gameplay.png/revision/latest/scale-to-width-down/640",
     bilibiliUrl: "https://www.bilibili.com/video/BV1Jre9z9ELq",
     duration: "4:32",
     year: "2022",
@@ -12,7 +12,7 @@ export const jd2022Songs: Song[] = [
   {
     id: "2",
     title: "Bad Habits - Ed Sheeran",
-    coverImage: "/covers/jd2022/individual-02.jpg",
+    coverImage: "https://static.wikia.nocookie.net/justdance/images/f/fa/Badhabits_jd2022_gameplay.png/revision/latest/scale-to-width-down/640",
     bilibiliUrl: "https://www.bilibili.com/video/BV1M44y1i71W/?p=2",
     duration: "4:11",
     year: "2022",
@@ -20,7 +20,7 @@ export const jd2022Songs: Song[] = [
   {
     id: "3",
     title: "Kiss Me More - Doja Cat ft. SZA",
-    coverImage: "/covers/jd2022/individual-03.jpg",
+    coverImage: "https://static.wikia.nocookie.net/justdance/images/e/e0/Kissmemore_jd2022_gameplay.png/revision/latest/scale-to-width-down/640",
     bilibiliUrl: "https://www.bilibili.com/video/BV1M44y1i71W/?p=3",
     duration: "3:49",
     year: "2022",
@@ -28,7 +28,7 @@ export const jd2022Songs: Song[] = [
   {
     id: "4",
     title: "Follow the White Rabbit - Madison Beer",
-    coverImage: "/covers/jd2022/individual-04.jpg",
+    coverImage: "https://static.wikia.nocookie.net/justdance/images/e/e1/Followthewhiterabbit_jd2022_gameplay.png/revision/latest/scale-to-width-down/640",
     bilibiliUrl: "https://www.bilibili.com/video/BV1M44y1i71W/?p=4",
     duration: "3:16",
     year: "2022",
@@ -36,7 +36,7 @@ export const jd2022Songs: Song[] = [
   {
     id: "5",
     title: "Positions - Ariana Grande",
-    coverImage: "/covers/jd2022/individual-05.jpg",
+    coverImage: "https://static.wikia.nocookie.net/justdance/images/b/bf/Positions_jd2022_gameplay.png/revision/latest/scale-to-width-down/640",
     bilibiliUrl: "https://www.bilibili.com/video/BV17U4y1B7RZ",
     duration: "3:07",
     year: "2022",
@@ -44,7 +44,7 @@ export const jd2022Songs: Song[] = [
   {
     id: "6",
     title: "王妃 - 萧敬腾",
-    coverImage: "/covers/jd2022/individual-06.jpg",
+    coverImage: "https://static.wikia.nocookie.net/justdance/images/1/13/Princess_jd2020_gameplay.png/revision/latest/scale-to-width-down/640",
     bilibiliUrl: "https://www.bilibili.com/video/BV1M44y1i71W/?p=6",
     duration: "3:54",
     year: "2022",
@@ -52,7 +52,7 @@ export const jd2022Songs: Song[] = [
   {
     id: "7",
     title: "Waterval - K3",
-    coverImage: "/covers/jd2022/individual-07.jpg",
+    coverImage: "https://static.wikia.nocookie.net/justdance/images/a/ac/Watervalgameplay.png/revision/latest/scale-to-width-down/640",
     bilibiliUrl: "https://www.bilibili.com/video/BV1M44y1i71W/?p=7",
     duration: "3:54",
     year: "2022",
@@ -60,7 +60,7 @@ export const jd2022Songs: Song[] = [
   {
     id: "8",
     title: "A La Folie - Julien Granel & Lena Situatuions",
-    coverImage: "/covers/jd2022/individual-08.jpg",
+    coverImage: "https://static.wikia.nocookie.net/justdance/images/4/41/Alafolie_jd2022_gameplay.png/revision/latest/scale-to-width-down/640",
     bilibiliUrl: "https://www.bilibili.com/video/BV1M44y1i71W/?p=8",
     duration: "4:02",
     year: "2022",
@@ -68,7 +68,7 @@ export const jd2022Songs: Song[] = [
   {
     id: "9",
     title: "Shoutout - Lisa Pac",
-    coverImage: "/covers/jd2022/individual-09.jpg",
+    coverImage: "https://static.wikia.nocookie.net/justdance/images/6/65/Flyingstepvip_jd2022_gameplay.png/revision/latest/scale-to-width-down/640",
     bilibiliUrl: "https://www.bilibili.com/video/BV1M44y1i71W/?p=9",
     duration: "3:05",
     year: "2022",
@@ -76,7 +76,7 @@ export const jd2022Songs: Song[] = [
   {
     id: "10",
     title: "Level Up (VIP制作版本)",
-    coverImage: "/covers/jd2022/individual-10.jpg",
+    coverImage: "https://static.wikia.nocookie.net/justdance/images/6/66/Levelup_jd2022_gameplay.png/revision/latest/scale-to-width-down/640",
     bilibiliUrl: "https://www.bilibili.com/video/BV1M44y1i71W/?p=10",
     duration: "3:40",
     year: "2022",
@@ -84,7 +84,7 @@ export const jd2022Songs: Song[] = [
   {
     id: "11",
     title: "Baianá - Bakermat",
-    coverImage: "/covers/jd2022/individual-11.jpg",
+    coverImage: "https://static.wikia.nocookie.net/justdance/images/3/3f/Baiana_jd2022_gameplay.png/revision/latest/scale-to-width-down/640",
     bilibiliUrl: "https://www.bilibili.com/video/BV1M44y1i71W/?p=11",
     duration: "3:19",
     year: "2022",
@@ -92,7 +92,7 @@ export const jd2022Songs: Song[] = [
   {
     id: "12",
     title: "Believer - Imagine Dragons",
-    coverImage: "/covers/jd2022/individual-12.jpg",
+    coverImage: "https://static.wikia.nocookie.net/justdance/images/3/34/Believer_jd2022_gameplay.png/revision/latest/scale-to-width-down/640",
     bilibiliUrl: "https://www.bilibili.com/video/BV138NZz2Ezv",
     duration: "3:44",
     year: "2022",
@@ -100,7 +100,7 @@ export const jd2022Songs: Song[] = [
   {
     id: "13",
     title: "Black Mamba(极限版本)",
-    coverImage: "/covers/jd2022/individual-13.jpg",
+    coverImage: "https://static.wikia.nocookie.net/justdance/images/2/26/Blackmam_jd2022_gameplay_1.png/revision/latest/scale-to-width-down/640",
     bilibiliUrl: "https://www.bilibili.com/video/BV1M44y1i71W/?p=13",
     duration: "3:09",
     year: "2022",
@@ -108,7 +108,7 @@ export const jd2022Songs: Song[] = [
   {
     id: "14",
     title: "Black Mamba - aespa",
-    coverImage: "/covers/jd2022/individual-14.jpg",
+    coverImage: "https://static.wikia.nocookie.net/justdance/images/0/0c/Blackmamalt_jd2022_gameplay.png/revision/latest/scale-to-width-down/640",
     bilibiliUrl: "https://www.bilibili.com/video/BV1M44y1i71W/?p=14",
     duration: "3:12",
     year: "2022",
@@ -116,7 +116,7 @@ export const jd2022Songs: Song[] = [
   {
     id: "15",
     title: "BOOMBAYAH(极限版本)",
-    coverImage: "/covers/jd2022/individual-15.jpg",
+    coverImage: "https://static.wikia.nocookie.net/justdance/images/1/13/Boombayah_jd2022_gameplay_2.png/revision/latest/scale-to-width-down/640",
     bilibiliUrl: "https://www.bilibili.com/video/BV1M44y1i71W/?p=15",
     duration: "4:22",
     year: "2022",
@@ -124,7 +124,7 @@ export const jd2022Songs: Song[] = [
   {
     id: "16",
     title: "BOOMBAYAH - BLACKPINK",
-    coverImage: "/covers/jd2022/individual-16.jpg",
+    coverImage: "https://static.wikia.nocookie.net/justdance/images/b/ba/Boombayahalt_jd2022_gameplay.png/revision/latest/scale-to-width-down/640",
     bilibiliUrl: "https://www.bilibili.com/video/BV1M44y1i71W/?p=16",
     duration: "4:25",
     year: "2022",
@@ -132,7 +132,7 @@ export const jd2022Songs: Song[] = [
   {
     id: "17",
     title: "Boss Witch (Ubisoft clean cover) - Skarlett Klaw",
-    coverImage: "/covers/jd2022/individual-17.jpg",
+    coverImage: "https://static.wikia.nocookie.net/justdance/images/b/b4/Bosswitch_jd2022_gameplay.png/revision/latest/scale-to-width-down/640",
     bilibiliUrl: "https://www.bilibili.com/video/BV1M44y1i71W/?p=17",
     duration: "2:37",
     year: "2022",
@@ -140,7 +140,7 @@ export const jd2022Songs: Song[] = [
   {
     id: "18",
     title: "Build A B**** - Bella Poarch",
-    coverImage: "/covers/jd2022/individual-18.jpg",
+    coverImage: "https://static.wikia.nocookie.net/justdance/images/1/15/Buildab_jd2022_gameplay_1.png/revision/latest/scale-to-width-down/640",
     bilibiliUrl: "https://www.bilibili.com/video/BV1M44y1i71W/?p=18",
     duration: "2:24",
     year: "2022",
@@ -148,7 +148,7 @@ export const jd2022Songs: Song[] = [
   {
     id: "19",
     title: "Buttons - The Pussycat Dolls ft. Snoop Dogg",
-    coverImage: "/covers/jd2022/individual-19.jpg",
+    coverImage: "https://static.wikia.nocookie.net/justdance/images/8/89/Buttons_jd2022_gameplay.png/revision/latest/scale-to-width-down/640",
     bilibiliUrl: "https://www.bilibili.com/video/BV1M44y1i71W/?p=19",
     duration: "4:14",
     year: "2022",
@@ -156,7 +156,7 @@ export const jd2022Songs: Song[] = [
   {
     id: "20",
     title: "Buttons(午夜版本)",
-    coverImage: "/covers/jd2022/individual-20.jpg",
+    coverImage: "https://static.wikia.nocookie.net/justdance/images/d/d4/Buttonsalt_jd2022_gameplay.png/revision/latest/scale-to-width-down/640",
     bilibiliUrl: "https://www.bilibili.com/video/BV1M44y1i71W/?p=20",
     duration: "4:13",
     year: "2022",
@@ -164,7 +164,7 @@ export const jd2022Songs: Song[] = [
   {
     id: "21",
     title: "Chacarron - El Chombo",
-    coverImage: "/covers/jd2022/individual-21.jpg",
+    coverImage: "https://static.wikia.nocookie.net/justdance/images/e/e5/Chacarron_jd2022_gameplay.png/revision/latest/scale-to-width-down/640",
     bilibiliUrl: "https://www.bilibili.com/video/BV1rKGWzSET8",
     duration: "3:05",
     year: "2022",
@@ -172,7 +172,7 @@ export const jd2022Songs: Song[] = [
   {
     id: "22",
     title: "Chandelier - Sia",
-    coverImage: "/covers/jd2022/individual-22.jpg",
+    coverImage: "https://static.wikia.nocookie.net/justdance/images/7/78/Chandelier_jd2022_gameplay_1.png/revision/latest/scale-to-width-down/640",
     bilibiliUrl: "https://www.bilibili.com/video/BV1M44y1i71W/?p=22",
     duration: "4:00",
     year: "2022",
@@ -180,7 +180,7 @@ export const jd2022Songs: Song[] = [
   {
     id: "23",
     title: "Chandelier(现代舞版本)",
-    coverImage: "/covers/jd2022/individual-23.jpg",
+    coverImage: "https://static.wikia.nocookie.net/justdance/images/3/31/Chandelieralt_jd2022_gameplay.png/revision/latest/scale-to-width-down/640",
     bilibiliUrl: "https://www.bilibili.com/video/BV1CgMZzgEyN",
     duration: "3:50",
     year: "2022",
@@ -188,7 +188,7 @@ export const jd2022Songs: Song[] = [
   {
     id: "24",
     title: "China - Anuel AA, Daddy Yankee, Karol G ft. Ozuna, J Balvin",
-    coverImage: "/covers/jd2022/individual-24.jpg",
+    coverImage: "https://static.wikia.nocookie.net/justdance/images/6/6c/China_jd2022_gameplay.png/revision/latest/scale-to-width-down/640",
     bilibiliUrl: "https://www.bilibili.com/video/BV1ixMZzFEwN",
     duration: "5:18",
     year: "2022",
@@ -196,7 +196,7 @@ export const jd2022Songs: Song[] = [
   {
     id: "25",
     title: "China(DJ版本)",
-    coverImage: "/covers/jd2022/individual-25.jpg",
+    coverImage: "https://static.wikia.nocookie.net/justdance/images/0/02/Chinaalt_jd2022_gameplay.png/revision/latest/scale-to-width-down/640",
     bilibiliUrl: "https://www.bilibili.com/video/BV1M44y1i71W/?p=25",
     duration: "5:18",
     year: "2022",
@@ -204,7 +204,7 @@ export const jd2022Songs: Song[] = [
   {
     id: "26",
     title: "Don't Go Yet - Camila Cabello",
-    coverImage: "/covers/jd2022/individual-26.jpg",
+    coverImage: "https://static.wikia.nocookie.net/justdance/images/f/fd/Dontgoyet_jd2022_gameplay.png/revision/latest/scale-to-width-down/640",
     bilibiliUrl: "https://www.bilibili.com/video/BV1M44y1i71W/?p=26",
     duration: "3:00",
     year: "2022",
@@ -212,7 +212,7 @@ export const jd2022Songs: Song[] = [
   {
     id: "27",
     title: "Don't Go Yet(特别版歌曲)",
-    coverImage: "/covers/jd2022/individual-27.jpg",
+    coverImage: "https://static.wikia.nocookie.net/justdance/images/f/f2/Dontgoyetalt_jd2022_gameplay_1.png/revision/latest/scale-to-width-down/640",
     bilibiliUrl: "https://www.bilibili.com/video/BV1VEuAzgEDG",
     duration: "3:01",
     year: "2022",
@@ -220,7 +220,7 @@ export const jd2022Songs: Song[] = [
   {
     id: "28",
     title: "Flash Pose - Pabllo Vittar ft. Charli XCX",
-    coverImage: "/covers/jd2022/individual-28.jpg",
+    coverImage: "https://static.wikia.nocookie.net/justdance/images/1/1e/FlashPose_jd2022_gameplay.png/revision/latest/scale-to-width-down/640",
     bilibiliUrl: "https://www.bilibili.com/video/BV1M44y1i71W/?p=28",
     duration: "2:50",
     year: "2022",
@@ -228,7 +228,7 @@ export const jd2022Songs: Song[] = [
   {
     id: "29",
     title: "Freed From Desire - GALA",
-    coverImage: "/covers/jd2022/individual-29.jpg",
+    coverImage: "https://static.wikia.nocookie.net/justdance/images/2/28/FreedFromDesire_jd2022_gameplay.png/revision/latest/scale-to-width-down/640",
     bilibiliUrl: "https://www.bilibili.com/video/BV1M44y1i71W/?p=29",
     duration: "3:51",
     year: "2022",
@@ -236,7 +236,7 @@ export const jd2022Songs: Song[] = [
   {
     id: "30",
     title: "Funk - Meghan Trainor",
-    coverImage: "/covers/jd2022/individual-30.jpg",
+    coverImage: "https://static.wikia.nocookie.net/justdance/images/2/29/Funk_jd2022_gameplay.png/revision/latest/scale-to-width-down/640",
     bilibiliUrl: "https://www.bilibili.com/video/BV1M44y1i71W/?p=30",
     duration: "3:24",
     year: "2022",
@@ -244,7 +244,7 @@ export const jd2022Songs: Song[] = [
   {
     id: "31",
     title: "GIRL LIKE ME - Black Eyed Peas X Shakira",
-    coverImage: "/covers/jd2022/individual-31.jpg",
+    coverImage: "https://static.wikia.nocookie.net/justdance/images/1/16/Girllikeme_jd2022_gameplay.png/revision/latest/scale-to-width-down/640",
     bilibiliUrl: "https://www.bilibili.com/video/BV1LjuAzrENH",
     duration: "4:14",
     year: "2022",
@@ -252,7 +252,7 @@ export const jd2022Songs: Song[] = [
   {
     id: "32",
     title: "GIRL LIKE ME(极限版本)",
-    coverImage: "/covers/jd2022/individual-32.jpg",
+    coverImage: "https://static.wikia.nocookie.net/justdance/images/1/18/Girllikemealt_jd2022_gameplay.png/revision/latest/scale-to-width-down/640",
     bilibiliUrl: "https://www.bilibili.com/video/BV1SCbGzkEVe",
     duration: "4:02",
     year: "2022",
@@ -260,7 +260,7 @@ export const jd2022Songs: Song[] = [
   {
     id: "33",
     title: "good 4 u - Olivia Rodrigo",
-    coverImage: "/covers/jd2022/individual-33.jpg",
+    coverImage: "https://static.wikia.nocookie.net/justdance/images/c/c1/Good4u_jd2022_gameplay.png/revision/latest/scale-to-width-down/640",
     bilibiliUrl: "https://www.bilibili.com/video/BV1M44y1i71W/?p=33",
     duration: "3:20",
     year: "2022",
@@ -268,7 +268,7 @@ export const jd2022Songs: Song[] = [
   {
     id: "34",
     title: "Happier Than Ever - Billie Eilish",
-    coverImage: "/covers/jd2022/individual-34.jpg",
+    coverImage: "https://static.wikia.nocookie.net/justdance/images/2/2c/Happierthanever_jd2022_gameplay.png/revision/latest/scale-to-width-down/640",
     bilibiliUrl: "https://www.bilibili.com/video/BV1M44y1i71W/?p=34",
     duration: "3:56",
     year: "2022",
@@ -276,7 +276,7 @@ export const jd2022Songs: Song[] = [
   {
     id: "35",
     title: "Human - Sevdaliza",
-    coverImage: "/covers/jd2022/individual-35.jpg",
+    coverImage: "https://static.wikia.nocookie.net/justdance/images/f/f4/Human_jd2022_gameplay.png/revision/latest/scale-to-width-down/640",
     bilibiliUrl: "https://www.bilibili.com/video/BV1BieKzQExu",
     duration: "3:29",
     year: "2022",
@@ -284,7 +284,7 @@ export const jd2022Songs: Song[] = [
   {
     id: "36",
     title: "I'm Outta Love - Anastacia",
-    coverImage: "/covers/jd2022/individual-36.jpg",
+    coverImage: "https://static.wikia.nocookie.net/justdance/images/9/94/Imouttalove_jd2022_gameplay.png/revision/latest/scale-to-width-down/640",
     bilibiliUrl: "https://www.bilibili.com/video/BV1M44y1i71W/?p=36",
     duration: "3:49",
     year: "2022",
@@ -292,7 +292,7 @@ export const jd2022Songs: Song[] = [
   {
     id: "37",
     title: "Jerusalema - Master KG ft. Nomcebo Zikode",
-    coverImage: "/covers/jd2022/individual-37.jpg",
+    coverImage: "https://static.wikia.nocookie.net/justdance/images/b/b7/Jerusalema_JD2022_gameplay.png/revision/latest/scale-to-width-down/640",
     bilibiliUrl: "https://www.bilibili.com/video/BV1M44y1i71W/?p=37",
     duration: "4:06",
     year: "2022",
@@ -300,7 +300,7 @@ export const jd2022Songs: Song[] = [
   {
     id: "38",
     title: "Jopping(极限版本)",
-    coverImage: "/covers/jd2022/individual-38.jpg",
+    coverImage: "https://static.wikia.nocookie.net/justdance/images/8/87/Jopping_jd2022_gameplay.png/revision/latest/scale-to-width-down/640",
     bilibiliUrl: "https://www.bilibili.com/video/BV1XheEzCE4C",
     duration: "4:25",
     year: "2022",
@@ -308,7 +308,7 @@ export const jd2022Songs: Song[] = [
   {
     id: "39",
     title: "Jopping - SuperM",
-    coverImage: "/covers/jd2022/individual-39.jpg",
+    coverImage: "https://static.wikia.nocookie.net/justdance/images/d/d3/Joppingalt_jd2022_gameplay.png/revision/latest/scale-to-width-down/640",
     bilibiliUrl: "https://www.bilibili.com/video/BV1M44y1i71W/?p=39",
     duration: "4:23",
     year: "2022",
@@ -316,7 +316,7 @@ export const jd2022Songs: Song[] = [
   {
     id: "40",
     title: "Judas - Lady Gaga",
-    coverImage: "/covers/jd2022/individual-40.jpg",
+    coverImage: "https://static.wikia.nocookie.net/justdance/images/9/9b/Judas_jd2022_gameplay.png/revision/latest/scale-to-width-down/640",
     bilibiliUrl: "https://www.bilibili.com/video/BV1M44y1i71W/?p=40",
     duration: "4:35",
     year: "2022",
@@ -324,7 +324,7 @@ export const jd2022Songs: Song[] = [
   {
     id: "41",
     title: "Last Friday Night (T.G.I.F.) - Katy Perry",
-    coverImage: "/covers/jd2022/individual-41.jpg",
+    coverImage: "https://static.wikia.nocookie.net/justdance/images/d/d6/Tgif_jd2022_gameplay.png/revision/latest/scale-to-width-down/640",
     bilibiliUrl: "https://www.bilibili.com/video/BV1Ere9z9EQr",
     duration: "4:26",
     year: "2022",
@@ -332,7 +332,7 @@ export const jd2022Songs: Song[] = [
   {
     id: "42",
     title: "Level Up - Ciara",
-    coverImage: "/covers/jd2022/individual-42.jpg",
+    coverImage: "https://static.wikia.nocookie.net/justdance/images/6/66/Levelup_jd2022_gameplay.png/revision/latest/scale-to-width-down/640",
     bilibiliUrl: "https://www.bilibili.com/video/BV1M44y1i71W/?p=42",
     duration: "3:36",
     year: "2022",
@@ -340,7 +340,7 @@ export const jd2022Songs: Song[] = [
   {
     id: "43",
     title: "Levitating - Dua Lipa",
-    coverImage: "/covers/jd2022/individual-43.jpg",
+    coverImage: "https://static.wikia.nocookie.net/justdance/images/9/9a/Levitating_jd2022_gameplay.png/revision/latest/scale-to-width-down/640",
     bilibiliUrl: "https://www.bilibili.com/video/BV1M44y1i71W/?p=43",
     duration: "3:52",
     year: "2022",
@@ -348,7 +348,7 @@ export const jd2022Songs: Song[] = [
   {
     id: "44",
     title: "Levitating(极限版本)",
-    coverImage: "/covers/jd2022/individual-44.jpg",
+    coverImage: "https://static.wikia.nocookie.net/justdance/images/b/be/Levitatingalt_jd2022_gameplay.png/revision/latest/scale-to-width-down/640",
     bilibiliUrl: "https://www.bilibili.com/video/BV1BT1rBZETU",
     duration: "3:42",
     year: "2022",
@@ -356,7 +356,7 @@ export const jd2022Songs: Song[] = [
   {
     id: "45",
     title: "Love Story (Taylor's Version) - Taylor Swift",
-    coverImage: "/covers/jd2022/individual-45.jpg",
+    coverImage: "https://static.wikia.nocookie.net/justdance/images/7/79/Lovestory_jd2022_gameplay.png/revision/latest/scale-to-width-down/640",
     bilibiliUrl: "https://www.bilibili.com/video/BV1M44y1i71W/?p=45",
     duration: "4:21",
     year: "2022",
@@ -364,7 +364,7 @@ export const jd2022Songs: Song[] = [
   {
     id: "46",
     title: "Mood - 24kGoldn ft. iann dior",
-    coverImage: "/covers/jd2022/individual-46.jpg",
+    coverImage: "https://static.wikia.nocookie.net/justdance/images/f/f0/Mood_jd2022_gameplay.png/revision/latest/scale-to-width-down/640",
     bilibiliUrl: "https://www.bilibili.com/video/BV1M44y1i71W/?p=46",
     duration: "2:41",
     year: "2022",
@@ -372,7 +372,7 @@ export const jd2022Songs: Song[] = [
   {
     id: "47",
     title: "Mood(特别版歌曲)",
-    coverImage: "/covers/jd2022/individual-47.jpg",
+    coverImage: "https://static.wikia.nocookie.net/justdance/images/3/35/Moodalt_jd2022_gameplay_1.png/revision/latest/scale-to-width-down/640",
     bilibiliUrl: "https://www.bilibili.com/video/BV1M44y1i71W/?p=47",
     duration: "2:35",
     year: "2022",
@@ -380,7 +380,7 @@ export const jd2022Songs: Song[] = [
   {
     id: "48",
     title: "Mr. Blue Sky - The Sunlight Shakers",
-    coverImage: "/covers/jd2022/individual-48.jpg",
+    coverImage: "https://static.wikia.nocookie.net/justdance/images/8/84/MrBlueSky_jd2022_gameplay.png/revision/latest/scale-to-width-down/640",
     bilibiliUrl: "https://www.bilibili.com/video/BV13EkXBgEHt",
     duration: "4:00",
     year: "2022",
@@ -388,7 +388,7 @@ export const jd2022Songs: Song[] = [
   {
     id: "49",
     title: "My Way - Domino Saints",
-    coverImage: "/covers/jd2022/individual-49.jpg",
+    coverImage: "https://static.wikia.nocookie.net/justdance/images/2/2b/Myway_jd2022_gameplay.png/revision/latest/scale-to-width-down/640",
     bilibiliUrl: "https://www.bilibili.com/video/BV1M44y1i71W/?p=49",
     duration: "2:48",
     year: "2022",
@@ -396,7 +396,7 @@ export const jd2022Songs: Song[] = [
   {
     id: "50",
     title: "Nails, Hair, Hips, Heels(官方编舞)",
-    coverImage: "/covers/jd2022/individual-50.jpg",
+    coverImage: "https://static.wikia.nocookie.net/justdance/images/3/37/Nailships_jd2022_gameplay.png/revision/latest/scale-to-width-down/640",
     bilibiliUrl: "https://www.bilibili.com/video/BV1M44y1i71W/?p=50",
     duration: "4:19",
     year: "2022",
@@ -404,7 +404,7 @@ export const jd2022Songs: Song[] = [
   {
     id: "51",
     title: "Nails, Hair, Hips, Heels (Just Dance Version) - Todrick Hall",
-    coverImage: "/covers/jd2022/individual-51.jpg",
+    coverImage: "https://static.wikia.nocookie.net/justdance/images/2/20/NailsHipsJD_JD2022_Gameplay.png/revision/latest/scale-to-width-down/640",
     bilibiliUrl: "https://www.bilibili.com/video/BV1M44y1i71W/?p=51",
     duration: "4:23",
     year: "2022",
@@ -412,7 +412,7 @@ export const jd2022Songs: Song[] = [
   {
     id: "52",
     title: "POP/STARS - K/DA, Madison Beer, (G)I-DLE ft. Jaira Burns",
-    coverImage: "/covers/jd2022/individual-52.jpg",
+    coverImage: "https://static.wikia.nocookie.net/justdance/images/6/63/Popstars_jd2022_gameplay.png/revision/latest/scale-to-width-down/640",
     bilibiliUrl: "https://www.bilibili.com/video/BV1M44y1i71W/?p=52",
     duration: "3:36",
     year: "2022",
@@ -420,7 +420,7 @@ export const jd2022Songs: Song[] = [
   {
     id: "53",
     title: "Poster Girl - Zara Larsson",
-    coverImage: "/covers/jd2022/individual-53.jpg",
+    coverImage: "https://static.wikia.nocookie.net/justdance/images/b/bb/Postergirl_jd2022_gameplay.png/revision/latest/scale-to-width-down/640",
     bilibiliUrl: "https://www.bilibili.com/video/BV1M44y1i71W/?p=53",
     duration: "3:13",
     year: "2022",
@@ -428,7 +428,7 @@ export const jd2022Songs: Song[] = [
   {
     id: "54",
     title: "Rock Your Body - Justin Timberlake",
-    coverImage: "/covers/jd2022/individual-54.jpg",
+    coverImage: "https://static.wikia.nocookie.net/justdance/images/c/c8/Rockyourbody_jd2022_gameplay.png/revision/latest/scale-to-width-down/640",
     bilibiliUrl: "https://www.bilibili.com/video/BV1M44y1i71W/?p=54",
     duration: "5:08",
     year: "2022",
@@ -436,7 +436,7 @@ export const jd2022Songs: Song[] = [
   {
     id: "55",
     title: "Run The World (Girls) - Beyoncé",
-    coverImage: "/covers/jd2022/individual-55.jpg",
+    coverImage: "https://static.wikia.nocookie.net/justdance/images/2/2b/Whorun_jd2022_gameplay.png/revision/latest/scale-to-width-down/640",
     bilibiliUrl: "https://www.bilibili.com/video/BV1M44y1i71W/?p=55",
     duration: "4:16",
     year: "2022",
@@ -444,7 +444,7 @@ export const jd2022Songs: Song[] = [
   {
     id: "56",
     title: "Run The World (Girls)(极限版本)",
-    coverImage: "/covers/jd2022/individual-56.jpg",
+    coverImage: "https://static.wikia.nocookie.net/justdance/images/9/98/Whorunaltretake_jd2022_gameplay.png/revision/latest/scale-to-width-down/640",
     bilibiliUrl: "https://www.bilibili.com/video/BV1M44y1i71W/?p=56",
     duration: "4:14",
     year: "2022",
@@ -452,7 +452,7 @@ export const jd2022Songs: Song[] = [
   {
     id: "57",
     title: "Save Your Tears (Remix) - The Weeknd & Ariana Grande",
-    coverImage: "/covers/jd2022/individual-57.jpg",
+    coverImage: "https://static.wikia.nocookie.net/justdance/images/a/aa/Saveyourtears_jd2022_gameplay.png/revision/latest/scale-to-width-down/640",
     bilibiliUrl: "https://www.bilibili.com/video/BV1M44y1i71W/?p=57",
     duration: "3:51",
     year: "2022",
@@ -460,7 +460,7 @@ export const jd2022Songs: Song[] = [
   {
     id: "58",
     title: "Smalltown Boy - Bronski Beat",
-    coverImage: "/covers/jd2022/individual-58.jpg",
+    coverImage: "https://static.wikia.nocookie.net/justdance/images/a/aa/Smalltownboy_jd2022_gameplay.png/revision/latest/scale-to-width-down/640",
     bilibiliUrl: "https://www.bilibili.com/video/BV1M44y1i71W/?p=58",
     duration: "4:40",
     year: "2022",
@@ -468,7 +468,7 @@ export const jd2022Songs: Song[] = [
   {
     id: "59",
     title: "Stop Drop Roll - Ayo & Teo",
-    coverImage: "/covers/jd2022/individual-59.jpg",
+    coverImage: "https://static.wikia.nocookie.net/justdance/images/9/9a/Stopdropandroll_jd2022_gameplay.png/revision/latest/scale-to-width-down/640",
     bilibiliUrl: "https://www.bilibili.com/video/BV1M44y1i71W/?p=59",
     duration: "3:01",
     year: "2022",
@@ -476,7 +476,7 @@ export const jd2022Songs: Song[] = [
   {
     id: "60",
     title: "Sua Cara - Major Lazer ft. Anitta & Pabllo Vittar",
-    coverImage: "/covers/jd2022/individual-60.jpg",
+    coverImage: "https://static.wikia.nocookie.net/justdance/images/0/0e/Suacara_jd2022_gameplay.png/revision/latest/scale-to-width-down/640",
     bilibiliUrl: "https://www.bilibili.com/video/BV1M44y1i71W/?p=60",
     duration: "3:13",
     year: "2022",
@@ -484,7 +484,7 @@ export const jd2022Songs: Song[] = [
   {
     id: "61",
     title: "Sua Cara(豪车版本)",
-    coverImage: "/covers/jd2022/individual-61.jpg",
+    coverImage: "https://static.wikia.nocookie.net/justdance/images/2/27/Suacaraalt_jd2022_gameplay.png/revision/latest/scale-to-width-down/640",
     bilibiliUrl: "https://www.bilibili.com/video/BV1M44y1i71W/?p=61",
     duration: "3:02",
     year: "2022",
@@ -492,7 +492,7 @@ export const jd2022Songs: Song[] = [
   {
     id: "62",
     title: "Think About Things - Daði Freyr",
-    coverImage: "/covers/jd2022/individual-62.jpg",
+    coverImage: "https://static.wikia.nocookie.net/justdance/images/b/b2/Thinkaboutthings_jd2022_gameplay.png/revision/latest/scale-to-width-down/640",
     bilibiliUrl: "https://www.bilibili.com/video/BV1M44y1i71W/?p=62",
     duration: "3:22",
     year: "2022",
@@ -500,7 +500,7 @@ export const jd2022Songs: Song[] = [
   {
     id: "63",
     title: "You Can Dance - Chilly Gonzales",
-    coverImage: "/covers/jd2022/individual-63.jpg",
+    coverImage: "https://static.wikia.nocookie.net/justdance/images/c/c3/Youcandance_jd2022_gameplay.png/revision/latest/scale-to-width-down/640",
     bilibiliUrl: "https://www.bilibili.com/video/BV1M44y1i71W/?p=63",
     duration: "3:07",
     year: "2022",
@@ -508,7 +508,7 @@ export const jd2022Songs: Song[] = [
   {
     id: "64",
     title: "You Make Me Feel (Mighty Real) - Sylvester",
-    coverImage: "/covers/jd2022/individual-64.jpg",
+    coverImage: "https://static.wikia.nocookie.net/justdance/images/e/ef/Mightyreal_jd2022_gameplay.png/revision/latest/scale-to-width-down/640",
     bilibiliUrl: "https://www.bilibili.com/video/BV1M44y1i71W/?p=64",
     duration: "3:45",
     year: "2022",

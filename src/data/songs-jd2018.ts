@@ -4,7 +4,7 @@ export const jd2018Songs: Song[] = [
   {
     id: "1",
     title: "24K Magic",
-    coverImage: "/covers/jd2018/individual-01.jpg",
+    coverImage: "https://static.wikia.nocookie.net/justdance/images/5/56/24k_jd2018_gameplay.png/revision/latest/scale-to-width-down/640",
     bilibiliUrl: "https://www.bilibili.com/video/BV1ZK411C7AS",
     duration: "4:29",
     year: "2018",
@@ -12,7 +12,7 @@ export const jd2018Songs: Song[] = [
   {
     id: "2",
     title: "Bubble Pop!",
-    coverImage: "/covers/jd2018/individual-02.jpg",
+    coverImage: "https://static.wikia.nocookie.net/justdance/images/4/4b/Bubblepop_jd2018_gameplay.png/revision/latest/scale-to-width-down/640",
     bilibiliUrl: "https://www.bilibili.com/video/BV158411A741",
     duration: "4:01",
     year: "2018",
@@ -20,7 +20,7 @@ export const jd2018Songs: Song[] = [
   {
     id: "3",
     title: "Make It Jingle",
-    coverImage: "/covers/jd2018/individual-03.jpg",
+    coverImage: "https://static.wikia.nocookie.net/justdance/images/4/4f/Makeitjingle_jd2018_gameplay.png/revision/latest/scale-to-width-down/640",
     bilibiliUrl: "https://www.bilibili.com/video/BV1jM411b7VS",
     duration: "3:37",
     year: "2018",
@@ -28,7 +28,7 @@ export const jd2018Songs: Song[] = [
   {
     id: "4",
     title: "Despacito",
-    coverImage: "/covers/jd2018/individual-04.jpg",
+    coverImage: "https://static.wikia.nocookie.net/justdance/images/d/d9/Despacito_jd2018_gameplay.png/revision/latest/scale-to-width-down/640",
     bilibiliUrl: "https://www.bilibili.com/video/BV1B84y1b7XF",
     duration: "4:12",
     year: "2018",
@@ -36,7 +36,7 @@ export const jd2018Songs: Song[] = [
   {
     id: "5",
     title: "Instruction",
-    coverImage: "/covers/jd2018/individual-05.jpg",
+    coverImage: "https://static.wikia.nocookie.net/justdance/images/7/7c/Instruction_jd2018_gameplay.png/revision/latest/scale-to-width-down/640",
     bilibiliUrl: "https://www.bilibili.com/video/BV1Bv4y117D1",
     duration: "3:15",
     year: "2018",
@@ -44,7 +44,7 @@ export const jd2018Songs: Song[] = [
   {
     id: "6",
     title: "How Far I'll Go",
-    coverImage: "/covers/jd2018/individual-06.jpg",
+    coverImage: "https://static.wikia.nocookie.net/justdance/images/3/36/Howfar_gameplay.png/revision/latest/scale-to-width-down/640",
     bilibiliUrl: "https://www.bilibili.com/video/BV1814y1M7Ha",
     duration: "3:14",
     year: "2018",
@@ -52,7 +52,7 @@ export const jd2018Songs: Song[] = [
   {
     id: "7",
     title: "Side To Side",
-    coverImage: "/covers/jd2018/individual-07.jpg",
+    coverImage: "https://static.wikia.nocookie.net/justdance/images/c/c3/Sideto_jd18_gameplay.png/revision/latest/scale-to-width-down/640",
     bilibiliUrl: "https://www.bilibili.com/video/BV1bA411o7yC",
     duration: "4:12",
     year: "2018",
@@ -60,7 +60,7 @@ export const jd2018Songs: Song[] = [
   {
     id: "8",
     title: "Love Ward",
-    coverImage: "/covers/jd2018/individual-08.jpg",
+    coverImage: "https://static.wikia.nocookie.net/justdance/images/1/19/3247227-jd18_screen_loveward_e3_170612_215pm_1497259642.jpg/revision/latest/scale-to-width-down/640",
     bilibiliUrl: "https://www.bilibili.com/video/BV1f84y1b77G",
     duration: "3:57",
     year: "2018",
@@ -68,7 +68,7 @@ export const jd2018Songs: Song[] = [
   {
     id: "9",
     title: "Shape Of You",
-    coverImage: "/covers/jd2018/individual-09.jpg",
+    coverImage: "https://static.wikia.nocookie.net/justdance/images/4/49/Shapeofyou_gameplay.png/revision/latest/scale-to-width-down/640",
     bilibiliUrl: "https://www.bilibili.com/video/BV1K24y1a7pu",
     duration: "4:21",
     year: "2018",
@@ -76,7 +76,7 @@ export const jd2018Songs: Song[] = [
   {
     id: "10",
     title: "Chantaje",
-    coverImage: "/covers/jd2018/individual-10.jpg",
+    coverImage: "https://static.wikia.nocookie.net/justdance/images/7/75/Chantaje_jd2018_gameplay.png/revision/latest/scale-to-width-down/640",
     bilibiliUrl: "https://www.bilibili.com/video/BV1fM41147Zx",
     duration: "3:43",
     year: "2018",
@@ -84,7 +84,7 @@ export const jd2018Songs: Song[] = [
   {
     id: "11",
     title: "Waka Waka (This Time For Africa)",
-    coverImage: "/covers/jd2018/individual-11.jpg",
+    coverImage: "https://static.wikia.nocookie.net/justdance/images/4/4d/Wakawaka_jd2018_gameplay.png/revision/latest/scale-to-width-down/640",
     bilibiliUrl: "https://www.bilibili.com/video/BV1JG4y197o2",
     duration: "3:48",
     year: "2018",
@@ -92,7 +92,7 @@ export const jd2018Songs: Song[] = [
   {
     id: "12",
     title: "Daddy Cool",
-    coverImage: "/covers/jd2018/individual-12.jpg",
+    coverImage: "https://static.wikia.nocookie.net/justdance/images/7/74/Daddycool_jd2018_gameplay.png/revision/latest/scale-to-width-down/640",
     bilibiliUrl: "https://www.bilibili.com/video/BV17A411d7YK",
     duration: "3:54",
     year: "2018",
@@ -100,7 +100,7 @@ export const jd2018Songs: Song[] = [
   {
     id: "13",
     title: "Rockabye",
-    coverImage: "/covers/jd2018/individual-13.jpg",
+    coverImage: "https://static.wikia.nocookie.net/justdance/images/6/6b/Rockabye_jd2018_gameplay.png/revision/latest/scale-to-width-down/640",
     bilibiliUrl: "https://www.bilibili.com/video/BV12G4y1F78r",
     duration: "4:00",
     year: "2018",
@@ -108,7 +108,7 @@ export const jd2018Songs: Song[] = [
   {
     id: "14",
     title: "Dharma",
-    coverImage: "/covers/jd2018/individual-14.jpg",
+    coverImage: "https://static.wikia.nocookie.net/justdance/images/5/5c/Dharma_jd2018_gameplay.png/revision/latest/scale-to-width-down/640",
     bilibiliUrl: "https://www.bilibili.com/video/BV1kD4y1n7dd",
     duration: "3:29",
     year: "2018",
@@ -116,7 +116,7 @@ export const jd2018Songs: Song[] = [
   {
     id: "15",
     title: "Itsy Bitsy Teenie Weenie",
-    coverImage: "/covers/jd2018/individual-15.jpg",
+    coverImage: "https://static.wikia.nocookie.net/justdance/images/9/94/Itsybitsyretake_jd2018_gameplay.png/revision/latest/scale-to-width-down/640",
     bilibiliUrl: "https://www.bilibili.com/video/BV1p3411R7SE",
     duration: "2:48",
     year: "2018",
@@ -124,7 +124,7 @@ export const jd2018Songs: Song[] = [
   {
     id: "16",
     title: "Automaton",
-    coverImage: "/covers/jd2018/individual-16.jpg",
+    coverImage: "https://static.wikia.nocookie.net/justdance/images/7/77/Automaton_jd2018_gameplay.png/revision/latest/scale-to-width-down/640",
     bilibiliUrl: "https://www.bilibili.com/video/BV1DY4y1o7VC",
     duration: "4:43",
     year: "2018",
@@ -132,7 +132,7 @@ export const jd2018Songs: Song[] = [
   {
     id: "17",
     title: "Tumbum",
-    coverImage: "/covers/jd2018/individual-17.jpg",
+    coverImage: "https://static.wikia.nocookie.net/justdance/images/e/e3/Tumbum_jd2018_gameplay.png/revision/latest/scale-to-width-down/640",
     bilibiliUrl: "https://www.bilibili.com/video/BV15M411B7zb",
     duration: "3:30",
     year: "2018",
@@ -140,7 +140,7 @@ export const jd2018Songs: Song[] = [
   {
     id: "18",
     title: "In The Hall Of The Pixel King",
-    coverImage: "/covers/jd2018/individual-18.jpg",
+    coverImage: "https://static.wikia.nocookie.net/justdance/images/c/c6/8bitretake_jd2018_gameplay_2.png/revision/latest/scale-to-width-down/640",
     bilibiliUrl: "https://www.bilibili.com/video/BV1WT411o7Yb",
     duration: "3:02",
     year: "2018",
@@ -148,7 +148,7 @@ export const jd2018Songs: Song[] = [
   {
     id: "19",
     title: "Swish Swish",
-    coverImage: "/covers/jd2018/individual-19.jpg",
+    coverImage: "https://static.wikia.nocookie.net/justdance/images/e/ea/Swishswish_jd2018_gameplay.png/revision/latest/scale-to-width-down/640",
     bilibiliUrl: "https://www.bilibili.com/video/BV1i3411X7pV",
     duration: "4:14",
     year: "2018",
@@ -156,7 +156,7 @@ export const jd2018Songs: Song[] = [
   {
     id: "20",
     title: "All You Gotta Do",
-    coverImage: "/covers/jd2018/individual-20.jpg",
+    coverImage: "https://static.wikia.nocookie.net/justdance/images/6/6c/Allyougotta_gameplay.png/revision/latest/scale-to-width-down/640",
     bilibiliUrl: "https://www.bilibili.com/video/BV1Q3411X7fn",
     duration: "4:09",
     year: "2018",
@@ -164,7 +164,7 @@ export const jd2018Songs: Song[] = [
   {
     id: "21",
     title: "Kissing Strangers",
-    coverImage: "/covers/jd2018/individual-21.jpg",
+    coverImage: "https://static.wikia.nocookie.net/justdance/images/5/5b/Kissingstrangers_jd2018_gameplay.png/revision/latest/scale-to-width-down/640",
     bilibiliUrl: "https://www.bilibili.com/video/BV1X84y1L7eP",
     duration: "3:51",
     year: "2018",
@@ -172,7 +172,7 @@ export const jd2018Songs: Song[] = [
   {
     id: "22",
     title: "John Wayne",
-    coverImage: "/covers/jd2018/individual-22.jpg",
+    coverImage: "https://static.wikia.nocookie.net/justdance/images/3/3b/Johnw_jd2018_gameplay.png/revision/latest/scale-to-width-down/640",
     bilibiliUrl: "https://www.bilibili.com/video/BV18D4y1K7V1",
     duration: "3:20",
     year: "2018",
@@ -180,7 +180,7 @@ export const jd2018Songs: Song[] = [
   {
     id: "23",
     title: "Risky Business",
-    coverImage: "/covers/jd2018/individual-23.jpg",
+    coverImage: "https://static.wikia.nocookie.net/justdance/images/5/57/Riskybusiness_jd2018_gameplay.png/revision/latest/scale-to-width-down/640",
     bilibiliUrl: "https://www.bilibili.com/video/BV1cD4y1T7h4",
     duration: "3:52",
     year: "2018",
@@ -188,7 +188,7 @@ export const jd2018Songs: Song[] = [
   {
     id: "24",
     title: "Another One Bites The Dust",
-    coverImage: "/covers/jd2018/individual-24.jpg",
+    coverImage: "https://static.wikia.nocookie.net/justdance/images/2/23/Anotherone_jd2018_gameplay.png/revision/latest/scale-to-width-down/640",
     bilibiliUrl: "https://www.bilibili.com/video/BV17T411C7wQ",
     duration: "4:02",
     year: "2018",
@@ -196,7 +196,7 @@ export const jd2018Songs: Song[] = [
   {
     id: "25",
     title: "Naughty Girl",
-    coverImage: "/covers/jd2018/individual-25.jpg",
+    coverImage: "https://static.wikia.nocookie.net/justdance/images/f/f6/Naughtygirl_jd2018_gameplay.png/revision/latest/scale-to-width-down/640",
     bilibiliUrl: "https://www.bilibili.com/video/BV1nT411C7zj",
     duration: "4:02",
     year: "2018",
@@ -204,7 +204,7 @@ export const jd2018Songs: Song[] = [
   {
     id: "26",
     title: "Beep Beep I'm A Sheep",
-    coverImage: "/covers/jd2018/individual-26.jpg",
+    coverImage: "https://static.wikia.nocookie.net/justdance/images/c/c0/Beepbeep_jd2018_gameplay.png/revision/latest/scale-to-width-down/640",
     bilibiliUrl: "https://www.bilibili.com/video/BV1Av4y1r753",
     duration: "2:47",
     year: "2018",
@@ -212,7 +212,7 @@ export const jd2018Songs: Song[] = [
   {
     id: "27",
     title: "Fight Club",
-    coverImage: "/covers/jd2018/individual-27.jpg",
+    coverImage: "https://static.wikia.nocookie.net/justdance/images/c/cd/Sidewinder_jd2018_gameplay.png/revision/latest/scale-to-width-down/640",
     bilibiliUrl: "https://www.bilibili.com/video/BV1ms4y1W7T2",
     duration: "3:47",
     year: "2018",
@@ -220,7 +220,7 @@ export const jd2018Songs: Song[] = [
   {
     id: "28",
     title: "Blow Your Mind (Mwah)",
-    coverImage: "/covers/jd2018/individual-28.jpg",
+    coverImage: "https://static.wikia.nocookie.net/justdance/images/6/67/Blowyourmind_jd2018_gameplay.png/revision/latest/scale-to-width-down/640",
     bilibiliUrl: "https://www.bilibili.com/video/BV1zD4y1N73S",
     duration: "3:25",
     year: "2018",
@@ -228,7 +228,7 @@ export const jd2018Songs: Song[] = [
   {
     id: "29",
     title: "Carmen (Ouverture)",
-    coverImage: "/covers/jd2018/individual-29.jpg",
+    coverImage: "https://static.wikia.nocookie.net/justdance/images/5/55/Carmen_jd2018_gameplay.png/revision/latest/scale-to-width-down/640",
     bilibiliUrl: "https://www.bilibili.com/video/BV1m8411M7Wr",
     duration: "2:46",
     year: "2018",
@@ -236,7 +236,7 @@ export const jd2018Songs: Song[] = [
   {
     id: "30",
     title: "Keep On Moving",
-    coverImage: "/covers/jd2018/individual-30.jpg",
+    coverImage: "https://static.wikia.nocookie.net/justdance/images/4/4a/Keepon_jd2018_gameplay.png/revision/latest/scale-to-width-down/640",
     bilibiliUrl: "https://www.bilibili.com/video/BV1y8411M7iX",
     duration: "3:32",
     year: "2018",
@@ -244,7 +244,7 @@ export const jd2018Songs: Song[] = [
   {
     id: "31",
     title: "New Face",
-    coverImage: "/covers/jd2018/individual-31.jpg",
+    coverImage: "https://static.wikia.nocookie.net/justdance/images/9/96/Newface_gameplay.png/revision/latest/scale-to-width-down/640",
     bilibiliUrl: "https://www.bilibili.com/video/BV1My4y1Q793",
     duration: "3:41",
     year: "2018",
@@ -252,7 +252,7 @@ export const jd2018Songs: Song[] = [
   {
     id: "32",
     title: "Footloose",
-    coverImage: "/covers/jd2018/individual-32.jpg",
+    coverImage: "https://static.wikia.nocookie.net/justdance/images/4/46/Footloose_jd2018_gameplay.png/revision/latest/scale-to-width-down/640",
     bilibiliUrl: "https://www.bilibili.com/video/BV1XT41197gZ",
     duration: "3:34",
     year: "2018",
@@ -260,7 +260,7 @@ export const jd2018Songs: Song[] = [
   {
     id: "33",
     title: "The Way I Are (Dance With Somebody)",
-    coverImage: "/covers/jd2018/individual-33.jpg",
+    coverImage: "https://static.wikia.nocookie.net/justdance/images/c/c6/Cottonmouth_jd2018_gameplay.png/revision/latest/scale-to-width-down/640",
     bilibiliUrl: "https://www.bilibili.com/video/BV1tv4y1476q",
     duration: "3:36",
     year: "2018",
@@ -268,7 +268,7 @@ export const jd2018Songs: Song[] = [
   {
     id: "34",
     title: "Boom Boom",
-    coverImage: "/covers/jd2018/individual-34.jpg",
+    coverImage: "https://static.wikia.nocookie.net/justdance/images/7/71/Copperhead_jd2018_gameplay.png/revision/latest/scale-to-width-down/640",
     bilibiliUrl: "https://www.bilibili.com/video/BV1ij411K79R",
     duration: "3:38",
     year: "2018",
@@ -276,7 +276,7 @@ export const jd2018Songs: Song[] = [
   {
     id: "35",
     title: "Sayonara",
-    coverImage: "/covers/jd2018/individual-35.jpg",
+    coverImage: "https://static.wikia.nocookie.net/justdance/images/d/de/Sayonararetake_jd2018_gameplay.png/revision/latest/scale-to-width-down/640",
     bilibiliUrl: "https://www.bilibili.com/video/BV1qM4y1D7G5",
     duration: "3:21",
     year: "2018",
@@ -284,7 +284,7 @@ export const jd2018Songs: Song[] = [
   {
     id: "36",
     title: "Diggy",
-    coverImage: "/covers/jd2018/individual-36.jpg",
+    coverImage: "https://static.wikia.nocookie.net/justdance/images/d/de/Diggy_jd2018_gameplay_1.png/revision/latest/scale-to-width-down/640",
     bilibiliUrl: "https://www.bilibili.com/video/BV1Pj411N7yW",
     duration: "3:48",
     year: "2018",
@@ -292,7 +292,7 @@ export const jd2018Songs: Song[] = [
   {
     id: "37",
     title: "Slumber Party",
-    coverImage: "/covers/jd2018/individual-37.jpg",
+    coverImage: "https://static.wikia.nocookie.net/justdance/images/f/f3/Slumberparty_jd2018_gameplay.png/revision/latest/scale-to-width-down/640",
     bilibiliUrl: "https://www.bilibili.com/video/BV1D84y1H7tW",
     duration: "3:37",
     year: "2018",
@@ -300,7 +300,7 @@ export const jd2018Songs: Song[] = [
   {
     id: "38",
     title: "Bad Liar",
-    coverImage: "/covers/jd2018/individual-38.jpg",
+    coverImage: "https://static.wikia.nocookie.net/justdance/images/b/b9/Badliar_jd2018_gameplay.png/revision/latest/scale-to-width-down/640",
     bilibiliUrl: "https://www.bilibili.com/video/BV1ux4y157Qg",
     duration: "4:01",
     year: "2018",
@@ -308,7 +308,7 @@ export const jd2018Songs: Song[] = [
   {
     id: "39",
     title: "Got That",
-    coverImage: "/covers/jd2018/individual-39.jpg",
+    coverImage: "https://static.wikia.nocookie.net/justdance/images/c/ce/Gotthat_jd2018_gameplay.png/revision/latest/scale-to-width-down/640",
     bilibiliUrl: "https://www.bilibili.com/video/BV1k54y1A7kC",
     duration: "3:54",
     year: "2018",
@@ -316,7 +316,7 @@ export const jd2018Songs: Song[] = [
   {
     id: "40",
     title: "Blue (Da Ba Dee)",
-    coverImage: "/covers/jd2018/individual-40.jpg",
+    coverImage: "https://static.wikia.nocookie.net/justdance/images/6/61/Blue_jd2018_gameplay.png/revision/latest/scale-to-width-down/640",
     bilibiliUrl: "https://www.bilibili.com/video/BV12e4y1w7iB",
     duration: "4:08",
     year: "2018",
@@ -324,7 +324,7 @@ export const jd2018Songs: Song[] = [
   {
     id: "41",
     title: "Funky Robot",
-    coverImage: "/covers/jd2018/individual-41.jpg",
+    coverImage: "https://static.wikia.nocookie.net/justdance/images/9/93/Funkyrobotkids_jd2018_kids_gameplay.png/revision/latest/scale-to-width-down/640",
     bilibiliUrl: "https://www.bilibili.com/video/BV1Mv4y1Y7rn",
     duration: "1:51",
     year: "2018",
@@ -332,7 +332,7 @@ export const jd2018Songs: Song[] = [
   {
     id: "42",
     title: "Amazing Girl",
-    coverImage: "/covers/jd2018/individual-42.jpg",
+    coverImage: "https://static.wikia.nocookie.net/justdance/images/7/7f/Missamazingkids_jd2018_gameplay.png/revision/latest/scale-to-width-down/640",
     bilibiliUrl: "https://www.bilibili.com/video/BV1Sg4y1J73Y",
     duration: "2:11",
     year: "2018",
@@ -340,7 +340,7 @@ export const jd2018Songs: Song[] = [
   {
     id: "43",
     title: "Fearless Pirate",
-    coverImage: "/covers/jd2018/individual-43.jpg",
+    coverImage: "https://static.wikia.nocookie.net/justdance/images/8/82/FearlessPirateGameplay.png/revision/latest/scale-to-width-down/640",
     bilibiliUrl: "https://www.bilibili.com/video/BV18s4y1f7wL",
     duration: "2:11",
     year: "2018",
@@ -348,7 +348,7 @@ export const jd2018Songs: Song[] = [
   {
     id: "44",
     title: "Magic Halloween",
-    coverImage: "/covers/jd2018/individual-44.jpg",
+    coverImage: "https://static.wikia.nocookie.net/justdance/images/5/53/Magichalloweenkids_gameplay.png/revision/latest/scale-to-width-down/640",
     bilibiliUrl: "https://www.bilibili.com/video/BV1jD4y1u7dQ",
     duration: "1:54",
     year: "2018",
@@ -356,7 +356,7 @@ export const jd2018Songs: Song[] = [
   {
     id: "45",
     title: "Pixie Land",
-    coverImage: "/covers/jd2018/individual-45.jpg",
+    coverImage: "https://static.wikia.nocookie.net/justdance/images/1/1e/Pixie_land_kids_mode_gameplay.png/revision/latest/scale-to-width-down/640",
     bilibiliUrl: "https://www.bilibili.com/video/BV1BY411C7Cs",
     duration: "2:17",
     year: "2018",
@@ -364,7 +364,7 @@ export const jd2018Songs: Song[] = [
   {
     id: "46",
     title: "Happy Farm",
-    coverImage: "/covers/jd2018/individual-46.jpg",
+    coverImage: "https://static.wikia.nocookie.net/justdance/images/2/24/Happyfarmkids_gameplay.jpg/revision/latest/scale-to-width-down/640",
     bilibiliUrl: "https://www.bilibili.com/video/BV1AL411y799",
     duration: "2:32",
     year: "2018",
@@ -372,7 +372,7 @@ export const jd2018Songs: Song[] = [
   {
     id: "47",
     title: "Sun",
-    coverImage: "/covers/jd2018/individual-47.jpg",
+    coverImage: "https://static.wikia.nocookie.net/justdance/images/f/f8/Sun_jd2018_gameplay.png/revision/latest/scale-to-width-down/640",
     bilibiliUrl: "https://www.bilibili.com/video/BV14j411u73j",
     duration: "4:06",
     year: "2018",
@@ -380,7 +380,7 @@ export const jd2018Songs: Song[] = [
   {
     id: "48",
     title: "Thumbs",
-    coverImage: "/covers/jd2018/individual-48.jpg",
+    coverImage: "https://static.wikia.nocookie.net/justdance/images/a/ad/Thumbs_jd2018_gameplay_1.png/revision/latest/scale-to-width-down/640",
     bilibiliUrl: "https://www.bilibili.com/video/BV1V24y1474h",
     duration: "4:07",
     year: "2018",
@@ -388,7 +388,7 @@ export const jd2018Songs: Song[] = [
   {
     id: "49",
     title: "Sugar Dance",
-    coverImage: "/covers/jd2018/individual-49.jpg",
+    coverImage: "https://static.wikia.nocookie.net/justdance/images/2/2b/Sugardance_gameplay.png/revision/latest/scale-to-width-down/640",
     bilibiliUrl: "https://www.bilibili.com/video/BV1Fx4y1T7Hm",
     duration: "3:38",
     year: "2018",
@@ -396,7 +396,7 @@ export const jd2018Songs: Song[] = [
   {
     id: "50",
     title: "Better Call The Handyman",
-    coverImage: "/covers/jd2018/individual-50.jpg",
+    coverImage: "https://static.wikia.nocookie.net/justdance/images/d/db/Switchhandyman_gameplay.png/revision/latest/scale-to-width-down/640",
     bilibiliUrl: "https://www.bilibili.com/video/BV12j411c7bj",
     duration: "3:15",
     year: "2018",
@@ -404,7 +404,7 @@ export const jd2018Songs: Song[] = [
   {
     id: "51",
     title: "El Sabor Del Ritmo",
-    coverImage: "/covers/jd2018/individual-51.jpg",
+    coverImage: "https://static.wikia.nocookie.net/justdance/images/6/60/Switchmariachi_gameplay.png/revision/latest/scale-to-width-down/640",
     bilibiliUrl: "https://www.bilibili.com/video/BV1Co4y1n7EF",
     duration: "2:50",
     year: "2018",
@@ -412,7 +412,7 @@ export const jd2018Songs: Song[] = [
   {
     id: "52",
     title: "Food Paradise",
-    coverImage: "/covers/jd2018/individual-52.jpg",
+    coverImage: "https://static.wikia.nocookie.net/justdance/images/8/86/Switchchef_jd2018_gameplay.png/revision/latest/scale-to-width-down/640",
     bilibiliUrl: "https://www.bilibili.com/video/BV1JN411w7Lm",
     duration: "3:21",
     year: "2018",
@@ -420,7 +420,7 @@ export const jd2018Songs: Song[] = [
   {
     id: "53",
     title: "Sports 'Til I Drop",
-    coverImage: "/covers/jd2018/individual-53.jpg",
+    coverImage: "https://static.wikia.nocookie.net/justdance/images/5/59/Switchsport_gameplay.png/revision/latest/scale-to-width-down/640",
     bilibiliUrl: "https://www.bilibili.com/video/BV16T411W7YQ",
     duration: "3:18",
     year: "2018",
@@ -428,7 +428,7 @@ export const jd2018Songs: Song[] = [
   {
     id: "54",
     title: "Tales Of The Cauldron",
-    coverImage: "/covers/jd2018/individual-54.jpg",
+    coverImage: "https://static.wikia.nocookie.net/justdance/images/4/40/Switchwitch_gameplay.png/revision/latest/scale-to-width-down/640",
     bilibiliUrl: "https://www.bilibili.com/video/BV1hj411c77Z",
     duration: "3:39",
     year: "2018",
@@ -436,7 +436,7 @@ export const jd2018Songs: Song[] = [
   {
     id: "55",
     title: "J'Suis Pas Jalouse",
-    coverImage: "/covers/jd2018/individual-55.jpg",
+    coverImage: "https://static.wikia.nocookie.net/justdance/images/f/f2/Andy_jd2018_gameplay.png/revision/latest/scale-to-width-down/640",
     bilibiliUrl: "https://www.bilibili.com/video/BV1HL411m78H",
     duration: "3:08",
     year: "2018",
@@ -444,7 +444,7 @@ export const jd2018Songs: Song[] = [
   {
     id: "56",
     title: "Error",
-    coverImage: "/covers/jd2018/individual-56.jpg",
+    coverImage: "https://static.wikia.nocookie.net/justdance/images/5/52/Error_jd2018_gameplay.png/revision/latest/scale-to-width-down/640",
     bilibiliUrl: "https://www.bilibili.com/video/BV1Bv4y1J7yN",
     duration: "3:50",
     year: "2018",
@@ -452,7 +452,7 @@ export const jd2018Songs: Song[] = [
   {
     id: "57",
     title: "Feel It Still",
-    coverImage: "/covers/jd2018/individual-57.jpg",
+    coverImage: "https://static.wikia.nocookie.net/justdance/images/2/23/Feelit_jd2018_gameplay_2.png/revision/latest/scale-to-width-down/640",
     bilibiliUrl: "https://www.bilibili.com/video/BV15X4y1z7oE",
     duration: "2:36",
     year: "2018",
@@ -460,7 +460,7 @@ export const jd2018Songs: Song[] = [
   {
     id: "58",
     title: "Mi Gente",
-    coverImage: "/covers/jd2018/individual-58.jpg",
+    coverImage: "https://static.wikia.nocookie.net/justdance/images/b/b4/Migente_jd2018_gameplay_2.png/revision/latest/scale-to-width-down/640",
     bilibiliUrl: "https://www.bilibili.com/video/BV1Qo4y1n7jE",
     duration: "3:25",
     year: "2018",
@@ -468,7 +468,7 @@ export const jd2018Songs: Song[] = [
   {
     id: "59",
     title: "Sax",
-    coverImage: "/covers/jd2018/individual-59.jpg",
+    coverImage: "https://static.wikia.nocookie.net/justdance/images/1/12/Sax_jd2018_gameplay_1.png/revision/latest/scale-to-width-down/640",
     bilibiliUrl: "https://www.bilibili.com/video/BV1zc411n7Cj",
     duration: "4:32",
     year: "2018",
@@ -476,7 +476,7 @@ export const jd2018Songs: Song[] = [
   {
     id: "60",
     title: "What Lovers Do",
-    coverImage: "/covers/jd2018/individual-60.jpg",
+    coverImage: "https://static.wikia.nocookie.net/justdance/images/8/80/Whatloversdo_jd2018_gameplay_2.png/revision/latest/scale-to-width-down/640",
     bilibiliUrl: "https://www.bilibili.com/video/BV1fv4y1J7ue",
     duration: "3:52",
     year: "2018",
@@ -484,7 +484,7 @@ export const jd2018Songs: Song[] = [
   {
     id: "61",
     title: "Dame Tu Cosita",
-    coverImage: "/covers/jd2018/individual-61.jpg",
+    coverImage: "https://static.wikia.nocookie.net/justdance/images/b/b0/Dametu_jd2019_gameplay_1.png/revision/latest/scale-to-width-down/640",
     bilibiliUrl: "https://www.bilibili.com/video/BV1iX4y1z7hh",
     duration: "2:05",
     year: "2018",
@@ -492,7 +492,7 @@ export const jd2018Songs: Song[] = [
   {
     id: "62",
     title: "Dancing Queen",
-    coverImage: "/covers/jd2018/individual-62.jpg",
+    coverImage: "https://static.wikia.nocookie.net/justdance/images/1/1f/Abbadancing2017.PNG/revision/latest/scale-to-width-down/640",
     bilibiliUrl: "https://www.bilibili.com/video/BV18c411n7NF",
     duration: "4:11",
     year: "2018",
@@ -500,7 +500,7 @@ export const jd2018Songs: Song[] = [
   {
     id: "63",
     title: "No Lie",
-    coverImage: "/covers/jd2018/individual-63.jpg",
+    coverImage: "https://static.wikia.nocookie.net/justdance/images/c/c3/Nolie_jd2018_gameplay_1.png/revision/latest/scale-to-width-down/640",
     bilibiliUrl: "https://www.bilibili.com/video/BV1ko4y187ii",
     duration: "4:15",
     year: "2018",

@@ -13,7 +13,7 @@ export const SongCard = ({ song }: SongCardProps) => {
   return (
     <div className="song-card" onClick={handleCardClick}>
       <div className="song-card-image">
-        <img src={song.coverImage} alt={`${song.title} cover`} />
+        <img src={song.coverImage} alt={`${song.title} cover`} referrerPolicy="no-referrer" />
         <div className="song-card-overlay">
           <div className="play-button">▶</div>
         </div>

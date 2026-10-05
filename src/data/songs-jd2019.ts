@@ -4,7 +4,7 @@ export const jd2019Songs: Song[] = [
   {
     id: "1",
     title: "Shaky Shaky",
-    coverImage: "/covers/jd2019/individual-01.jpg",
+    coverImage: "https://static.wikia.nocookie.net/justdance/images/5/5f/Shaky_jd2019_gameplay.png/revision/latest/scale-to-width-down/640",
     bilibiliUrl: "https://www.bilibili.com/video/BV1yv4y1J7HH",
     duration: "3:13",
     year: "2019",
@@ -12,7 +12,7 @@ export const jd2019Songs: Song[] = [
   {
     id: "2",
     title: "Mi Mi Mi",
-    coverImage: "/covers/jd2019/individual-02.jpg",
+    coverImage: "https://static.wikia.nocookie.net/justdance/images/c/cc/Mimimi_jd2019_gameplay.png/revision/latest/scale-to-width-down/640",
     bilibiliUrl: "https://www.bilibili.com/video/BV1ih4y1W7cs",
     duration: "3:57",
     year: "2019",
@@ -20,7 +20,7 @@ export const jd2019Songs: Song[] = [
   {
     id: "4",
     title: "Where Are You Now?",
-    coverImage: "/covers/jd2019/individual-04.jpg",
+    coverImage: "https://static.wikia.nocookie.net/justdance/images/6/6e/Whereareyounow_jd2019_gameplay.png/revision/latest/scale-to-width-down/640",
     bilibiliUrl: "https://www.bilibili.com/video/BV1Wt411R7tR/?p=71",
     duration: "3:19",
     year: "2019",
@@ -28,7 +28,7 @@ export const jd2019Songs: Song[] = [
   {
     id: "6",
     title: "Bang Bang Bang",
-    coverImage: "/covers/jd2019/individual-06.jpg",
+    coverImage: "https://static.wikia.nocookie.net/justdance/images/9/92/Bang2019_jd2019_gameplay.png/revision/latest/scale-to-width-down/640",
     bilibiliUrl: "https://www.bilibili.com/video/BV1XT41187CR",
     duration: "4:04",
     year: "2019",
@@ -36,7 +36,7 @@ export const jd2019Songs: Song[] = [
   {
     id: "9",
     title: "Shinobi Cat",
-    coverImage: "/covers/jd2019/individual-09.jpg",
+    coverImage: "https://static.wikia.nocookie.net/justdance/images/2/23/Ninjakids_jd2019_gameplay_1.png/revision/latest/scale-to-width-down/640",
     bilibiliUrl: "https://www.bilibili.com/video/BV1FT411h7sx",
     duration: "2:20",
     year: "2019",
@@ -44,7 +44,7 @@ export const jd2019Songs: Song[] = [
   {
     id: "10",
     title: "Friendly Phantom",
-    coverImage: "/covers/jd2019/individual-10.jpg",
+    coverImage: "https://static.wikia.nocookie.net/justdance/images/f/f8/Ghostkids_jd2019_gameplay_1.png/revision/latest/scale-to-width-down/640",
     bilibiliUrl: "https://www.bilibili.com/video/BV1Wt411R7tR/?p=82",
     duration: "2:17",
     year: "2019",
@@ -52,7 +52,7 @@ export const jd2019Songs: Song[] = [
   {
     id: "11",
     title: "Work Work",
-    coverImage: "/covers/jd2019/individual-11.jpg",
+    coverImage: "https://static.wikia.nocookie.net/justdance/images/2/28/Workwork_jd2019_gameplay.png/revision/latest/scale-to-width-down/640",
     bilibiliUrl: "https://www.bilibili.com/video/BV1CT411h7zN",
     duration: "4:05",
     year: "2019",
@@ -60,7 +60,7 @@ export const jd2019Songs: Song[] = [
   {
     id: "13",
     title: "Rhythm Of The Night",
-    coverImage: "/covers/jd2019/individual-13.jpg",
+    coverImage: "https://static.wikia.nocookie.net/justdance/images/1/1e/Rhythm_jd2019_gameplay.png/revision/latest/scale-to-width-down/640",
     bilibiliUrl: "https://www.bilibili.com/video/BV1Ms4y1X7Y1",
     duration: "3:32",
     year: "2019",
@@ -68,7 +68,7 @@ export const jd2019Songs: Song[] = [
   {
     id: "14",
     title: "Boogiesaurus",
-    coverImage: "/covers/jd2019/individual-14.jpg",
+    coverImage: "https://static.wikia.nocookie.net/justdance/images/1/10/Jurassickids_jd2019_gameplay.png/revision/latest/scale-to-width-down/640",
     bilibiliUrl: "https://www.bilibili.com/video/BV1vT411h7ty",
     duration: "1:55",
     year: "2019",
@@ -76,7 +76,7 @@ export const jd2019Songs: Song[] = [
   {
     id: "15",
     title: "Monsters Of Jazz",
-    coverImage: "/covers/jd2019/individual-15.jpg",
+    coverImage: "https://static.wikia.nocookie.net/justdance/images/e/e4/Monstersacademykids_jd2019_gameplay_1.png/revision/latest/scale-to-width-down/640",
     bilibiliUrl: "https://www.bilibili.com/video/BV1ao4y1t77N",
     duration: "1:58",
     year: "2019",
@@ -84,7 +84,7 @@ export const jd2019Songs: Song[] = [
   {
     id: "16",
     title: "Mama Mia",
-    coverImage: "/covers/jd2019/individual-16.jpg",
+    coverImage: "https://static.wikia.nocookie.net/justdance/images/e/e3/Mamamia_jd2019_gameplay.png/revision/latest/scale-to-width-down/640",
     bilibiliUrl: "https://www.bilibili.com/video/BV1bX4y1b7Dt",
     duration: "3:00",
     year: "2019",
@@ -92,7 +92,7 @@ export const jd2019Songs: Song[] = [
   {
     id: "17",
     title: "Fire",
-    coverImage: "/covers/jd2019/individual-17.jpg",
+    coverImage: "https://static.wikia.nocookie.net/justdance/images/b/bf/Fire_jd2019_gameplay.png/revision/latest/scale-to-width-down/640",
     bilibiliUrl: "https://www.bilibili.com/video/BV1BX4y1b7zd",
     duration: "3:34",
     year: "2019",
@@ -100,7 +100,7 @@ export const jd2019Songs: Song[] = [
   {
     id: "18",
     title: "I'm Stil Standing",
-    coverImage: "/covers/jd2019/individual-18.jpg",
+    coverImage: "https://static.wikia.nocookie.net/justdance/images/c/cd/Imstillstanding_jd2019_gameplay.png/revision/latest/scale-to-width-down/640",
     bilibiliUrl: "https://www.bilibili.com/video/BV14c411g7bw",
     duration: "3:23",
     year: "2019",
@@ -108,7 +108,7 @@ export const jd2019Songs: Song[] = [
   {
     id: "19",
     title: "Jingle Bells",
-    coverImage: "/covers/jd2019/individual-19.jpg",
+    coverImage: "https://static.wikia.nocookie.net/justdance/images/d/de/Merrychristmaskids_jd2019_gameplay_1.png/revision/latest/scale-to-width-down/640",
     bilibiliUrl: "https://www.bilibili.com/video/BV1Wt411R7tR/?p=83",
     duration: "2:26",
     year: "2019",
@@ -116,7 +116,7 @@ export const jd2019Songs: Song[] = [
   {
     id: "20",
     title: "Ça Plane Pour Moi",
-    coverImage: "/covers/jd2019/individual-20.jpg",
+    coverImage: "https://static.wikia.nocookie.net/justdance/images/b/b6/Caplane_jd2019_gameplay.png/revision/latest/scale-to-width-down/640",
     bilibiliUrl: "https://www.bilibili.com/video/BV1Xh411T7zH",
     duration: "3:01",
     year: "2019",
@@ -124,7 +124,7 @@ export const jd2019Songs: Song[] = [
   {
     id: "21",
     title: "Irish Meadow Dance",
-    coverImage: "/covers/jd2019/individual-21.jpg",
+    coverImage: "https://static.wikia.nocookie.net/justdance/images/7/74/Saintpatrick_jd2016_gameplay.png/revision/latest/scale-to-width-down/640",
     bilibiliUrl: "https://www.bilibili.com/video/BV1Wt411R7tR/?p=79",
     duration: "2:22",
     year: "2019",
@@ -132,7 +132,7 @@ export const jd2019Songs: Song[] = [
   {
     id: "22",
     title: "Narco",
-    coverImage: "/covers/jd2019/individual-22.jpg",
+    coverImage: "https://static.wikia.nocookie.net/justdance/images/1/15/Narco_jd2019_gameplay.png/revision/latest/scale-to-width-down/640",
     bilibiliUrl: "https://www.bilibili.com/video/BV1Wt411R7tR/?p=47",
     duration: "3:35",
     year: "2019",
@@ -140,7 +140,7 @@ export const jd2019Songs: Song[] = [
   {
     id: "23",
     title: "I Feel It Coming",
-    coverImage: "/covers/jd2019/individual-23.jpg",
+    coverImage: "https://static.wikia.nocookie.net/justdance/images/1/1c/Ifeelitcoming_jd2019_gameplay.png/revision/latest/scale-to-width-down/640",
     bilibiliUrl: "https://www.bilibili.com/video/BV1tW4y1Q7K6",
     duration: "3:59",
     year: "2019",
@@ -148,7 +148,7 @@ export const jd2019Songs: Song[] = [
   {
     id: "24",
     title: "Bum Bum Tam Tam",
-    coverImage: "/covers/jd2019/individual-24.jpg",
+    coverImage: "https://static.wikia.nocookie.net/justdance/images/7/70/Bumbumtamtam_jd2019_gameplay.png/revision/latest/scale-to-width-down/640",
     bilibiliUrl: "https://www.bilibili.com/video/BV18W4y1Q7qU",
     duration: "3:57",
     year: "2019",
@@ -156,7 +156,7 @@ export const jd2019Songs: Song[] = [
   {
     id: "26",
     title: "Tales Of The Desert",
-    coverImage: "/covers/jd2019/individual-26.jpg",
+    coverImage: "https://static.wikia.nocookie.net/justdance/images/5/5b/Theexplorerkids_jd2019_gameplay_1.png/revision/latest/scale-to-width-down/640",
     bilibiliUrl: "https://www.bilibili.com/video/BV1Wt411R7tR/?p=86",
     duration: "2:22",
     year: "2019",
@@ -164,7 +164,7 @@ export const jd2019Songs: Song[] = [
   {
     id: "27",
     title: "Cosmic Party",
-    coverImage: "/covers/jd2019/individual-27.jpg",
+    coverImage: "https://static.wikia.nocookie.net/justdance/images/c/c3/Spacegirlkids_jd2019_gameplay_2.png/revision/latest/scale-to-width-down/640",
     bilibiliUrl: "https://www.bilibili.com/video/BV1Wt411R7tR/?p=85",
     duration: "2:41",
     year: "2019",
@@ -172,7 +172,7 @@ export const jd2019Songs: Song[] = [
   {
     id: "28",
     title: "Adeyyo",
-    coverImage: "/covers/jd2019/individual-28.jpg",
+    coverImage: "https://static.wikia.nocookie.net/justdance/images/f/f8/Adeyyo_jd2019_gameplay.png/revision/latest/scale-to-width-down/640",
     bilibiliUrl: "https://www.bilibili.com/video/BV1CP411r7fA",
     duration: "3:54",
     year: "2019",
@@ -180,7 +180,7 @@ export const jd2019Songs: Song[] = [
   {
     id: "29",
     title: "Finesse (Remix)",
-    coverImage: "/covers/jd2019/individual-29.jpg",
+    coverImage: "https://static.wikia.nocookie.net/justdance/images/3/3a/Finesse_jd2019_gameplay_1.png/revision/latest/scale-to-width-down/640",
     bilibiliUrl: "https://www.bilibili.com/video/BV148411m7go",
     duration: "4:00",
     year: "2019",
@@ -188,7 +188,7 @@ export const jd2019Songs: Song[] = [
   {
     id: "31",
     title: "New Rules",
-    coverImage: "/covers/jd2019/individual-31.jpg",
+    coverImage: "https://static.wikia.nocookie.net/justdance/images/1/11/Newrules_jd2019_gameplay.png/revision/latest/scale-to-width-down/640",
     bilibiliUrl: "https://www.bilibili.com/video/BV1Ju411H7AY",
     duration: "3:50",
     year: "2019",
@@ -196,7 +196,7 @@ export const jd2019Songs: Song[] = [
   {
     id: "33",
     title: "Havana",
-    coverImage: "/covers/jd2019/individual-33.jpg",
+    coverImage: "https://static.wikia.nocookie.net/justdance/images/4/4c/Havana_jd2019_gameplay_1.png/revision/latest/scale-to-width-down/640",
     bilibiliUrl: "https://www.bilibili.com/video/BV1xP41147vs",
     duration: "3:58",
     year: "2019",
@@ -204,7 +204,7 @@ export const jd2019Songs: Song[] = [
   {
     id: "35",
     title: "New Reality",
-    coverImage: "/covers/jd2019/individual-35.jpg",
+    coverImage: "https://static.wikia.nocookie.net/justdance/images/7/7a/Newreality_jd2019_gameplay.png/revision/latest/scale-to-width-down/640",
     bilibiliUrl: "https://www.bilibili.com/video/BV1S94y1e7kK",
     duration: "3:32",
     year: "2019",
@@ -212,7 +212,7 @@ export const jd2019Songs: Song[] = [
   {
     id: "37",
     title: "New World",
-    coverImage: "/covers/jd2019/individual-37.jpg",
+    coverImage: "https://static.wikia.nocookie.net/justdance/images/4/42/Newworld_jd2019_gameplay.png/revision/latest/scale-to-width-down/640",
     bilibiliUrl: "https://www.bilibili.com/video/BV1JV4y1e7N8",
     duration: "2:47",
     year: "2019",
@@ -220,7 +220,7 @@ export const jd2019Songs: Song[] = [
   {
     id: "38",
     title: "Mad Love",
-    coverImage: "/covers/jd2019/individual-38.jpg",
+    coverImage: "https://static.wikia.nocookie.net/justdance/images/6/6e/Madlove_jd2019_gameplay.png/revision/latest/scale-to-width-down/640",
     bilibiliUrl: "https://www.bilibili.com/video/BV1hG411f7LQ",
     duration: "3:25",
     year: "2019",
@@ -228,7 +228,7 @@ export const jd2019Songs: Song[] = [
   {
     id: "40",
     title: "A Little Party Never Killed Nobody (All We Got)",
-    coverImage: "/covers/jd2019/individual-40.jpg",
+    coverImage: "https://static.wikia.nocookie.net/justdance/images/6/65/Alittleparty_jd2019_gameplay.png/revision/latest/scale-to-width-down/640",
     bilibiliUrl: "https://www.bilibili.com/video/BV1gj411z76y",
     duration: "3:34",
     year: "2019",
@@ -236,7 +236,7 @@ export const jd2019Songs: Song[] = [
   {
     id: "42",
     title: "OMG",
-    coverImage: "/covers/jd2019/individual-42.jpg",
+    coverImage: "https://static.wikia.nocookie.net/justdance/images/c/c0/Omg_jd2019_gameplay.png/revision/latest/scale-to-width-down/640",
     bilibiliUrl: "https://www.bilibili.com/video/BV1wu411E7nq",
     duration: "3:12",
     year: "2019",
@@ -244,7 +244,7 @@ export const jd2019Songs: Song[] = [
   {
     id: "44",
     title: "Pac-Man",
-    coverImage: "/covers/jd2019/individual-44.jpg",
+    coverImage: "https://static.wikia.nocookie.net/justdance/images/3/32/PacMan_jd2019_gameplay.png/revision/latest/scale-to-width-down/640",
     bilibiliUrl: "https://www.bilibili.com/video/BV1bG411o7pU",
     duration: "2:54",
     year: "2019",
@@ -252,7 +252,7 @@ export const jd2019Songs: Song[] = [
   {
     id: "45",
     title: "Water Me",
-    coverImage: "/covers/jd2019/individual-45.jpg",
+    coverImage: "https://static.wikia.nocookie.net/justdance/images/0/05/Waterme_jd2019_gameplay_1.png/revision/latest/scale-to-width-down/640",
     bilibiliUrl: "https://www.bilibili.com/video/BV1Sj411i7bM",
     duration: "3:13",
     year: "2019",
@@ -260,7 +260,7 @@ export const jd2019Songs: Song[] = [
   {
     id: "47",
     title: "Not Your Ordinary",
-    coverImage: "/covers/jd2019/individual-47.jpg",
+    coverImage: "https://static.wikia.nocookie.net/justdance/images/8/82/Notyourordinary_jd2019_gameplay.png/revision/latest/scale-to-width-down/640",
     bilibiliUrl: "https://www.bilibili.com/video/BV1T94y1z798",
     duration: "3:01",
     year: "2019",
@@ -268,7 +268,7 @@ export const jd2019Songs: Song[] = [
   {
     id: "48",
     title: "Sugar",
-    coverImage: "/covers/jd2019/individual-48.jpg",
+    coverImage: "https://static.wikia.nocookie.net/justdance/images/a/a8/Sugar_jd2019_gameplay_1.png/revision/latest/scale-to-width-down/640",
     bilibiliUrl: "https://www.bilibili.com/video/BV1ur4y1R7TH",
     duration: "4:02",
     year: "2019",
@@ -276,7 +276,7 @@ export const jd2019Songs: Song[] = [
   {
     id: "49",
     title: "Milosc W Zakopanem",
-    coverImage: "/covers/jd2019/individual-49.jpg",
+    coverImage: "https://static.wikia.nocookie.net/justdance/images/7/7c/Miloscw_jd2019_gameplay_2.png/revision/latest/scale-to-width-down/640",
     bilibiliUrl: "https://www.bilibili.com/video/BV1f94y1B7zh",
     duration: "3:15",
     year: "2019",
@@ -284,7 +284,7 @@ export const jd2019Songs: Song[] = [
   {
     id: "50",
     title: "Sweet Sensation",
-    coverImage: "/covers/jd2019/individual-50.jpg",
+    coverImage: "https://static.wikia.nocookie.net/justdance/images/a/a5/Sweetsensation_jd2019_gameplay.png/revision/latest/scale-to-width-down/640",
     bilibiliUrl: "https://www.bilibili.com/video/BV1Nj411q7kC",
     duration: "3:27",
     year: "2019",
@@ -292,7 +292,7 @@ export const jd2019Songs: Song[] = [
   {
     id: "51",
     title: "Sweet Little Unforgettable Thing",
-    coverImage: "/covers/jd2019/individual-51.jpg",
+    coverImage: "https://static.wikia.nocookie.net/justdance/images/7/71/Sweetlittle_jd2019_gameplay.png/revision/latest/scale-to-width-down/640",
     bilibiliUrl: "https://www.bilibili.com/video/BV1ru4y1X7rD",
     duration: "3:24",
     year: "2019",
@@ -300,7 +300,7 @@ export const jd2019Songs: Song[] = [
   {
     id: "52",
     title: "Un Poco Loco",
-    coverImage: "/covers/jd2019/individual-52.jpg",
+    coverImage: "https://static.wikia.nocookie.net/justdance/images/9/9c/Unpocoloco_jd2019_gameplay.png/revision/latest/scale-to-width-down/640",
     bilibiliUrl: "https://www.bilibili.com/video/BV13u4y1e73a",
     duration: "2:00",
     year: "2019",
@@ -308,7 +308,7 @@ export const jd2019Songs: Song[] = [
   {
     id: "53",
     title: "TOY",
-    coverImage: "/covers/jd2019/individual-53.jpg",
+    coverImage: "https://static.wikia.nocookie.net/justdance/images/4/49/Toy_jd2019_gameplay.png/revision/latest/scale-to-width-down/640",
     bilibiliUrl: "https://www.bilibili.com/video/BV1up4y1E7TD",
     duration: "3:04",
     year: "2019",
@@ -316,7 +316,7 @@ export const jd2019Songs: Song[] = [
   {
     id: "54",
     title: "No Tears Left To Cry",
-    coverImage: "/covers/jd2019/individual-54.jpg",
+    coverImage: "https://static.wikia.nocookie.net/justdance/images/e/e9/Notearsleft_jd2019_gameplay.png/revision/latest/scale-to-width-down/640",
     bilibiliUrl: "https://www.bilibili.com/video/BV1h94y1z7tv",
     duration: "3:35",
     year: "2019",
@@ -324,7 +324,7 @@ export const jd2019Songs: Song[] = [
   {
     id: "55",
     title: "Familiar",
-    coverImage: "/covers/jd2019/individual-55.jpg",
+    coverImage: "https://static.wikia.nocookie.net/justdance/images/8/8a/Familiar_jd2019_gameplay.png/revision/latest/scale-to-width-down/640",
     bilibiliUrl: "https://www.bilibili.com/video/BV1N14y127uW",
     duration: "3:19",
     year: "2019",
@@ -332,7 +332,7 @@ export const jd2019Songs: Song[] = [
   {
     id: "56",
     title: "One Kiss",
-    coverImage: "/covers/jd2019/individual-56.jpg",
+    coverImage: "https://static.wikia.nocookie.net/justdance/images/8/8b/Onekiss_jd2019_gameplay.png/revision/latest/scale-to-width-down/640",
     bilibiliUrl: "https://www.bilibili.com/video/BV1Q8411Q7kG",
     duration: "4:01",
     year: "2019",
@@ -340,7 +340,7 @@ export const jd2019Songs: Song[] = [
   {
     id: "57",
     title: "Rave In The Grave",
-    coverImage: "/covers/jd2019/individual-57.jpg",
+    coverImage: "https://static.wikia.nocookie.net/justdance/images/9/94/Raveinthegrave_jd2019_gameplay.png/revision/latest/scale-to-width-down/640",
     bilibiliUrl: "https://www.bilibili.com/video/BV1kh4y1U7bp",
     duration: "2:44",
     year: "2019",
@@ -348,7 +348,7 @@ export const jd2019Songs: Song[] = [
   {
     id: "58",
     title: "Sangria Wine",
-    coverImage: "/covers/jd2019/individual-58.jpg",
+    coverImage: "https://static.wikia.nocookie.net/justdance/images/b/bc/Sangriawine_jd2019_gameplay.png/revision/latest/scale-to-width-down/640",
     bilibiliUrl: "https://www.bilibili.com/video/BV15N4y1o7kU",
     duration: "3:24",
     year: "2019",
@@ -356,7 +356,7 @@ export const jd2019Songs: Song[] = [
   {
     id: "59",
     title: "Calypso",
-    coverImage: "/covers/jd2019/individual-59.jpg",
+    coverImage: "https://static.wikia.nocookie.net/justdance/images/d/d4/Calypso_jd2019_gameplay.png/revision/latest/scale-to-width-down/640",
     bilibiliUrl: "https://www.bilibili.com/video/BV1rh4y1K7Pz",
     duration: "3:28",
     year: "2019",
@@ -364,7 +364,7 @@ export const jd2019Songs: Song[] = [
   {
     id: "60",
     title: "DDU-DU DDU-DU",
-    coverImage: "/covers/jd2019/individual-60.jpg",
+    coverImage: "https://static.wikia.nocookie.net/justdance/images/b/b1/Ddudu_jd2019_gameplay.png/revision/latest/scale-to-width-down/640",
     bilibiliUrl: "https://www.bilibili.com/video/BV1Az4y1g7JK",
     duration: "3:33",
     year: "2019",
@@ -372,7 +372,7 @@ export const jd2019Songs: Song[] = [
   {
     id: "61",
     title: "Obsesión",
-    coverImage: "/covers/jd2019/individual-61.jpg",
+    coverImage: "https://static.wikia.nocookie.net/justdance/images/0/00/Obsessionretake_jd2019_gameplay_1.png/revision/latest/scale-to-width-down/640",
     bilibiliUrl: "https://www.bilibili.com/video/BV1m94y1z7Gp",
     duration: "2:46",
     year: "2019",
@@ -380,7 +380,7 @@ export const jd2019Songs: Song[] = [
   {
     id: "62",
     title: "Make Me Feel",
-    coverImage: "/covers/jd2019/individual-62.jpg",
+    coverImage: "https://static.wikia.nocookie.net/justdance/images/6/69/Makemefeel_jd2019_gameplay_1.png/revision/latest/scale-to-width-down/640",
     bilibiliUrl: "https://www.bilibili.com/video/BV1zh4y1U77s",
     duration: "3:23",
     year: "2019",
@@ -388,7 +388,7 @@ export const jd2019Songs: Song[] = [
   {
     id: "63",
     title: "Hala Bel Khamis",
-    coverImage: "/covers/jd2019/individual-63.jpg",
+    coverImage: "https://static.wikia.nocookie.net/justdance/images/1/1a/Halabel_jd2019_gameplay.png/revision/latest/scale-to-width-down/640",
     bilibiliUrl: "https://www.bilibili.com/video/BV1Wt411R7tR/?p=76",
     duration: "3:14",
     year: "2019",
@@ -396,7 +396,7 @@ export const jd2019Songs: Song[] = [
   {
     id: "64",
     title: "On Ne Porte Pas De Sous-Vêtements",
-    coverImage: "/covers/jd2019/individual-64.jpg",
+    coverImage: "https://static.wikia.nocookie.net/justdance/images/0/0e/Onneportepas_jd2019_gameplay_2.png/revision/latest/scale-to-width-down/640",
     bilibiliUrl: "https://www.bilibili.com/video/BV1Wt411R7tR/?p=75",
     duration: "3:58",
     year: "2019",
@@ -404,7 +404,7 @@ export const jd2019Songs: Song[] = [
   {
     id: "65",
     title: "There Is Nothing Better In The World",
-    coverImage: "/covers/jd2019/individual-65.jpg",
+    coverImage: "https://static.wikia.nocookie.net/justdance/images/d/d5/Bremen_jd2019_gameplay_1.png/revision/latest/scale-to-width-down/640",
     bilibiliUrl: "https://www.bilibili.com/video/BV1Wt411R7tR/?p=77",
     duration: "2:24",
     year: "2019",
@@ -412,7 +412,7 @@ export const jd2019Songs: Song[] = [
   {
     id: "66",
     title: "Fire On The Floor",
-    coverImage: "/covers/jd2019/individual-66.jpg",
+    coverImage: "https://static.wikia.nocookie.net/justdance/images/f/fb/FireOnTheFloorGP.png/revision/latest/scale-to-width-down/640",
     bilibiliUrl: "https://www.bilibili.com/video/BV1Wt411R7tR/?p=35",
     duration: "3:24",
     year: "2019",
@@ -420,7 +420,7 @@ export const jd2019Songs: Song[] = [
   {
     id: "67",
     title: "Done For Me",
-    coverImage: "/covers/jd2019/individual-67.jpg",
+    coverImage: "https://static.wikia.nocookie.net/justdance/images/e/e3/Doneforme_jd2019_gameplay.png/revision/latest/scale-to-width-down/640",
     bilibiliUrl: "https://www.bilibili.com/video/BV1Wt411R7tR/?p=18",
     duration: "3:20",
     year: "2019",
@@ -428,7 +428,7 @@ export const jd2019Songs: Song[] = [
   {
     id: "69",
     title: "Medicina",
-    coverImage: "/covers/jd2019/individual-69.jpg",
+    coverImage: "https://static.wikia.nocookie.net/justdance/images/d/d6/Medicina_jd2019_gameplay.png/revision/latest/scale-to-width-down/640",
     bilibiliUrl: "https://www.bilibili.com/video/BV1iz4y1M7mM",
     duration: "2:29",
     year: "2019",
@@ -436,7 +436,7 @@ export const jd2019Songs: Song[] = [
   {
     id: "71",
     title: "Lush Life",
-    coverImage: "/covers/jd2019/individual-71.jpg",
+    coverImage: "https://static.wikia.nocookie.net/justdance/images/7/71/Lush_jd2019_gameplay_1.png/revision/latest/scale-to-width-down/640",
     bilibiliUrl: "https://www.bilibili.com/video/BV1Wt411R7tR/?p=10",
     duration: "3:26",
     year: "2019",
@@ -444,7 +444,7 @@ export const jd2019Songs: Song[] = [
   {
     id: "72",
     title: "Criminal",
-    coverImage: "/covers/jd2019/individual-72.jpg",
+    coverImage: "https://static.wikia.nocookie.net/justdance/images/2/24/Criminal_jd2019_gameplay.png/revision/latest/scale-to-width-down/640",
     bilibiliUrl: "https://www.bilibili.com/video/BV1Wt411R7tR/?p=9",
     duration: "3:28",
     year: "2019",
@@ -452,7 +452,7 @@ export const jd2019Songs: Song[] = [
   {
     id: "73",
     title: "Jump",
-    coverImage: "/covers/jd2019/individual-73.jpg",
+    coverImage: "https://static.wikia.nocookie.net/justdance/images/3/3c/Jumpmala_jd2019_gameplay.png/revision/latest/scale-to-width-down/640",
     bilibiliUrl: "https://www.bilibili.com/video/BV1Wt411R7tR/?p=7",
     duration: "3:07",
     year: "2019",
@@ -460,7 +460,7 @@ export const jd2019Songs: Song[] = [
   {
     id: "74",
     title: "Peanut Butter Jelly",
-    coverImage: "/covers/jd2019/individual-74.jpg",
+    coverImage: "https://static.wikia.nocookie.net/justdance/images/a/a3/Peanut_jd2019_gameplay.png/revision/latest/scale-to-width-down/640",
     bilibiliUrl: "https://www.bilibili.com/video/BV1Wt411R7tR/?p=6",
     duration: "3:22",
     year: "2019",
@@ -468,7 +468,7 @@ export const jd2019Songs: Song[] = [
   {
     id: "75",
     title: "You Don't Know Me",
-    coverImage: "/covers/jd2019/individual-75.jpg",
+    coverImage: "https://static.wikia.nocookie.net/justdance/images/f/fb/Dontknowme_jd2020_gameplay.png/revision/latest/scale-to-width-down/640",
     bilibiliUrl: "https://www.bilibili.com/video/BV12N411i7GE",
     duration: "3:40",
     year: "2019",
@@ -476,7 +476,7 @@ export const jd2019Songs: Song[] = [
   {
     id: "76",
     title: "Boys",
-    coverImage: "/covers/jd2019/individual-76.jpg",
+    coverImage: "https://static.wikia.nocookie.net/justdance/images/8/88/Boys_jd2020_gameplay.png/revision/latest/scale-to-width-down/640",
     bilibiliUrl: "https://www.bilibili.com/video/BV17G411d7vu",
     duration: "3:14",
     year: "2019",
@@ -484,7 +484,7 @@ export const jd2019Songs: Song[] = [
   {
     id: "77",
     title: "Mayores",
-    coverImage: "/covers/jd2019/individual-77.jpg",
+    coverImage: "https://static.wikia.nocookie.net/justdance/images/3/3d/Mayores_jd2020_gameplay.png/revision/latest/scale-to-width-down/640",
     bilibiliUrl: "https://www.bilibili.com/video/BV1aN4y1R7qC",
     duration: "3:31",
     year: "2019",

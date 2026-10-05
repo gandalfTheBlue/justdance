@@ -4,7 +4,7 @@ export const jd2026Songs: Song[] = [
   {
     id: "1",
     title: "360 - Charli xcx",
-    coverImage: "/covers/jd2026/individual-01.jpg",
+    coverImage: "https://static.wikia.nocookie.net/justdance/images/3/31/360_jdp_gameplay.jpg/revision/latest/scale-to-width-down/640",
     bilibiliUrl: "https://www.bilibili.com/video/BV1EufNBZEyG",
     duration: "2:56",
     year: "2026",
@@ -12,7 +12,7 @@ export const jd2026Songs: Song[] = [
   {
     id: "2",
     title: "Abracadabra - Lady Gaga",
-    coverImage: "/covers/jd2026/individual-02.jpg",
+    coverImage: "https://static.wikia.nocookie.net/justdance/images/3/30/Abracadabra_jd26_gameplay.png/revision/latest/scale-to-width-down/640",
     bilibiliUrl: "https://www.bilibili.com/video/BV1PoxjzzEkP",
     duration: "4:23",
     year: "2026",
@@ -20,7 +20,7 @@ export const jd2026Songs: Song[] = [
   {
     id: "3",
     title: "All Star - Smash Mouth",
-    coverImage: "/covers/jd2026/individual-03.jpg",
+    coverImage: "https://static.wikia.nocookie.net/justdance/images/e/e4/AllStar_jd2026_gameplay.png/revision/latest/scale-to-width-down/640",
     bilibiliUrl: "https://www.bilibili.com/video/BV1fVnnzdEP7",
     duration: "4:06",
     year: "2026",
@@ -28,7 +28,7 @@ export const jd2026Songs: Song[] = [
   {
     id: "4",
     title: "Anxiety - Doechii",
-    coverImage: "/covers/jd2026/individual-04.jpg",
+    coverImage: "https://static.wikia.nocookie.net/justdance/images/f/f3/Anxiety_gameplay.png/revision/latest/scale-to-width-down/640",
     bilibiliUrl: "https://www.bilibili.com/video/BV1vvxjz9EP9",
     duration: "4:51",
     year: "2026",
@@ -36,7 +36,7 @@ export const jd2026Songs: Song[] = [
   {
     id: "5",
     title: "APT. - ROSÉ & Bruno Mars",
-    coverImage: "/covers/jd2026/individual-05.jpg",
+    coverImage: "https://static.wikia.nocookie.net/justdance/images/9/96/Apt_jd26_gameplay.jpg/revision/latest/scale-to-width-down/640",
     bilibiliUrl: "https://www.bilibili.com/video/BV1arxjzSEjS",
     duration: "3:31",
     year: "2026",
@@ -44,7 +44,7 @@ export const jd2026Songs: Song[] = [
   {
     id: "6",
     title: "Azizam - Ed Sheeran",
-    coverImage: "/covers/jd2026/individual-06.jpg",
+    coverImage: "https://static.wikia.nocookie.net/justdance/images/3/3f/Azizam_gameplay.png/revision/latest/scale-to-width-down/640",
     bilibiliUrl: "https://www.bilibili.com/video/BV1fCxmzUEri",
     duration: "3:19",
     year: "2026",
@@ -52,7 +52,7 @@ export const jd2026Songs: Song[] = [
   {
     id: "7",
     title: "Big Bad Frog - Austin & Colin",
-    coverImage: "/covers/jd2026/individual-07.jpg",
+    coverImage: "https://static.wikia.nocookie.net/justdance/images/4/4a/Bigbadfrog_jd26_gameplay.jpg/revision/latest/scale-to-width-down/640",
     bilibiliUrl: "https://www.bilibili.com/video/BV1PAxJzVEA1",
     duration: "3:16",
     year: "2026",
@@ -60,7 +60,7 @@ export const jd2026Songs: Song[] = [
   {
     id: "8",
     title: "BIRDS OF A FEATHER - Billie Eilish",
-    coverImage: "/covers/jd2026/individual-08.jpg",
+    coverImage: "https://static.wikia.nocookie.net/justdance/images/0/0e/Birdsofafeather_jd26_gameplay.png/revision/latest/scale-to-width-down/640",
     bilibiliUrl: "https://www.bilibili.com/video/BV14QXhBYE5Q",
     duration: "4:14",
     year: "2026",
@@ -68,7 +68,7 @@ export const jd2026Songs: Song[] = [
   {
     id: "9",
     title: "Bluey Medley - 布鲁伊",
-    coverImage: "/covers/jd2026/individual-09.jpg",
+    coverImage: "https://static.wikia.nocookie.net/justdance/images/6/68/Bluey_jd26_gameplay.jpg/revision/latest/scale-to-width-down/640",
     bilibiliUrl: "https://www.bilibili.com/video/BV1jVx7zZEVi",
     duration: "2:58",
     year: "2026",
@@ -76,7 +76,7 @@ export const jd2026Songs: Song[] = [
   {
     id: "10",
     title: "Born to Be Alive (Reborn Version) - Patrick Hernandez",
-    coverImage: "/covers/jd2026/individual-10.jpg",
+    coverImage: "https://static.wikia.nocookie.net/justdance/images/7/7e/Borntobe_jd26_gameplay.jpg/revision/latest/scale-to-width-down/640",
     bilibiliUrl: "https://www.bilibili.com/video/BV1wKxJz3Er1",
     duration: "4:16",
     year: "2026",
@@ -84,7 +84,7 @@ export const jd2026Songs: Song[] = [
   {
     id: "11",
     title: "Chichika - MariaDennis ft. METAMAMI",
-    coverImage: "/covers/jd2026/individual-11.jpg",
+    coverImage: "https://static.wikia.nocookie.net/justdance/images/6/61/Chichika_jd26_gameplay.jpg/revision/latest/scale-to-width-down/640",
     bilibiliUrl: "https://www.bilibili.com/video/BV1Zux7z8EvT",
     duration: "3:12",
     year: "2026",
@@ -92,7 +92,7 @@ export const jd2026Songs: Song[] = [
   {
     id: "12",
     title: "Counting Stars - OneRepublic",
-    coverImage: "/covers/jd2026/individual-12.jpg",
+    coverImage: "https://static.wikia.nocookie.net/justdance/images/6/63/CountingStars_jd2026_gameplay.png/revision/latest/scale-to-width-down/640",
     bilibiliUrl: "https://www.bilibili.com/video/BV1bannzyEfk",
     duration: "5:12",
     year: "2026",
@@ -100,7 +100,7 @@ export const jd2026Songs: Song[] = [
   {
     id: "13",
     title: "Cry Baby - Melanie Martinez",
-    coverImage: "/covers/jd2026/individual-13.jpg",
+    coverImage: "https://static.wikia.nocookie.net/justdance/images/c/c2/Crybaby_jd26_gameplay.jpg/revision/latest/scale-to-width-down/640",
     bilibiliUrl: "https://www.bilibili.com/video/BV1dVx7zoEUc",
     duration: "4:42",
     year: "2026",
@@ -108,7 +108,7 @@ export const jd2026Songs: Song[] = [
   {
     id: "14",
     title: "Don Raja - Su Real & DISTORT",
-    coverImage: "/covers/jd2026/individual-14.jpg",
+    coverImage: "https://static.wikia.nocookie.net/justdance/images/9/9e/DonRaja_jd26_gameplay.png/revision/latest/scale-to-width-down/640",
     bilibiliUrl: "https://www.bilibili.com/video/BV1x5xjzMENZ",
     duration: "3:42",
     year: "2026",
@@ -116,7 +116,7 @@ export const jd2026Songs: Song[] = [
   {
     id: "15",
     title: "Don't Go Breaking My Heart - Lulu & Levon",
-    coverImage: "/covers/jd2026/individual-15.jpg",
+    coverImage: "https://static.wikia.nocookie.net/justdance/images/1/12/Dontgobreaking_jd26_gameplay.jpg/revision/latest/scale-to-width-down/640",
     bilibiliUrl: "https://www.bilibili.com/video/BV1MMxjzVEoU",
     duration: "4:42",
     year: "2026",
@@ -124,7 +124,7 @@ export const jd2026Songs: Song[] = [
   {
     id: "16",
     title: "DRIP - BABYMONSTER",
-    coverImage: "/covers/jd2026/individual-16.jpg",
+    coverImage: "https://static.wikia.nocookie.net/justdance/images/6/61/Drip_jd26_gameplay.png/revision/latest/scale-to-width-down/640",
     bilibiliUrl: "https://www.bilibili.com/video/BV1S9tgzPEPQ",
     duration: "3:41",
     year: "2026",
@@ -132,7 +132,7 @@ export const jd2026Songs: Song[] = [
   {
     id: "17",
     title: "Feather - Sabrina Carpenter",
-    coverImage: "/covers/jd2026/individual-17.jpg",
+    coverImage: "https://static.wikia.nocookie.net/justdance/images/2/25/Feather_jd26_gameplay.png/revision/latest/scale-to-width-down/640",
     bilibiliUrl: "https://www.bilibili.com/video/BV1RLx7zxEZ2",
     duration: "3:48",
     year: "2026",
@@ -140,7 +140,7 @@ export const jd2026Songs: Song[] = [
   {
     id: "18",
     title: "Folded - Kehlani",
-    coverImage: "/covers/jd2026/individual-18.jpg",
+    coverImage: "https://static.wikia.nocookie.net/justdance/images/f/f3/Folded_jd2026_gameplay.png/revision/latest/scale-to-width-down/640",
     bilibiliUrl: "https://www.bilibili.com/video/BV1UK5M63EgT",
     duration: "4:47",
     year: "2026",
@@ -148,7 +148,7 @@ export const jd2026Songs: Song[] = [
   {
     id: "19",
     title: "Girls Just Want to Have Fun - Cyndi Lauper",
-    coverImage: "/covers/jd2026/individual-19.jpg",
+    coverImage: "https://static.wikia.nocookie.net/justdance/images/7/71/Girlsjustwantnext_jd26_gameplay.jpg/revision/latest/scale-to-width-down/640",
     bilibiliUrl: "https://www.bilibili.com/video/BV1VBxjzQEq1",
     duration: "3:50",
     year: "2026",
@@ -156,7 +156,7 @@ export const jd2026Songs: Song[] = [
   {
     id: "20",
     title: "Gnarly - KATSEYE",
-    coverImage: "/covers/jd2026/individual-20.jpg",
+    coverImage: "https://static.wikia.nocookie.net/justdance/images/f/f3/Gnarly_jd2026_gameplay.png/revision/latest/scale-to-width-down/640",
     bilibiliUrl: "https://www.bilibili.com/video/BV1t2odBmEZK",
     duration: "3:01",
     year: "2026",
@@ -164,7 +164,7 @@ export const jd2026Songs: Song[] = [
   {
     id: "21",
     title: "Good Girls - Humphrey Dennis ft. Zanillya",
-    coverImage: "/covers/jd2026/individual-21.jpg",
+    coverImage: "https://static.wikia.nocookie.net/justdance/images/9/9b/Goodgirls_jd26_gameplay.jpg/revision/latest/scale-to-width-down/640",
     bilibiliUrl: "https://www.bilibili.com/video/BV17jxgzkEyn",
     duration: "3:11",
     year: "2026",
@@ -172,7 +172,7 @@ export const jd2026Songs: Song[] = [
   {
     id: "22",
     title: "Good Luck, Babe! - Chappell Roan",
-    coverImage: "/covers/jd2026/individual-22.jpg",
+    coverImage: "https://static.wikia.nocookie.net/justdance/images/3/31/Goodluckbabe_jd26_gameplay.jpg/revision/latest/scale-to-width-down/640",
     bilibiliUrl: "https://www.bilibili.com/video/BV1UjYpz1ELZ",
     duration: "4:13",
     year: "2026",
@@ -180,7 +180,7 @@ export const jd2026Songs: Song[] = [
   {
     id: "23",
     title: "Houdini - Dua Lipa",
-    coverImage: "/covers/jd2026/individual-23.jpg",
+    coverImage: "https://static.wikia.nocookie.net/justdance/images/5/52/Houdini_jd2026_gameplay.png/revision/latest/scale-to-width-down/640",
     bilibiliUrl: "https://www.bilibili.com/video/BV1u9tgzNEwN",
     duration: "3:45",
     year: "2026",
@@ -188,7 +188,7 @@ export const jd2026Songs: Song[] = [
   {
     id: "24",
     title: "Hung Up - Madonna",
-    coverImage: "/covers/jd2026/individual-24.jpg",
+    coverImage: "https://static.wikia.nocookie.net/justdance/images/b/b9/HungUp_jd2026_gameplay.png/revision/latest/scale-to-width-down/640",
     bilibiliUrl: "https://www.bilibili.com/video/BV1NJ8FzvELK",
     duration: "5:26",
     year: "2026",
@@ -196,7 +196,7 @@ export const jd2026Songs: Song[] = [
   {
     id: "25",
     title: "I Had Some Help - Post Malone ft. Morgan Wallen",
-    coverImage: "/covers/jd2026/individual-25.jpg",
+    coverImage: "https://static.wikia.nocookie.net/justdance/images/d/da/Ihadsomehelp_jd26_gameplay.jpg/revision/latest/scale-to-width-down/640",
     bilibiliUrl: "https://www.bilibili.com/video/BV1TRxEzUEBJ",
     duration: "3:40",
     year: "2026",
@@ -204,7 +204,7 @@ export const jd2026Songs: Song[] = [
   {
     id: "26",
     title: "In the End - Linkin Park",
-    coverImage: "/covers/jd2026/individual-26.jpg",
+    coverImage: "https://static.wikia.nocookie.net/justdance/images/a/a0/Intheend_gameplay.png/revision/latest/scale-to-width-down/640",
     bilibiliUrl: "https://www.bilibili.com/video/BV1hAj16dEUr",
     duration: "4:20",
     year: "2026",
@@ -212,7 +212,7 @@ export const jd2026Songs: Song[] = [
   {
     id: "27",
     title: "It's ok I'm ok - Tate McRae",
-    coverImage: "/covers/jd2026/individual-27.jpg",
+    coverImage: "https://static.wikia.nocookie.net/justdance/images/6/6a/Itsokimok_gameplay.png/revision/latest/scale-to-width-down/640",
     bilibiliUrl: "https://www.bilibili.com/video/BV1oGx7ztEU6",
     duration: "3:12",
     year: "2026",
@@ -220,7 +220,7 @@ export const jd2026Songs: Song[] = [
   {
     id: "28",
     title: "Kitipo - Dixson Waz, La Tukiti, Amenazandel",
-    coverImage: "/covers/jd2026/individual-28.jpg",
+    coverImage: "https://static.wikia.nocookie.net/justdance/images/d/d7/Kitipo_jd26_gameplay.jpg/revision/latest/scale-to-width-down/640",
     bilibiliUrl: "https://www.bilibili.com/video/BV14uxjzrEfG",
     duration: "4:13",
     year: "2026",
@@ -228,7 +228,7 @@ export const jd2026Songs: Song[] = [
   {
     id: "29",
     title: "La Bamba - The Sunlight Shakers",
-    coverImage: "/covers/jd2026/individual-29.jpg",
+    coverImage: "https://static.wikia.nocookie.net/justdance/images/8/89/Labamba_jd26_gameplay.jpg/revision/latest/scale-to-width-down/640",
     bilibiliUrl: "https://www.bilibili.com/video/BV1HuxJzuEw2",
     duration: "3:33",
     year: "2026",
@@ -236,7 +236,7 @@ export const jd2026Songs: Song[] = [
   {
     id: "30",
     title: "Louder - Don Elektron & Derek",
-    coverImage: "/covers/jd2026/individual-30.jpg",
+    coverImage: "https://static.wikia.nocookie.net/justdance/images/1/1d/Louder_jd26_gameplay.jpg/revision/latest/scale-to-width-down/640",
     bilibiliUrl: "https://www.bilibili.com/video/BV182xjzjE4T",
     duration: "2:59",
     year: "2026",
@@ -244,7 +244,7 @@ export const jd2026Songs: Song[] = [
   {
     id: "31",
     title: "Love Again - Dua Lipa",
-    coverImage: "/covers/jd2026/individual-31.jpg",
+    coverImage: "https://static.wikia.nocookie.net/justdance/images/9/94/Loveagian_jd2026_gameplay.png/revision/latest/scale-to-width-down/640",
     bilibiliUrl: "https://www.bilibili.com/video/BV1vj411c7HK",
     duration: "4:35",
     year: "2026",
@@ -252,7 +252,7 @@ export const jd2026Songs: Song[] = [
   {
     id: "32",
     title: "Messy - Lola Young",
-    coverImage: "/covers/jd2026/individual-32.jpg",
+    coverImage: "https://static.wikia.nocookie.net/justdance/images/8/8c/Messy_gameplay.png/revision/latest/scale-to-width-down/640",
     bilibiliUrl: "https://www.bilibili.com/video/BV143xjzgEb7",
     duration: "5:24",
     year: "2026",
@@ -260,7 +260,7 @@ export const jd2026Songs: Song[] = [
   {
     id: "33",
     title: "Money Pull Up - Blaiz Fayah, Dj Glad, Maureen",
-    coverImage: "/covers/jd2026/individual-33.jpg",
+    coverImage: "https://static.wikia.nocookie.net/justdance/images/6/6d/Moneypullup_jdnow_gameplay.png/revision/latest/scale-to-width-down/640",
     bilibiliUrl: "https://www.bilibili.com/video/BV1sc2bBME49",
     duration: "2:50",
     year: "2026",
@@ -268,7 +268,7 @@ export const jd2026Songs: Song[] = [
   {
     id: "34",
     title: "Moonlight - Aileen-O",
-    coverImage: "/covers/jd2026/individual-34.jpg",
+    coverImage: "https://static.wikia.nocookie.net/justdance/images/6/6a/Moonlight-gameplay.png/revision/latest/scale-to-width-down/640",
     bilibiliUrl: "https://www.bilibili.com/video/BV1puxgz7Ecq",
     duration: "3:28",
     year: "2026",
@@ -276,7 +276,7 @@ export const jd2026Songs: Song[] = [
   {
     id: "35",
     title: "Mystical Magical - Benson Boone",
-    coverImage: "/covers/jd2026/individual-35.jpg",
+    coverImage: "https://static.wikia.nocookie.net/justdance/images/5/5a/Mysticalmagical_jd2026_gameplay.png/revision/latest/scale-to-width-down/640",
     bilibiliUrl: "https://www.bilibili.com/video/BV1UP5M6kER3",
     duration: "3:31",
     year: "2026",
@@ -284,7 +284,7 @@ export const jd2026Songs: Song[] = [
   {
     id: "36",
     title: "Pop Muzik - M / Robin Scott",
-    coverImage: "/covers/jd2026/individual-36.jpg",
+    coverImage: "https://static.wikia.nocookie.net/justdance/images/d/de/Popmuzik_jd26_gameplay.jpg/revision/latest/scale-to-width-down/640",
     bilibiliUrl: "https://www.bilibili.com/video/BV1a6xjznEZS",
     duration: "4:00",
     year: "2026",
@@ -292,7 +292,7 @@ export const jd2026Songs: Song[] = [
   {
     id: "37",
     title: "Prehistorock - Ricky Stone",
-    coverImage: "/covers/jd2026/individual-37.jpg",
+    coverImage: "https://static.wikia.nocookie.net/justdance/images/a/a2/Prehistorock_jd26_gameplay.jpg/revision/latest/scale-to-width-down/640",
     bilibiliUrl: "https://www.bilibili.com/video/BV1iExJzAE8G",
     duration: "3:14",
     year: "2026",
@@ -300,7 +300,7 @@ export const jd2026Songs: Song[] = [
   {
     id: "38",
     title: "Rockin' Around the Christmas Tree - Mrs. Claus and the Elves",
-    coverImage: "/covers/jd2026/individual-38.jpg",
+    coverImage: "https://static.wikia.nocookie.net/justdance/images/3/35/Rockaround_jd26_gameplay.jpg/revision/latest/scale-to-width-down/640",
     bilibiliUrl: "https://www.bilibili.com/video/BV1jExJzAEpS",
     duration: "2:48",
     year: "2026",
@@ -308,7 +308,7 @@ export const jd2026Songs: Song[] = [
   {
     id: "39",
     title: "Say Cheese - Paul Russell",
-    coverImage: "/covers/jd2026/individual-39.jpg",
+    coverImage: "https://static.wikia.nocookie.net/justdance/images/0/02/Saycheese_jd26_gameplay.jpg/revision/latest/scale-to-width-down/640",
     bilibiliUrl: "https://www.bilibili.com/video/BV1tDxjzCEKK",
     duration: "3:12",
     year: "2026",
@@ -316,7 +316,7 @@ export const jd2026Songs: Song[] = [
   {
     id: "40",
     title: "Show Me What You Got - Boomborg",
-    coverImage: "/covers/jd2026/individual-40.jpg",
+    coverImage: "https://static.wikia.nocookie.net/justdance/images/3/33/Showmewhatyougot_gameplay.png/revision/latest/scale-to-width-down/640",
     bilibiliUrl: "https://www.bilibili.com/video/BV1gyxjzmExT",
     duration: "3:53",
     year: "2026",
@@ -324,7 +324,7 @@ export const jd2026Songs: Song[] = [
   {
     id: "41",
     title: "Sokusu - Wanko Ni Mero Mero",
-    coverImage: "/covers/jd2026/individual-41.jpg",
+    coverImage: "https://static.wikia.nocookie.net/justdance/images/6/65/Sokusu_gameplay.png/revision/latest/scale-to-width-down/640",
     bilibiliUrl: "https://www.bilibili.com/video/BV1KGxjz6EmH",
     duration: "3:55",
     year: "2026",
@@ -332,7 +332,7 @@ export const jd2026Songs: Song[] = [
   {
     id: "42",
     title: "Spin Your Love - Kevin J Simon",
-    coverImage: "/covers/jd2026/individual-42.jpg",
+    coverImage: "https://static.wikia.nocookie.net/justdance/images/7/70/Spinyourlove_jd26_gameplay.jpg/revision/latest/scale-to-width-down/640",
     bilibiliUrl: "https://www.bilibili.com/video/BV1HnxjzPEat",
     duration: "3:46",
     year: "2026",
@@ -340,7 +340,7 @@ export const jd2026Songs: Song[] = [
   {
     id: "43",
     title: "Strangers - Sigrid",
-    coverImage: "/covers/jd2026/individual-43.jpg",
+    coverImage: "https://static.wikia.nocookie.net/justdance/images/0/0d/Strangers_jd26_gameplay.jpg/revision/latest/scale-to-width-down/640",
     bilibiliUrl: "https://www.bilibili.com/video/BV1fMx7zcEZE",
     duration: "4:32",
     year: "2026",
@@ -348,7 +348,7 @@ export const jd2026Songs: Song[] = [
   {
     id: "44",
     title: "Thrift Shop - Macklemore & Ryan Lewis ft. Wanz",
-    coverImage: "/covers/jd2026/individual-44.jpg",
+    coverImage: "https://static.wikia.nocookie.net/justdance/images/7/7c/Thriftshop_jd26_gameplay.jpg/revision/latest/scale-to-width-down/640",
     bilibiliUrl: "https://www.bilibili.com/video/BV1GrxjzSEGh",
     duration: "4:41",
     year: "2026",
@@ -356,7 +356,7 @@ export const jd2026Songs: Song[] = [
   {
     id: "45",
     title: "Viva La Vida - Coldplay",
-    coverImage: "/covers/jd2026/individual-45.jpg",
+    coverImage: "https://static.wikia.nocookie.net/justdance/images/7/77/Vivalavida_jd26_gameplay.png/revision/latest/scale-to-width-down/640",
     bilibiliUrl: "https://www.bilibili.com/video/BV1ELxgzVEC5",
     duration: "4:48",
     year: "2026",
@@ -364,7 +364,7 @@ export const jd2026Songs: Song[] = [
   {
     id: "46",
     title: "Water - Tyla",
-    coverImage: "/covers/jd2026/individual-46.jpg",
+    coverImage: "https://static.wikia.nocookie.net/justdance/images/2/2f/Water_jdp_gameplay.png/revision/latest/scale-to-width-down/640",
     bilibiliUrl: "https://www.bilibili.com/video/BV1KigX6RE6j",
     duration: "4:18",
     year: "2026",
@@ -372,7 +372,7 @@ export const jd2026Songs: Song[] = [
   {
     id: "47",
     title: "We Just Begun - Stush and WOST",
-    coverImage: "/covers/jd2026/individual-47.jpg",
+    coverImage: "https://static.wikia.nocookie.net/justdance/images/c/c4/Wejustbegun_jd26_gameplay.jpg/revision/latest/scale-to-width-down/640",
     bilibiliUrl: "https://www.bilibili.com/video/BV1dExJzwE68",
     duration: "3:48",
     year: "2026",
@@ -380,7 +380,7 @@ export const jd2026Songs: Song[] = [
   {
     id: "48",
     title: "WHERE IS MY HUSBAND! - RAYE",
-    coverImage: "/covers/jd2026/individual-48.jpg",
+    coverImage: "https://static.wikia.nocookie.net/justdance/images/8/87/Whereismyhusband_gameplay.png/revision/latest/scale-to-width-down/640",
     bilibiliUrl: "https://www.bilibili.com/video/BV1DHhG6vEhx",
     duration: "3:50",
     year: "2026",
@@ -388,7 +388,7 @@ export const jd2026Songs: Song[] = [
   {
     id: "49",
     title: "World Eater - Ashnikko",
-    coverImage: "/covers/jd2026/individual-49.jpg",
+    coverImage: "https://static.wikia.nocookie.net/justdance/images/2/2c/Worldeater_jd2026_gameplay.png/revision/latest/scale-to-width-down/640",
     bilibiliUrl: "https://www.bilibili.com/video/BV1Z15T6REY8",
     duration: "3:11",
     year: "2026",
@@ -396,7 +396,7 @@ export const jd2026Songs: Song[] = [
   {
     id: "50",
     title: "Zombieboy - Lady Gaga",
-    coverImage: "/covers/jd2026/individual-50.jpg",
+    coverImage: "https://static.wikia.nocookie.net/justdance/images/f/fe/Zombieboy_jd26_gameplay.jpg/revision/latest/scale-to-width-down/640",
     bilibiliUrl: "https://www.bilibili.com/video/BV1jVx7zZETQ",
     duration: "4:17",
     year: "2026",

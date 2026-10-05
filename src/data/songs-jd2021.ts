@@ -4,7 +4,7 @@ export const jd2021Songs: Song[] = [
   {
     id: "1",
     title: "Rainbow Beats (彩虹节拍)",
-    coverImage: "/covers/jd2021/individual-01.jpg",
+    coverImage: "https://static.wikia.nocookie.net/justdance/images/3/3f/Rainbowrhythm_jd2020_gameplay_1.png/revision/latest/scale-to-width-down/640",
     bilibiliUrl: "https://www.bilibili.com/video/BV1e54y1S7PS",
     duration: "3:47",
     year: "2021",
@@ -12,7 +12,7 @@ export const jd2021Songs: Song[] = [
   {
     id: "2",
     title: "All The Stars - Kendrick Lamar Ft. SZA",
-    coverImage: "/covers/jd2021/individual-02.jpg",
+    coverImage: "https://static.wikia.nocookie.net/justdance/images/e/ef/Allthestars_jd2021_gameplay.png/revision/latest/scale-to-width-down/640",
     bilibiliUrl: "https://www.bilibili.com/video/BV175JAzuEzu",
     duration: "4:14",
     year: "2021",
@@ -20,7 +20,7 @@ export const jd2021Songs: Song[] = [
   {
     id: "3",
     title: "John Cena - Sho Madjozi",
-    coverImage: "/covers/jd2021/individual-03.jpg",
+    coverImage: "https://static.wikia.nocookie.net/justdance/images/7/72/Johncena_jd2021_gameplay.png/revision/latest/scale-to-width-down/640",
     bilibiliUrl: "https://www.bilibili.com/video/BV17LJAzBEFj",
     duration: "3:19",
     year: "2021",
@@ -28,7 +28,7 @@ export const jd2021Songs: Song[] = [
   {
     id: "4",
     title: "Intoxicated - Martin Solveig & GTA",
-    coverImage: "/covers/jd2021/individual-04.jpg",
+    coverImage: "https://static.wikia.nocookie.net/justdance/images/6/6c/Intoxicated_jd2021_gameplay.png/revision/latest/scale-to-width-down/640",
     bilibiliUrl: "https://www.bilibili.com/video/BV1NFJAzSEUC",
     duration: "3:36",
     year: "2021",
@@ -36,7 +36,7 @@ export const jd2021Songs: Song[] = [
   {
     id: "5",
     title: "Head And Heart - Joel Corry & MNEK",
-    coverImage: "/covers/jd2021/individual-05.jpg",
+    coverImage: "https://static.wikia.nocookie.net/justdance/images/8/88/Headandheart_jd2021_gameplay.png/revision/latest/scale-to-width-down/640",
     bilibiliUrl: "https://www.bilibili.com/video/BV12oJwzDEyd",
     duration: "3:03",
     year: "2021",
@@ -44,7 +44,7 @@ export const jd2021Songs: Song[] = [
   {
     id: "6",
     title: "Come Back Home - 2NE1",
-    coverImage: "/covers/jd2021/individual-06.jpg",
+    coverImage: "https://static.wikia.nocookie.net/justdance/images/e/ef/Comebackhome_jd2021_gameplay.png/revision/latest/scale-to-width-down/640",
     bilibiliUrl: "https://www.bilibili.com/video/BV1kNJAzLEy2",
     duration: "4:08",
     year: "2021",
@@ -52,7 +52,7 @@ export const jd2021Songs: Song[] = [
   {
     id: "7",
     title: "The Way I Are - Timbaland ft. Keri Hilson, D.O.E., Sebastian",
-    coverImage: "/covers/jd2021/individual-07.jpg",
+    coverImage: "https://static.wikia.nocookie.net/justdance/images/5/54/Thewayiare_jd2021_gameplay.png/revision/latest/scale-to-width-down/640",
     bilibiliUrl: "https://www.bilibili.com/video/BV1swJAz7Egq",
     duration: "3:20",
     year: "2021",
@@ -60,7 +60,7 @@ export const jd2021Songs: Song[] = [
   {
     id: "8",
     title: "Monster - EXO",
-    coverImage: "/covers/jd2021/individual-08.jpg",
+    coverImage: "https://static.wikia.nocookie.net/justdance/images/1/19/Monster_jd2021_gameplay.png/revision/latest/scale-to-width-down/640",
     bilibiliUrl: "https://www.bilibili.com/video/BV1PuVozDEFV",
     duration: "4:01",
     year: "2021",
@@ -68,7 +68,7 @@ export const jd2021Songs: Song[] = [
   {
     id: "9",
     title: "Girls Like - Tinie Tempah ft. Zara Larsson",
-    coverImage: "/covers/jd2021/individual-09.jpg",
+    coverImage: "https://static.wikia.nocookie.net/justdance/images/6/6b/Girlslike_jd2021_gameplay.png/revision/latest/scale-to-width-down/640",
     bilibiliUrl: "https://www.bilibili.com/video/BV1XQVdzwEkN",
     duration: "3:34",
     year: "2021",
@@ -76,7 +76,7 @@ export const jd2021Songs: Song[] = [
   {
     id: "10",
     title: "Stupid Love - Lady Gaga",
-    coverImage: "/covers/jd2021/individual-10.jpg",
+    coverImage: "https://static.wikia.nocookie.net/justdance/images/2/23/Stupidlove_jd2021_gameplay.png/revision/latest/scale-to-width-down/640",
     bilibiliUrl: "https://www.bilibili.com/video/BV1mFVozdEfQ",
     duration: "3:31",
     year: "2021",
@@ -84,7 +84,7 @@ export const jd2021Songs: Song[] = [
   {
     id: "11",
     title: "Tusa - Karol G ft. Nicki Minaj",
-    coverImage: "/covers/jd2021/individual-11.jpg",
+    coverImage: "https://static.wikia.nocookie.net/justdance/images/d/d8/Tusa_jd2021_gameplay.png/revision/latest/scale-to-width-down/640",
     bilibiliUrl: "https://www.bilibili.com/video/BV1SoVdzZEnQ",
     duration: "3:27",
     year: "2021",
@@ -92,7 +92,7 @@ export const jd2021Songs: Song[] = [
   {
     id: "12",
     title: "U.S.A. - DA PUMP",
-    coverImage: "/covers/jd2021/individual-12.jpg",
+    coverImage: "https://static.wikia.nocookie.net/justdance/images/f/f2/Usa_jd2021_gameplay.png/revision/latest/scale-to-width-down/640",
     bilibiliUrl: "https://www.bilibili.com/video/BV1UQdaYXE6j",
     duration: "3:56",
     year: "2021",
@@ -100,7 +100,7 @@ export const jd2021Songs: Song[] = [
   {
     id: "13",
     title: "Flash (Just Dance Version) - Bilal Hassani",
-    coverImage: "/covers/jd2021/individual-13.jpg",
+    coverImage: "https://static.wikia.nocookie.net/justdance/images/5/58/Flash_jd2021_gameplay.png/revision/latest/scale-to-width-down/640",
     bilibiliUrl: "https://www.bilibili.com/video/BV16JXXYsE83",
     duration: "2:50",
     year: "2021",
@@ -108,7 +108,7 @@ export const jd2021Songs: Song[] = [
   {
     id: "14",
     title: "Dans van de Farao - K3",
-    coverImage: "/covers/jd2021/individual-14.jpg",
+    coverImage: "https://static.wikia.nocookie.net/justdance/images/f/f0/Dansvandefarao_jd2021_gameplay.png/revision/latest/scale-to-width-down/640",
     bilibiliUrl: "https://www.bilibili.com/video/BV1YsPTeyEDu",
     duration: "3:41",
     year: "2021",
@@ -116,7 +116,7 @@ export const jd2021Songs: Song[] = [
   {
     id: "15",
     title: "Juice (VIP制作版)",
-    coverImage: "/covers/jd2021/individual-15.jpg",
+    coverImage: "https://static.wikia.nocookie.net/justdance/images/6/60/Juicevip_jd2021_gameplay.png/revision/latest/scale-to-width-down/640",
     bilibiliUrl: "https://www.bilibili.com/video/BV1DyQUYZEHd",
     duration: "3:32",
     year: "2021",
@@ -124,7 +124,7 @@ export const jd2021Songs: Song[] = [
   {
     id: "16",
     title: "DRUM GO DUM - KDA ft. Aluna, Wolftyla, Bekuh BOOM",
-    coverImage: "/covers/jd2021/individual-16.jpg",
+    coverImage: "https://static.wikia.nocookie.net/justdance/images/3/38/KDance_gameplay.png/revision/latest/scale-to-width-down/640",
     bilibiliUrl: "https://www.bilibili.com/video/BV1VhVoziEhE",
     duration: "3:44",
     year: "2021",
@@ -132,7 +132,7 @@ export const jd2021Songs: Song[] = [
   {
     id: "17",
     title: "Adore You - Harry Styles",
-    coverImage: "/covers/jd2021/individual-17.jpg",
+    coverImage: "https://static.wikia.nocookie.net/justdance/images/a/ac/Adoreyou_jd2021_gameplay.png/revision/latest/scale-to-width-down/640",
     bilibiliUrl: "https://www.bilibili.com/video/BV1WsN5eDEEw",
     duration: "3:50",
     year: "2021",
@@ -140,7 +140,7 @@ export const jd2021Songs: Song[] = [
   {
     id: "18",
     title: "ALEXANDRIE ALEXANDRA - JEROME FRANCIS",
-    coverImage: "/covers/jd2021/individual-18.jpg",
+    coverImage: "https://static.wikia.nocookie.net/justdance/images/c/ce/Alexandrie_jd2021_gameplay.png/revision/latest/scale-to-width-down/640",
     bilibiliUrl: "https://www.bilibili.com/video/BV1r8N5e7EYR",
     duration: "4:10",
     year: "2021",
@@ -148,7 +148,7 @@ export const jd2021Songs: Song[] = [
   {
     id: "19",
     title: "all the good girls go to hell - Billie Eilish",
-    coverImage: "/covers/jd2021/individual-19.jpg",
+    coverImage: "https://static.wikia.nocookie.net/justdance/images/d/dc/Allthegoodgirls_jd2021_gameplay.png/revision/latest/scale-to-width-down/640",
     bilibiliUrl: "https://www.bilibili.com/video/BV1xnN5eWEZX",
     duration: "3:09",
     year: "2021",
@@ -156,7 +156,7 @@ export const jd2021Songs: Song[] = [
   {
     id: "20",
     title: "Bailando - Paradisio Ft. Dj Patrick Samoy",
-    coverImage: "/covers/jd2021/individual-20.jpg",
+    coverImage: "https://static.wikia.nocookie.net/justdance/images/4/40/Bailandoparadisio_jd2021_gameplay.png/revision/latest/scale-to-width-down/640",
     bilibiliUrl: "https://www.bilibili.com/video/BV1WWN5eHERg",
     duration: "3:50",
     year: "2021",
@@ -164,7 +164,7 @@ export const jd2021Songs: Song[] = [
   {
     id: "21",
     title: "Blinding Lights - The Weeknd",
-    coverImage: "/covers/jd2021/individual-21.jpg",
+    coverImage: "https://static.wikia.nocookie.net/justdance/images/0/0b/Blindinglights_jd2021_gameplay.png/revision/latest/scale-to-width-down/640",
     bilibiliUrl: "https://www.bilibili.com/video/BV1xHN5eXE3j",
     duration: "3:48",
     year: "2021",
@@ -172,7 +172,7 @@ export const jd2021Songs: Song[] = [
   {
     id: "22",
     title: "Blinding Lights (极限版)",
-    coverImage: "/covers/jd2021/individual-22.jpg",
+    coverImage: "https://static.wikia.nocookie.net/justdance/images/2/2c/Blindinglightsalt_jd2021_gameplay.png/revision/latest/scale-to-width-down/640",
     bilibiliUrl: "https://www.bilibili.com/video/BV1DjAPebEG5",
     duration: "3:40",
     year: "2021",
@@ -180,7 +180,7 @@ export const jd2021Songs: Song[] = [
   {
     id: "23",
     title: "Boy, You Can Keep It - Alex Newell",
-    coverImage: "/covers/jd2021/individual-23.jpg",
+    coverImage: "https://static.wikia.nocookie.net/justdance/images/1/14/Boyyoucan_jd2021_gameplay.png/revision/latest/scale-to-width-down/640",
     bilibiliUrl: "https://www.bilibili.com/video/BV1UJAPe4Eq1",
     duration: "2:49",
     year: "2021",
@@ -188,7 +188,7 @@ export const jd2021Songs: Song[] = [
   {
     id: "24",
     title: "Buscando - GTA & Jenn Morel",
-    coverImage: "/covers/jd2021/individual-24.jpg",
+    coverImage: "https://static.wikia.nocookie.net/justdance/images/9/92/Buscando_gameplay.png/revision/latest/scale-to-width-down/640",
     bilibiliUrl: "https://www.bilibili.com/video/BV1S7APeZES1",
     duration: "4:05",
     year: "2021",
@@ -196,7 +196,7 @@ export const jd2021Songs: Song[] = [
   {
     id: "25",
     title: "Buscando (极限版)",
-    coverImage: "/covers/jd2021/individual-25.jpg",
+    coverImage: "https://static.wikia.nocookie.net/justdance/images/0/0b/Buscandoalt_jd2021_gameplay.png/revision/latest/scale-to-width-down/640",
     bilibiliUrl: "https://www.bilibili.com/video/BV1euAPePEiB",
     duration: "4:05",
     year: "2021",
@@ -204,7 +204,7 @@ export const jd2021Songs: Song[] = [
   {
     id: "26",
     title: "Dance Monkey - Tones And I",
-    coverImage: "/covers/jd2021/individual-26.jpg",
+    coverImage: "https://static.wikia.nocookie.net/justdance/images/7/73/Dancemonkey_jd2021_gameplay.png/revision/latest/scale-to-width-down/640",
     bilibiliUrl: "https://www.bilibili.com/video/BV1hVAPehEvn",
     duration: "3:51",
     year: "2021",
@@ -212,7 +212,7 @@ export const jd2021Songs: Song[] = [
   {
     id: "27",
     title: "Dibby Dibby Sound - DJ Fresh & Jay Fay Ft. Ms Dynamite",
-    coverImage: "/covers/jd2021/individual-27.jpg",
+    coverImage: "https://static.wikia.nocookie.net/justdance/images/e/ed/Dibbydibby_jd2021_gameplay.png/revision/latest/scale-to-width-down/640",
     bilibiliUrl: "https://www.bilibili.com/video/BV19WPTe5EtC",
     duration: "3:31",
     year: "2021",
@@ -220,7 +220,7 @@ export const jd2021Songs: Song[] = [
   {
     id: "28",
     title: "Don't Start Now - Dua Lipa",
-    coverImage: "/covers/jd2021/individual-28.jpg",
+    coverImage: "https://static.wikia.nocookie.net/justdance/images/8/89/Dontstartnow_jd2021_gameplay.png/revision/latest/scale-to-width-down/640",
     bilibiliUrl: "https://www.bilibili.com/video/BV1X4PTeGEKg",
     duration: "3:23",
     year: "2021",
@@ -228,7 +228,7 @@ export const jd2021Songs: Song[] = [
   {
     id: "29",
     title: "Don't Start Now (极限版)",
-    coverImage: "/covers/jd2021/individual-29.jpg",
+    coverImage: "https://static.wikia.nocookie.net/justdance/images/a/a7/Dontstartalt_jd2021_gameplay.png/revision/latest/scale-to-width-down/640",
     bilibiliUrl: "https://www.bilibili.com/video/BV177PTeJEuZ",
     duration: "3:21",
     year: "2021",
@@ -236,7 +236,7 @@ export const jd2021Songs: Song[] = [
   {
     id: "30",
     title: "Feel Special - TWICE",
-    coverImage: "/covers/jd2021/individual-30.jpg",
+    coverImage: "https://static.wikia.nocookie.net/justdance/images/8/87/Feelspecial_jd2021_gameplay.png/revision/latest/scale-to-width-down/640",
     bilibiliUrl: "https://www.bilibili.com/video/BV15HPTe2Eks",
     duration: "3:47",
     year: "2021",
@@ -244,7 +244,7 @@ export const jd2021Songs: Song[] = [
   {
     id: "31",
     title: "Feel Special (极限版)",
-    coverImage: "/covers/jd2021/individual-31.jpg",
+    coverImage: "https://static.wikia.nocookie.net/justdance/images/a/a2/FeelspecialALT_gameplay.png/revision/latest/scale-to-width-down/640",
     bilibiliUrl: "https://www.bilibili.com/video/BV1wjXXYtEjC",
     duration: "3:45",
     year: "2021",
@@ -252,7 +252,7 @@ export const jd2021Songs: Song[] = [
   {
     id: "32",
     title: "Georgia - Tiggs Da Author",
-    coverImage: "/covers/jd2021/individual-32.jpg",
+    coverImage: "https://static.wikia.nocookie.net/justdance/images/e/e2/Georgia_jd2021_gameplay.png/revision/latest/scale-to-width-down/640",
     bilibiliUrl: "https://www.bilibili.com/video/BV1evXXY5EAb",
     duration: "3:34",
     year: "2021",
@@ -260,7 +260,7 @@ export const jd2021Songs: Song[] = [
   {
     id: "33",
     title: "Get Get Down - Paul Johnson",
-    coverImage: "/covers/jd2021/individual-33.jpg",
+    coverImage: "https://static.wikia.nocookie.net/justdance/images/4/4d/Getgetdown_jd2021_gameplay.png/revision/latest/scale-to-width-down/640",
     bilibiliUrl: "https://www.bilibili.com/video/BV1hBXXYGECM",
     duration: "3:17",
     year: "2021",
@@ -268,7 +268,7 @@ export const jd2021Songs: Song[] = [
   {
     id: "34",
     title: "Heat Seeker - DREAMERS",
-    coverImage: "/covers/jd2021/individual-34.jpg",
+    coverImage: "https://static.wikia.nocookie.net/justdance/images/e/e5/Heatseeker_jd2021_gameplay.png/revision/latest/scale-to-width-down/640",
     bilibiliUrl: "https://www.bilibili.com/video/BV1aiXXYCE4R",
     duration: "3:17",
     year: "2021",
@@ -276,7 +276,7 @@ export const jd2021Songs: Song[] = [
   {
     id: "35",
     title: "Ice Cream - BLACKPINK x Selena Gomez",
-    coverImage: "/covers/jd2021/individual-35.jpg",
+    coverImage: "https://static.wikia.nocookie.net/justdance/images/8/8c/Icecream_jd2021_gameplay.png/revision/latest/scale-to-width-down/640",
     bilibiliUrl: "https://www.bilibili.com/video/BV1UxRpYdEsZ",
     duration: "3:24",
     year: "2021",
@@ -284,7 +284,7 @@ export const jd2021Songs: Song[] = [
   {
     id: "36",
     title: "In The Navy - The Sunlight Shakers",
-    coverImage: "/covers/jd2021/individual-36.jpg",
+    coverImage: "https://static.wikia.nocookie.net/justdance/images/f/f4/Inthenavy_jd2021_gameplay.png/revision/latest/scale-to-width-down/640",
     bilibiliUrl: "https://www.bilibili.com/video/BV1HrRpY1EKc",
     duration: "3:54",
     year: "2021",
@@ -292,7 +292,7 @@ export const jd2021Songs: Song[] = [
   {
     id: "37",
     title: "Joone Khodet - Black Cats",
-    coverImage: "/covers/jd2021/individual-37.jpg",
+    coverImage: "https://static.wikia.nocookie.net/justdance/images/8/8e/Joone_jd2021_gameplay.png/revision/latest/scale-to-width-down/640",
     bilibiliUrl: "https://www.bilibili.com/video/BV1H6RpYjEWW",
     duration: "3:32",
     year: "2021",
@@ -300,7 +300,7 @@ export const jd2021Songs: Song[] = [
   {
     id: "38",
     title: "Juice - Lizzo",
-    coverImage: "/covers/jd2021/individual-38.jpg",
+    coverImage: "https://static.wikia.nocookie.net/justdance/images/8/8e/Juice_jd2021_gameplay.png/revision/latest/scale-to-width-down/640",
     bilibiliUrl: "https://www.bilibili.com/video/BV1JCRpY5Efn",
     duration: "3:34",
     year: "2021",
@@ -308,7 +308,7 @@ export const jd2021Songs: Song[] = [
   {
     id: "39",
     title: "Juice (美味版本)",
-    coverImage: "/covers/jd2021/individual-39.jpg",
+    coverImage: "https://static.wikia.nocookie.net/justdance/images/6/6b/Juicealt_jd2021_gameplay.png/revision/latest/scale-to-width-down/640",
     bilibiliUrl: "https://www.bilibili.com/video/BV1svRpYSEi3",
     duration: "3:36",
     year: "2021",
@@ -316,7 +316,7 @@ export const jd2021Songs: Song[] = [
   {
     id: "40",
     title: "Kick It - NCT 127",
-    coverImage: "/covers/jd2021/individual-40.jpg",
+    coverImage: "https://static.wikia.nocookie.net/justdance/images/d/de/Kickit_jd2021_gameplay.png/revision/latest/scale-to-width-down/640",
     bilibiliUrl: "https://www.bilibili.com/video/BV123QUYnEkW",
     duration: "3:56",
     year: "2021",
@@ -324,7 +324,7 @@ export const jd2021Songs: Song[] = [
   {
     id: "41",
     title: "Kick It (极限版)",
-    coverImage: "/covers/jd2021/individual-41.jpg",
+    coverImage: "https://static.wikia.nocookie.net/justdance/images/8/89/Kickitalt_jd2021_gameplay.png/revision/latest/scale-to-width-down/640",
     bilibiliUrl: "https://www.bilibili.com/video/BV17SQmYiE59",
     duration: "3:54",
     year: "2021",
@@ -332,7 +332,7 @@ export const jd2021Songs: Song[] = [
   {
     id: "42",
     title: "Kulikitaka - Tono Rosario",
-    coverImage: "/covers/jd2021/individual-42.jpg",
+    coverImage: "https://static.wikia.nocookie.net/justdance/images/b/b8/Kuliki_jd2021_gameplay.png/revision/latest/scale-to-width-down/640",
     bilibiliUrl: "https://www.bilibili.com/video/BV1XfQmYbEdA",
     duration: "3:22",
     year: "2021",
@@ -340,7 +340,7 @@ export const jd2021Songs: Song[] = [
   {
     id: "43",
     title: "Lacrimosa - Apashe",
-    coverImage: "/covers/jd2021/individual-43.jpg",
+    coverImage: "https://static.wikia.nocookie.net/justdance/images/f/fb/Lacrimosa_jd2021_gameplay.png/revision/latest/scale-to-width-down/640",
     bilibiliUrl: "https://www.bilibili.com/video/BV1gAQUYoEvM",
     duration: "4:06",
     year: "2021",
@@ -348,7 +348,7 @@ export const jd2021Songs: Song[] = [
   {
     id: "44",
     title: "Magenta Riddim - DJ Snake",
-    coverImage: "/covers/jd2021/individual-44.jpg",
+    coverImage: "https://static.wikia.nocookie.net/justdance/images/b/be/Magentariddim_jd2021_gameplay.png/revision/latest/scale-to-width-down/640",
     bilibiliUrl: "https://www.bilibili.com/video/BV1UhXYYLEwH",
     duration: "3:31",
     year: "2021",
@@ -356,7 +356,7 @@ export const jd2021Songs: Song[] = [
   {
     id: "45",
     title: "Paca Dance - The Just Dance Band",
-    coverImage: "/covers/jd2021/individual-45.jpg",
+    coverImage: "https://static.wikia.nocookie.net/justdance/images/7/75/Pacadance_jd2021_gameplay.png/revision/latest/scale-to-width-down/640",
     bilibiliUrl: "https://www.bilibili.com/video/BV1zSXYYAE4Q",
     duration: "3:06",
     year: "2021",
@@ -364,7 +364,7 @@ export const jd2021Songs: Song[] = [
   {
     id: "46",
     title: "Que Tire Pa Lante - Daddy Yankee",
-    coverImage: "/covers/jd2021/individual-46.jpg",
+    coverImage: "https://static.wikia.nocookie.net/justdance/images/3/3f/Quetirepalante_jd2021_gameplay.png/revision/latest/scale-to-width-down/640",
     bilibiliUrl: "https://www.bilibili.com/video/BV1CBXYY6EyT",
     duration: "3:50",
     year: "2021",
@@ -372,7 +372,7 @@ export const jd2021Songs: Song[] = [
   {
     id: "47",
     title: "Rare - Selena Gomez",
-    coverImage: "/covers/jd2021/individual-47.jpg",
+    coverImage: "https://static.wikia.nocookie.net/justdance/images/9/9d/Rare_jd2021_gameplay.png/revision/latest/scale-to-width-down/640",
     bilibiliUrl: "https://www.bilibili.com/video/BV1CrXYYBEwC",
     duration: "4:04",
     year: "2021",
@@ -380,7 +380,7 @@ export const jd2021Songs: Song[] = [
   {
     id: "48",
     title: "Rain On Me - Lady Gaga & Ariana Grande",
-    coverImage: "/covers/jd2021/individual-48.jpg",
+    coverImage: "https://static.wikia.nocookie.net/justdance/images/a/ae/Rainonme_jd2021_gameplay.png/revision/latest/scale-to-width-down/640",
     bilibiliUrl: "https://www.bilibili.com/video/BV1wCXYYMEnF",
     duration: "3:29",
     year: "2021",
@@ -388,7 +388,7 @@ export const jd2021Songs: Song[] = [
   {
     id: "49",
     title: "Rare (童话版本)",
-    coverImage: "/covers/jd2021/individual-49.jpg",
+    coverImage: "https://static.wikia.nocookie.net/justdance/images/8/87/Rarealt_jd2021_gameplay.png/revision/latest/scale-to-width-down/640",
     bilibiliUrl: "https://www.bilibili.com/video/BV1QaZPYSE5T",
     duration: "4:03",
     year: "2021",
@@ -396,7 +396,7 @@ export const jd2021Songs: Song[] = [
   {
     id: "50",
     title: "Runaway (U & I) - Galantis",
-    coverImage: "/covers/jd2021/individual-50.jpg",
+    coverImage: "https://static.wikia.nocookie.net/justdance/images/7/7a/Runaway_jd2021_gameplay.png/revision/latest/scale-to-width-down/640",
     bilibiliUrl: "https://www.bilibili.com/video/BV19tZPYpE5Q",
     duration: "4:05",
     year: "2021",
@@ -404,7 +404,7 @@ export const jd2021Songs: Song[] = [
   {
     id: "51",
     title: "Samba de Janeiro - Ultraclub 90",
-    coverImage: "/covers/jd2021/individual-51.jpg",
+    coverImage: "https://static.wikia.nocookie.net/justdance/images/0/09/Sambadejaneiro_jd2021_gameplay.png/revision/latest/scale-to-width-down/640",
     bilibiliUrl: "https://www.bilibili.com/video/BV1g9ZAY2Ejv",
     duration: "3:08",
     year: "2021",
@@ -412,7 +412,7 @@ export const jd2021Songs: Song[] = [
   {
     id: "52",
     title: "Samba de Janeiro (桑巴版本)",
-    coverImage: "/covers/jd2021/individual-52.jpg",
+    coverImage: "https://static.wikia.nocookie.net/justdance/images/e/e3/Sambadejaneiroalt_jd2021_gameplay.png/revision/latest/scale-to-width-down/640",
     bilibiliUrl: "https://www.bilibili.com/video/BV1SoZAYyEHQ",
     duration: "3:06",
     year: "2021",
@@ -420,7 +420,7 @@ export const jd2021Songs: Song[] = [
   {
     id: "53",
     title: "Say So - Doja Cat",
-    coverImage: "/covers/jd2021/individual-53.jpg",
+    coverImage: "https://static.wikia.nocookie.net/justdance/images/7/78/Sayso_jd2021_gameplay.png/revision/latest/scale-to-width-down/640",
     bilibiliUrl: "https://www.bilibili.com/video/BV1bdZAYLEmT",
     duration: "3:42",
     year: "2021",
@@ -428,7 +428,7 @@ export const jd2021Songs: Song[] = [
   {
     id: "54",
     title: "Senorita - Shawn Mendes & Camila Cabello",
-    coverImage: "/covers/jd2021/individual-54.jpg",
+    coverImage: "https://static.wikia.nocookie.net/justdance/images/3/3d/Senorita_jd2021_gameplay.png/revision/latest/scale-to-width-down/640",
     bilibiliUrl: "https://www.bilibili.com/video/BV1WBRoY1EeZ",
     duration: "3:32",
     year: "2021",
@@ -436,7 +436,7 @@ export const jd2021Songs: Song[] = [
   {
     id: "55",
     title: "Temperature - Sean Paul",
-    coverImage: "/covers/jd2021/individual-55.jpg",
+    coverImage: "https://static.wikia.nocookie.net/justdance/images/b/b5/Temperature_jd2021_gameplay.png/revision/latest/scale-to-width-down/640",
     bilibiliUrl: "https://www.bilibili.com/video/BV14hRoYnEyz",
     duration: "3:57",
     year: "2021",
@@ -444,7 +444,7 @@ export const jd2021Songs: Song[] = [
   {
     id: "56",
     title: "Temperature (极限版)",
-    coverImage: "/covers/jd2021/individual-56.jpg",
+    coverImage: "https://static.wikia.nocookie.net/justdance/images/3/38/Temperaturealt_jd2021_gameplay.png/revision/latest/scale-to-width-down/640",
     bilibiliUrl: "https://www.bilibili.com/video/BV1xeRoYEESi",
     duration: "3:58",
     year: "2021",
@@ -452,7 +452,7 @@ export const jd2021Songs: Song[] = [
   {
     id: "57",
     title: "The Other Side (from Trolls World Tour) - SZA & Justin Timberlake",
-    coverImage: "/covers/jd2021/individual-57.jpg",
+    coverImage: "https://static.wikia.nocookie.net/justdance/images/6/64/Othersidesza_jd2021_gameplay.png/revision/latest/scale-to-width-down/640",
     bilibiliUrl: "https://www.bilibili.com/video/BV1ESRoYMEMH",
     duration: "3:28",
     year: "2021",
@@ -460,7 +460,7 @@ export const jd2021Songs: Song[] = [
   {
     id: "58",
     title: "The Weekend - Michael Gray",
-    coverImage: "/covers/jd2021/individual-58.jpg",
+    coverImage: "https://static.wikia.nocookie.net/justdance/images/6/64/Theweekend_jd2021_gameplay.png/revision/latest/scale-to-width-down/640",
     bilibiliUrl: "https://www.bilibili.com/video/BV1JmRoYzE3m",
     duration: "3:31",
     year: "2021",
@@ -468,7 +468,7 @@ export const jd2021Songs: Song[] = [
   {
     id: "59",
     title: "Till The World Ends - The Girly Team",
-    coverImage: "/covers/jd2021/individual-59.jpg",
+    coverImage: "https://static.wikia.nocookie.net/justdance/images/8/8c/Tilltheworldends_jd2021_gameplay.png/revision/latest/scale-to-width-down/640",
     bilibiliUrl: "https://www.bilibili.com/video/BV12ZdaYUEAX",
     duration: "3:45",
     year: "2021",
@@ -476,7 +476,7 @@ export const jd2021Songs: Song[] = [
   {
     id: "60",
     title: "Till The World Ends (极限版)",
-    coverImage: "/covers/jd2021/individual-60.jpg",
+    coverImage: "https://static.wikia.nocookie.net/justdance/images/6/67/Tilltheworldendsalt_jd2021_gameplay.png/revision/latest/scale-to-width-down/640",
     bilibiliUrl: "https://www.bilibili.com/video/BV1ycdYY2End",
     duration: "3:45",
     year: "2021",
@@ -484,7 +484,7 @@ export const jd2021Songs: Song[] = [
   {
     id: "61",
     title: "UNO - Little Big",
-    coverImage: "/covers/jd2021/individual-61.jpg",
+    coverImage: "https://static.wikia.nocookie.net/justdance/images/1/14/Uno_jd2021_gameplay.png/revision/latest/scale-to-width-down/640",
     bilibiliUrl: "https://www.bilibili.com/video/BV1MRdaYQETx",
     duration: "2:57",
     year: "2021",
@@ -492,7 +492,7 @@ export const jd2021Songs: Song[] = [
   {
     id: "62",
     title: "Volar - Lele Pons Ft. Susan Diaz and Victor Cardenas",
-    coverImage: "/covers/jd2021/individual-62.jpg",
+    coverImage: "https://static.wikia.nocookie.net/justdance/images/e/ef/Volar_jd2021_gameplay.png/revision/latest/scale-to-width-down/640",
     bilibiliUrl: "https://www.bilibili.com/video/BV1M9daYpEWM",
     duration: "3:22",
     year: "2021",
@@ -500,7 +500,7 @@ export const jd2021Songs: Song[] = [
   {
     id: "63",
     title: "Without Me - Eminem",
-    coverImage: "/covers/jd2021/individual-63.jpg",
+    coverImage: "https://static.wikia.nocookie.net/justdance/images/0/0a/WithoutMe_gameplay.png/revision/latest/scale-to-width-down/640",
     bilibiliUrl: "https://www.bilibili.com/video/BV18t5sz3EDn",
     duration: "4:38",
     year: "2021",
@@ -508,7 +508,7 @@ export const jd2021Songs: Song[] = [
   {
     id: "64",
     title: "Without Me (极限版)",
-    coverImage: "/covers/jd2021/individual-64.jpg",
+    coverImage: "https://static.wikia.nocookie.net/justdance/images/a/a2/Withoutmealt_jd2021_gameplay.png/revision/latest/scale-to-width-down/640",
     bilibiliUrl: "https://www.bilibili.com/video/BV18b5sz6EuK",
     duration: "4:41",
     year: "2021",
@@ -516,7 +516,7 @@ export const jd2021Songs: Song[] = [
   {
     id: "65",
     title: "Yameen Yasar - DJ Absi",
-    coverImage: "/covers/jd2021/individual-65.jpg",
+    coverImage: "https://static.wikia.nocookie.net/justdance/images/5/50/Yameenyasar_jd2021_gameplay.png/revision/latest/scale-to-width-down/640",
     bilibiliUrl: "https://www.bilibili.com/video/BV1335tzDENk",
     duration: "3:41",
     year: "2021",
@@ -524,7 +524,7 @@ export const jd2021Songs: Song[] = [
   {
     id: "66",
     title: "Yameen Yasar (极限版)",
-    coverImage: "/covers/jd2021/individual-66.jpg",
+    coverImage: "https://static.wikia.nocookie.net/justdance/images/6/60/Yameenyasaralt_jd2021_gameplay.png/revision/latest/scale-to-width-down/640",
     bilibiliUrl: "https://www.bilibili.com/video/BV1u55tzmEpa",
     duration: "3:37",
     year: "2021",
@@ -532,7 +532,7 @@ export const jd2021Songs: Song[] = [
   {
     id: "67",
     title: "YO LE LLEGO - J Balvin, Bad Bunny",
-    coverImage: "/covers/jd2021/individual-67.jpg",
+    coverImage: "https://static.wikia.nocookie.net/justdance/images/7/7a/Yolellego_jd2021_gameplay.png/revision/latest/scale-to-width-down/640",
     bilibiliUrl: "https://www.bilibili.com/video/BV1VT5tzpEAd",
     duration: "4:05",
     year: "2021",
@@ -540,7 +540,7 @@ export const jd2021Songs: Song[] = [
   {
     id: "68",
     title: "You've Got A Friend In Me - Disney Pixar's Toy Story",
-    coverImage: "/covers/jd2021/individual-68.jpg",
+    coverImage: "https://static.wikia.nocookie.net/justdance/images/5/55/Friendinme_jd2021_gameplay.png/revision/latest/scale-to-width-down/640",
     bilibiliUrl: "https://www.bilibili.com/video/BV1SvLZzBERk",
     duration: "2:28",
     year: "2021",
@@ -548,7 +548,7 @@ export const jd2021Songs: Song[] = [
   {
     id: "69",
     title: "Zenit - ONUKA",
-    coverImage: "/covers/jd2021/individual-69.jpg",
+    coverImage: "https://static.wikia.nocookie.net/justdance/images/0/01/Zenit_jd2021_gameplay.png/revision/latest/scale-to-width-down/640",
     bilibiliUrl: "https://www.bilibili.com/video/BV1wiLBzTEQB",
     duration: "4:12",
     year: "2021",
