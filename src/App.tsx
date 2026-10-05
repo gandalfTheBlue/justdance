@@ -4,6 +4,7 @@ import { songs } from "./data/songs";
 import { jd2020Songs } from "./data/songs-jd2020";
 import { jd2021Songs } from "./data/songs-jd2021";
 import { jd2022Songs } from "./data/songs-jd2022";
+import { jd2026Songs } from "./data/songs-jd2026";
 import { jd2023Songs } from "./data/songs-jd2023";
 import { jd2019Songs } from "./data/songs-jd2019";
 import { jd2018Songs } from "./data/songs-jd2018";
@@ -12,6 +13,7 @@ import type { Song } from "./types/Song";
 import "./App.css";
 
 type Tab =
+  | "2026"
   | "2023"
   | "2022"
   | "2021"
@@ -28,6 +30,7 @@ interface TabConfig {
 }
 
 const tabConfig: TabConfig[] = [
+  { key: "2026", label: "Just Dance 2026", count: jd2026Songs.length },
   { key: "2023", label: "Just Dance 2023", count: jd2023Songs.length },
   { key: "2022", label: "Just Dance 2022", count: jd2022Songs.length },
   { key: "2021", label: "Just Dance 2021", count: jd2021Songs.length },
@@ -39,6 +42,7 @@ const tabConfig: TabConfig[] = [
 ];
 
 const songMap: Record<Tab, Song[]> = {
+  "2026": jd2026Songs,
   "2023": jd2023Songs,
   "2022": jd2022Songs,
   "2021": jd2021Songs,
@@ -50,7 +54,7 @@ const songMap: Record<Tab, Song[]> = {
 };
 
 function App() {
-  const [activeTab, setActiveTab] = useState<Tab>("2023");
+  const [activeTab, setActiveTab] = useState<Tab>("2026");
   const filteredSongs = songMap[activeTab];
 
   return (
