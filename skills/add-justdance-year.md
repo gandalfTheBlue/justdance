@@ -46,12 +46,26 @@ curl -s 'https://api.bilibili.com/x/polymer/web-space/seasons_archives_list?mid=
 is an alternate dance (Extreme, Kids, etc.) of a song already in the list. Keep only the base song.
 (Older years in the repo do include some alternates; new years should not.)
 
+**JD2027 onward is different.** JD2027 is titled *Just Dance: Decades of Hits* (wiki page `Just_Dance:_Decades_of_Hits`,
+Chinese `舞力全开2027：时代金曲` / `传世金曲`). Its Pxgggy uploads are under user id `1707632041`, not `525916725`.
+That playlist mixes a 41-part compilation, one upload per song, and 38-second previews.
+`seasons_archives_list` returned `-352` (blocked), but the `view` response above already contains the whole playlist
+in `data.ugc_season.sections[].episodes[]` (`bvid`, `title`, `arc.duration`), so you don't need that call.
+Drop the previews (under 60 s). If a song has no single-song upload (No Scrubs in JD2027), link its compilation part, `…/video/{compilation_bvid}?p={n}`.
+A `（儿童）` label on a song with no other version (Coconut, ABC, The Singing Garden) marks the base song, not an alternate.
+
+**If Bilibili answers HTTP 412**, its anti-bot block is on. Wait (it cleared within an hour) and drop any `User-Agent` header,
+which can trigger it. Don't try to get around it (e.g. WBI signing).
+
 If Pxgggy has no playlist for the year, search Bilibili for `舞力全开{year} 全曲合集` and use another
 creator's individual uploads (e.g. 天地无用8, user id `377304`, covers JD2019–JD2020).
 
 ## Step 2: Real durations (compilation video)
 
-Pxgggy's videos include a 2–4 minute channel intro/outro, so their length is not the song length
+For JD2027 this is reversed: the single-song uploads have no intro (Mamma Mia: 212 s, same as the record),
+and the compilation parts run 13–36 s longer. Use the single-song durations there, and check this again each year.
+
+Up to JD2026, Pxgggy's videos include a 2–4 minute channel intro/outro, so their length is not the song length
 (one JD2018 song: 477 s video vs 269 s song). Use a compilation video instead: one video whose
 episode list has one song per episode. Search `舞力全开{year} 全曲合集` or `Just Dance {year} full song list`.
 

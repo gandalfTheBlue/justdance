@@ -3,6 +3,7 @@ import { SongCard } from "./components/SongCard";
 import { jd2020Songs } from "./data/songs-jd2020";
 import { jd2021Songs } from "./data/songs-jd2021";
 import { jd2022Songs } from "./data/songs-jd2022";
+import { jd2027Songs } from "./data/songs-jd2027";
 import { jd2026Songs } from "./data/songs-jd2026";
 import { jd2023Songs } from "./data/songs-jd2023";
 import { jd2019Songs } from "./data/songs-jd2019";
@@ -12,6 +13,7 @@ import type { Song } from "./types/Song";
 import "./App.css";
 
 type Tab =
+  | "2027"
   | "2026"
   | "2023"
   | "2022"
@@ -28,6 +30,7 @@ interface TabConfig {
 }
 
 const tabConfig: TabConfig[] = [
+  { key: "2027", label: "Just Dance 2027", count: jd2027Songs.length },
   { key: "2026", label: "Just Dance 2026", count: jd2026Songs.length },
   { key: "2023", label: "Just Dance 2023", count: jd2023Songs.length },
   { key: "2022", label: "Just Dance 2022", count: jd2022Songs.length },
@@ -39,6 +42,7 @@ const tabConfig: TabConfig[] = [
 ];
 
 const songMap: Record<Tab, Song[]> = {
+  "2027": jd2027Songs,
   "2026": jd2026Songs,
   "2023": jd2023Songs,
   "2022": jd2022Songs,
@@ -50,7 +54,7 @@ const songMap: Record<Tab, Song[]> = {
 };
 
 function App() {
-  const [activeTab, setActiveTab] = useState<Tab>("2026");
+  const [activeTab, setActiveTab] = useState<Tab>("2027");
   const filteredSongs = songMap[activeTab];
 
   return (
