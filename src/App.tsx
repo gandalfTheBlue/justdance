@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 import { SongCard } from "./components/SongCard";
 import { jd2020Songs } from "./data/songs-jd2020";
 import { jd2021Songs } from "./data/songs-jd2021";
@@ -9,10 +9,11 @@ import { jd2023Songs } from "./data/songs-jd2023";
 import { jd2019Songs } from "./data/songs-jd2019";
 import { jd2018Songs } from "./data/songs-jd2018";
 import { jd2017Songs } from "./data/songs-jd2017";
+import { songKey, useSongStats } from "./hooks/useSongStats";
 import type { Song } from "./types/Song";
 import "./App.css";
 
-type Tab =
+type YearTab =
   | "2027"
   | "2026"
   | "2023"
@@ -23,8 +24,10 @@ type Tab =
   | "2018"
   | "2017";
 
+type Tab = YearTab | "liked" | "top";
+
 interface TabConfig {
-  key: Tab;
+  key: YearTab;
   label: string;
   count: number;
 }
@@ -41,7 +44,7 @@ const tabConfig: TabConfig[] = [
   { key: "2017", label: "Just Dance 2017", count: jd2017Songs.length },
 ];
 
-const songMap: Record<Tab, Song[]> = {
+const songMap: Record<YearTab, Song[]> = {
   "2027": jd2027Songs,
   "2026": jd2026Songs,
   "2023": jd2023Songs,
@@ -53,9 +56,120 @@ const songMap: Record<Tab, Song[]> = {
   "2017": jd2017Songs,
 };
 
+const allSongs = Object.values(songMap).flat();
+const songsByKey = new Map(allSongs.map((song) => [songKey(song), song]));
+
+const TOP_LIMIT = 20;
+const DEFAULT_TAB: Tab = "2027";
+
+const isTab = (value: string): value is Tab =>
+  value === "liked" || value === "top" || value in songMap;
+
+const tabFromHash = (): Tab => {
+  const hash = window.location.hash.slice(1);
+  return isTab(hash) ? hash : DEFAULT_TAB;
+};
+
 function App() {
-  const [activeTab, setActiveTab] = useState<Tab>("2027");
-  const filteredSongs = songMap[activeTab];
+  const [activeTab, setActiveTab] = useState<Tab>(tabFromHash);
+  const [showAllTop, setShowAllTop] = useState(false);
+  const { stats, toggleLike, recordClick, resetClicks } = useSongStats();
+
+  useEffect(() => {
+    const onHashChange = () => setActiveTab(tabFromHash());
+    window.addEventListener("hashchange", onHashChange);
+    return () => window.removeEventListener("hashchange", onHashChange);
+  }, []);
+
+  const likedSongs = useMemo(
+    () =>
+      Object.entries(stats.likes)
+        .sort(([, a], [, b]) => b - a)
+        .map(([key]) => songsByKey.get(key))
+        .filter((song): song is Song => song !== undefined),
+    [stats.likes],
+  );
+
+  const topSongs = useMemo(
+    () =>
+      Object.entries(stats.clicks)
+        .filter(([, c]) => c.count > 0)
+        .sort(
+          ([, a], [, b]) =>
+            b.count - a.count || b.lastClickedAt - a.lastClickedAt,
+        )
+        .map(([key]) => songsByKey.get(key))
+        .filter((song): song is Song => song !== undefined),
+    [stats.clicks],
+  );
+
+  const handleResetClicks = () => {
+    if (window.confirm("Reset all play counts?")) resetClicks();
+  };
+
+  const renderCard = (song: Song, extra?: { rank?: number; showYear?: boolean }) => (
+    <SongCard
+      key={songKey(song)}
+      song={song}
+      liked={songKey(song) in stats.likes}
+      clicks={stats.clicks[songKey(song)]?.count ?? 0}
+      onToggleLike={toggleLike}
+      onPlay={recordClick}
+      {...extra}
+    />
+  );
+
+  const renderTab = (key: Tab, label: string, count: number) => (
+    <a
+      key={key}
+      href={`#${key}`}
+      role="tab"
+      aria-selected={activeTab === key}
+      className={`tab ${activeTab === key ? "tab-active" : ""}`}
+    >
+      {label}
+      <span className="tab-count">{count}</span>
+    </a>
+  );
+
+  const renderContent = () => {
+    if (activeTab === "liked") {
+      if (likedSongs.length === 0) {
+        return <p className="empty-state">Tap ♡ on any song to save it here.</p>;
+      }
+      return (
+        <div className="songs-grid">
+          {likedSongs.map((song) => renderCard(song, { showYear: true }))}
+        </div>
+      );
+    }
+
+    if (activeTab === "top") {
+      if (topSongs.length === 0) {
+        return <p className="empty-state">Songs you play will be ranked here.</p>;
+      }
+      const visible = showAllTop ? topSongs : topSongs.slice(0, TOP_LIMIT);
+      return (
+        <>
+          <div className="songs-grid">
+            {visible.map((song, i) => renderCard(song, { rank: i + 1, showYear: true }))}
+          </div>
+          <div className="list-actions">
+            {topSongs.length > TOP_LIMIT && (
+              <button type="button" className="list-action" onClick={() => setShowAllTop((v) => !v)}>
+                {showAllTop ? `Show top ${TOP_LIMIT}` : `Show all ${topSongs.length}`}
+              </button>
+            )}
+            <button type="button" className="list-action list-action-muted" onClick={handleResetClicks}>
+              Reset counts
+            </button>
+          </div>
+        </>
+      );
+    }
+
+    return <div className="songs-grid">{songMap[activeTab].map((song) => renderCard(song))}</div>;
+  };
 
   return (
     <div className="app">
@@ -65,26 +179,14 @@ function App() {
       </header>
 
       <main className="app-main">
-        <div className="tabs" role="tablist" aria-label="Just Dance year">
-          {tabConfig.map((tab) => (
-            <button
-              key={tab.key}
-              role="tab"
-              aria-selected={activeTab === tab.key}
-              className={`tab ${activeTab === tab.key ? "tab-active" : ""}`}
-              onClick={() => setActiveTab(tab.key)}
-            >
-              {tab.label}
-              <span className="tab-count">{tab.count}</span>
-            </button>
-          ))}
+        <div className="tabs" role="tablist" aria-label="Song lists">
+          {renderTab("liked", "❤️ Liked", likedSongs.length)}
+          {renderTab("top", "🔥 Most Clicked", topSongs.length)}
+          <span className="tab-divider" aria-hidden="true" />
+          {tabConfig.map((tab) => renderTab(tab.key, tab.label, tab.count))}
         </div>
 
-        <div className="songs-grid">
-          {filteredSongs.map((song) => (
-            <SongCard key={song.id} song={song} />
-          ))}
-        </div>
+        {renderContent()}
       </main>
 
       <footer className="app-footer">

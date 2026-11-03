@@ -48,6 +48,7 @@
 
 .tab {
   display: inline-flex;
+  text-decoration: none;
   align-items: center;
   gap: 8px;
   padding: 8px 18px;
@@ -60,6 +61,14 @@
   cursor: pointer;
   outline: none;
   transition: color 0.15s, background 0.15s, border-color 0.15s, transform 0.15s;
+}
+
+.tab-divider {
+  align-self: stretch;
+  width: 2px;
+  margin: 4px 4px;
+  background: #e0e0e0;
+  border-radius: 1px;
 }
 
 .tab:hover {
@@ -128,6 +137,36 @@
   grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
   gap: 2rem;
   padding: 1rem 0;
+}
+
+.empty-state {
+  text-align: center;
+  padding: 4rem 1rem;
+  font-size: 1.05rem;
+  color: #999;
+}
+
+.list-actions {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  margin-top: 1.5rem;
+}
+
+.list-action {
+  padding: 8px 18px;
+  font-size: 14px;
+  font-weight: 600;
+  color: #fff;
+  background: linear-gradient(135deg, #ff6b9d 0%, #c44569 100%);
+  border: none;
+  border-radius: 999px;
+  cursor: pointer;
+}
+
+.list-action-muted {
+  color: #666;
+  background: #f5f5f7;
 }
 
 .app-footer {
@@ -206,6 +245,15 @@
 
   .tabs {
     border-bottom-color: #3a3a3e;
+  }
+
+  .tab-divider {
+    background: #3a3a3e;
+  }
+
+  .list-action-muted {
+    color: #aaa;
+    background: #2a2a2e;
   }
 
   .tab {

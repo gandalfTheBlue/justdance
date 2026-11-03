@@ -121,6 +121,72 @@
   font-weight: 500;
 }
 
+.like-button {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  z-index: 1;
+  width: 36px;
+  height: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  font-size: 20px;
+  line-height: 1;
+  color: #ff6b9d;
+  background: rgba(255, 255, 255, 0.9);
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+  transition: transform 0.15s ease;
+}
+
+.like-button:hover {
+  transform: scale(1.1);
+}
+
+.like-button:active {
+  transform: scale(0.9);
+}
+
+.like-button-active {
+  font-size: 18px;
+}
+
+.song-rank {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  z-index: 1;
+  padding: 4px 10px;
+  font-size: 14px;
+  font-weight: 700;
+  color: #fff;
+  background: linear-gradient(135deg, #ff6b9d 0%, #c44569 100%);
+  border-radius: 999px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+}
+
+.song-clicks {
+  font-size: 12px;
+  font-weight: 600;
+  color: #ff6b9d;
+  white-space: nowrap;
+}
+
+.song-year {
+  display: inline-block;
+  margin-top: 6px;
+  font-size: 11px;
+  font-weight: 600;
+  color: #c44569;
+  background: #fff0f4;
+  padding: 2px 8px;
+  border-radius: 12px;
+}
+
 /* Dark mode support */
 @media (prefers-color-scheme: dark) {
   .song-card {
@@ -143,5 +209,14 @@
   .song-duration {
     background: #404040;
     color: #cccccc;
+  }
+
+  .like-button {
+    background: rgba(42, 42, 42, 0.9);
+  }
+
+  .song-year {
+    color: #ff8db3;
+    background: #3d1a28;
   }
 }
